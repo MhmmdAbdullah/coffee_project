@@ -1,0 +1,1001 @@
+﻿Order ID,Order Date,Customer ID,Product ID,Quantity,Customer Name,Email,Country,Coffee Type,Roast Type,Size,Unit Price,Sales,Profit,Profit Margin
+EZT-46571-659,2019-01-02,03396-68805-ZC,R-M-0.5,3,Guthrey Petracci,gpetracci8@livejournal.com,United States,Rob,M,0.5,5.97,17.91,1.0746,6%
+CTE-31437-326,2019-01-02,22721-63196-UJ,R-M-0.2,4,Gladi Ducker,gduckerdx@patch.com,United Kingdom,Rob,M,0.2,2.985,11.94,0.7164,6%
+CTE-31437-326,2019-01-02,22721-63196-UJ,E-M-0.2,4,Gladi Ducker,gduckerdx@patch.com,United Kingdom,Exc,M,0.2,4.125,16.5,1.815,11%
+CTE-31437-326,2019-01-02,22721-63196-UJ,L-D-1,4,Gladi Ducker,gduckerdx@patch.com,United Kingdom,Lib,D,1,12.95,51.8,6.734,13%
+CTE-31437-326,2019-01-02,22721-63196-UJ,L-L-0.2,3,Gladi Ducker,gduckerdx@patch.com,United Kingdom,Lib,L,0.2,4.755,14.265,1.85445,13%
+TID-21626-411,2019-01-03,19383-33606-PW,R-L-0.5,3,Suzanna Bollam,sbollamlf@list-manage.com,United States,Rob,L,0.5,7.17,21.51,1.2906,6%
+IMP-12563-728,2019-01-03,68346-14810-UA,E-L-0.5,6,Spencer Wastell,,United States,Exc,L,0.5,8.91,53.46,5.8806,11%
+OUQ-73954-002,2019-01-06,66308-13503-KD,R-M-0.2,4,Krissie Hammett,khammettgm@dmoz.org,United States,Rob,M,0.2,2.985,11.94,0.7164,6%
+CYZ-37122-164,2019-01-06,21798-04171-XC,E-M-0.5,2,Wilton Cottier,wcottierj3@cafepress.com,United States,Exc,M,0.5,8.25,16.5,1.815,11%
+TNR-84447-052,2019-01-09,34419-18068-AG,E-D-2.5,4,Dolores Duffie,dduffiepr@time.com,United States,Exc,D,2.5,27.945,111.78,12.2958,11%
+KAR-24978-271,2019-01-10,23187-65750-HZ,R-M-1,6,Starr Arpin,sarpinep@moonfruit.com,United States,Rob,M,1,9.95,59.7,3.582,6%
+LDK-71031-121,2019-01-10,84761-40784-SV,L-L-2.5,1,Andie Rudram,arudramka@prnewswire.com,United States,Lib,L,2.5,36.455,36.455,4.73915,13%
+FWU-44971-444,2019-01-11,12190-25421-WM,A-D-2.5,3,Marvin Malloy,mmalloyi6@seattletimes.com,United States,Ara,D,2.5,22.885,68.655,6.17895,9%
+EQE-31648-909,2019-01-18,19821-05175-WZ,E-D-0.5,5,Angie Rizzetti,arizzetti55@naver.com,United States,Exc,D,0.5,7.29,36.45,4.0095,11%
+VJF-46305-323,2019-01-18,68555-89840-GZ,L-D-0.5,2,Morgen Seson,msesonck@census.gov,United States,Lib,D,0.5,7.77,15.54,2.0202,13%
+ABO-29054-365,2019-01-19,00256-19905-YG,A-M-0.5,6,Stanislaus Valsler,,Ireland,Ara,M,0.5,6.75,40.5,3.645,9%
+KFJ-46568-890,2019-01-20,71003-85639-HB,E-L-0.5,2,Lyell Murch,,United States,Exc,L,0.5,8.91,17.82,1.9602,11%
+GTT-73214-334,2019-01-20,98636-90072-YE,A-L-1,6,Nobe Buney,nbuneylx@jugem.jp,United States,Ara,L,1,12.95,77.7,6.993,9%
+AYY-83051-752,2019-01-22,46431-09298-OU,L-L-1,6,Carolee Winchcombe,cwinchcombeho@jiathis.com,United States,Lib,L,1,15.85,95.1,12.363,13%
+GPW-43956-761,2019-01-26,09667-09231-YM,E-L-0.5,6,Bearnard Wardell,bwardellqu@adobe.com,United States,Exc,L,0.5,8.91,53.46,5.8806,11%
+OJU-34452-896,2019-02-04,60799-92593-CX,E-L-0.5,1,Abba Pummell,,United States,Exc,L,0.5,8.91,8.91,0.9801,11%
+GZS-50547-887,2019-02-05,61600-55136-UM,E-D-1,2,Corinna Catcheside,ccatchesideaa@macromedia.com,United States,Exc,D,1,12.15,24.3,2.673,11%
+TRZ-94735-865,2019-02-05,54462-58311-YF,L-M-0.5,4,Teddi Quadri,tquadrikr@opensource.org,Ireland,Lib,M,0.5,8.73,34.92,4.5396,13%
+DJG-14442-608,2019-02-06,75716-12782-SS,R-D-1,3,Gale Croysdale,gcroysdaleb6@nih.gov,United States,Rob,D,1,8.95,26.85,1.611,6%
+EEJ-16185-108,2019-02-09,65552-60476-KY,L-L-0.2,5,Nona Linklater,,United States,Lib,L,0.2,4.755,23.775,3.09075,13%
+QLC-52637-305,2019-02-10,34317-87258-HQ,L-D-2.5,4,Doralin Baison,,Ireland,Lib,D,2.5,29.785,119.14,15.4882,13%
+WMU-87639-108,2019-02-11,71891-51101-VQ,R-D-0.5,1,Cecily Stebbings,cstebbingsi2@drupal.org,United States,Rob,D,0.5,5.37,5.37,0.3222,6%
+CZG-01299-952,2019-02-12,09540-70637-EV,L-D-1,2,Jarret Toye,jtoyekg@pinterest.com,Ireland,Lib,D,1,12.95,25.9,3.367,13%
+JUO-34131-517,2019-02-13,07972-83748-JI,L-D-1,6,Rivy Farington,,United States,Lib,D,1,12.95,77.7,10.101,13%
+AOL-13866-711,2019-02-14,83490-88357-LJ,E-M-1,4,Eustace Stenton,estentonms@google.it,United States,Exc,M,1,13.75,55,6.05,11%
+OLF-77983-457,2019-02-16,51901-35210-UI,A-L-2.5,2,Gabriel Starcks,gstarcksgi@abc.net.au,United States,Ara,L,2.5,29.785,59.57,5.3613,9%
+EAY-89850-211,2019-02-19,43155-71724-XP,A-D-0.2,2,Herbie Peppard,,United States,Ara,D,0.2,2.985,5.97,0.5373,9%
+EVP-43500-491,2019-02-20,49231-44455-IC,A-M-0.5,4,Selene Shales,sshalesq@umich.edu,United States,Ara,M,0.5,6.75,27,2.43,9%
+RYZ-14633-602,2019-02-20,14158-30713-OB,A-D-1,4,Mozelle Calcutt,mcalcuttt@baidu.com,Ireland,Ara,D,1,9.95,39.8,3.582,9%
+XEE-37895-169,2019-02-20,14888-85625-TM,A-L-2.5,3,Perry Lyfield,plyfielde3@baidu.com,United States,Ara,L,2.5,29.785,89.355,8.04195,9%
+BPG-68988-842,2019-02-21,53631-24432-SY,E-M-0.5,5,Irvine Phillpot,iphillpoten@buzzfeed.com,United Kingdom,Exc,M,0.5,8.25,41.25,4.5375,11%
+EZB-68383-559,2019-02-21,90123-01967-KS,R-L-1,6,Becca Ableson,,United States,Rob,L,1,11.95,71.7,4.302,6%
+RWI-84131-848,2019-02-22,16385-11286-NX,R-D-2.5,2,Mohandis Spurden,mspurdencj@exblog.jp,United States,Rob,D,2.5,20.585,41.17,2.4702,6%
+LTD-71429-845,2019-02-24,03157-23165-UB,A-L-0.5,1,Flory Crumpe,fcrumpe7u@ftc.gov,United Kingdom,Ara,L,0.5,7.77,7.77,0.6993,9%
+ZYQ-15797-695,2019-02-25,79436-73011-MM,R-D-0.5,5,Pammi Endacott,,United Kingdom,Rob,D,0.5,5.37,26.85,1.611,6%
+HPD-65272-772,2019-02-25,57504-13456-UO,L-M-2.5,1,Parsifal Metrick,pmetrick7r@rakuten.co.jp,United States,Lib,M,2.5,33.465,33.465,4.35045,13%
+ONW-00560-570,2019-02-25,32900-82606-BO,A-M-1,2,Claudie Weond,cweondo8@theglobeandmail.com,United States,Ara,M,1,11.25,22.5,2.025,9%
+CZD-56716-840,2019-02-28,15456-29250-RU,L-D-2.5,4,Jaimie Hatz,,United States,Lib,D,2.5,29.785,119.14,15.4882,13%
+RJR-12175-899,2019-03-02,37274-08534-FM,E-D-0.5,3,Selma McMillian,smcmillian8t@csmonitor.com,United States,Exc,D,0.5,7.29,21.87,2.4057,11%
+EXP-21628-670,2019-03-02,94447-35885-HK,A-M-2.5,3,Wallis Bernth,wbernthhe@miitbeian.gov.cn,United States,Ara,M,2.5,25.875,77.625,6.98625,9%
+YWM-07310-594,2019-03-02,66028-99867-WJ,E-M-0.5,5,Margie Palleske,mpalleskeo4@nyu.edu,United States,Exc,M,0.5,8.25,41.25,4.5375,11%
+XTH-67276-442,2019-03-03,73799-04749-BM,L-M-2.5,4,Bertine Byrd,bbyrdha@4shared.com,United States,Lib,M,2.5,33.465,133.86,17.4018,13%
+CGO-79583-871,2019-03-04,37182-54930-XC,E-D-0.5,1,Wesley Giorgioni,wgiorgioni9g@wikipedia.org,United States,Exc,D,0.5,7.29,7.29,0.8019,11%
+VQV-59984-866,2019-03-08,48854-01899-FN,R-D-0.2,3,Vanya Skullet,vskulletah@tinyurl.com,Ireland,Rob,D,0.2,2.685,8.055,0.4833,6%
+SFC-34054-213,2019-03-10,08100-71102-HQ,L-L-0.5,4,Marvin Gundry,mgundrymo@omniture.com,Ireland,Lib,L,0.5,9.51,38.04,4.9452,13%
+RKW-81145-984,2019-03-11,98661-69719-VI,L-L-1,3,Celia Bakeup,cbakeupe8@globo.com,United States,Lib,L,1,15.85,47.55,6.1815,13%
+MBM-55936-917,2019-03-12,55989-39849-WO,L-D-0.5,3,Andrej Havick,ahavickat@nsw.gov.au,United States,Lib,D,0.5,7.77,23.31,3.0303,13%
+YWH-50638-556,2019-03-14,89442-35633-HJ,E-L-0.5,4,Else Langcaster,elangcaster2l@spotify.com,United Kingdom,Exc,L,0.5,8.91,35.64,3.9204,11%
+OTA-40969-710,2019-03-14,77877-11993-QH,R-L-1,5,Monique Canty,mcanty79@jigsy.com,United States,Rob,L,1,11.95,59.75,3.585,6%
+GQR-12490-152,2019-03-14,22832-98538-RB,R-L-0.2,1,Sidney Gawen,sgaweng7@creativecommons.org,United States,Rob,L,0.2,3.585,3.585,0.2151,6%
+UBA-43678-174,2019-03-15,44530-75983-OD,E-D-2.5,6,Ingelbert Hotchkin,ihotchkinb3@mit.edu,United Kingdom,Exc,D,2.5,27.945,167.67,18.4437,11%
+YXF-57218-272,2019-03-15,55374-03175-IA,R-M-0.2,6,Samuele Klaaassen,,United States,Rob,M,0.2,2.985,17.91,1.0746,6%
+KCY-61732-849,2019-03-16,11349-55147-SN,L-D-1,2,Nicolas Aiton,,Ireland,Lib,D,1,12.95,25.9,3.367,13%
+BDM-03174-485,2019-03-16,29581-13303-VB,R-L-0.5,4,Wright Caldero,wcalderom3@stumbleupon.com,United States,Rob,L,0.5,7.17,28.68,1.7208,6%
+YKX-23510-272,2019-03-17,56991-05510-PR,A-L-2.5,2,Janella Eden,jedenll@e-recht24.de,United States,Ara,L,2.5,29.785,59.57,5.3613,9%
+VAU-44387-624,2019-03-20,99643-51048-IQ,A-M-0.2,6,Minni Alabaster,malabasterg@hexun.com,United States,Ara,M,0.2,3.375,20.25,1.8225,9%
+IRJ-67095-738,2019-03-20,86447-02699-UT,E-M-2.5,2,Minny Chamberlayne,mchamberlayne4r@bigcartel.com,United States,Exc,M,2.5,31.625,63.25,6.9575,11%
+CPV-90280-133,2019-03-20,66458-91190-YC,R-D-0.2,3,Marja Urion,murione5@alexa.com,Ireland,Rob,D,0.2,2.685,8.055,0.4833,6%
+VGI-33205-360,2019-03-21,96762-10814-DA,L-M-0.5,6,Jereme Gippes,jgippesm@cloudflare.com,United Kingdom,Lib,M,0.5,8.73,52.38,6.8094,13%
+NXM-89323-646,2019-03-22,28158-93383-CK,E-D-1,1,Kameko Philbrick,kphilbrickpu@cdc.gov,United States,Exc,D,1,12.15,12.15,1.3365,11%
+SHP-55648-472,2019-03-30,46818-20198-GB,A-M-1,6,Corrie Wass,cwassif@prweb.com,United States,Ara,M,1,11.25,67.5,6.075,9%
+YGY-98425-969,2019-04-01,63787-96257-TQ,L-M-1,1,Merrel Steptow,msteptow35@earthlink.net,Ireland,Lib,M,1,14.55,14.55,1.8915,13%
+JUA-13580-095,2019-04-01,55265-75151-AK,R-L-0.2,4,Manuel Darrigoe,mdarrigoebu@hud.gov,Ireland,Rob,L,0.2,3.585,14.34,0.8604,6%
+POF-29666-012,2019-04-01,46885-00260-TL,R-D-0.5,1,Sada Roseborough,sroseboroughr2@virginia.edu,United States,Rob,D,0.5,5.37,5.37,0.3222,6%
+IJK-34441-720,2019-04-05,97201-58870-WB,A-M-0.5,6,Darcy Lochran,,United States,Ara,M,0.5,6.75,40.5,3.645,9%
+OQA-93249-841,2019-04-05,03917-13632-KC,A-M-2.5,6,Herta Layne,,United States,Ara,M,2.5,25.875,155.25,13.9725,9%
+QNA-31113-984,2019-04-07,60512-78550-WS,L-M-0.2,4,Osmund Clausen-Thue,oclausenthue41@marriott.com,United States,Lib,M,0.2,4.365,17.46,2.2698,13%
+CXD-74176-600,2019-04-07,70624-19112-AO,E-L-0.5,4,Chickie Ragless,craglessc7@webmd.com,Ireland,Exc,L,0.5,8.91,35.64,3.9204,11%
+FEP-36895-658,2019-04-08,44699-43836-UH,R-L-0.2,6,Yuma Skipsey,yskipsey9z@spotify.com,United Kingdom,Rob,L,0.2,3.585,21.51,1.2906,6%
+ZHQ-30471-635,2019-04-08,40600-58915-WZ,L-M-0.5,5,Sharona Danilchik,sdanilchikl6@mit.edu,United Kingdom,Lib,M,0.5,8.73,43.65,5.6745,13%
+PMV-54491-220,2019-04-11,87242-18006-IR,L-M-0.2,2,Lyon Ibert,libertkl@huffingtonpost.com,United States,Lib,M,0.2,4.365,8.73,1.1349,13%
+DDO-71442-967,2019-04-12,89422-58281-FD,L-D-0.2,5,Alisun Baudino,abaudino5b@netvibes.com,United States,Lib,D,0.2,3.885,19.425,2.52525,13%
+XSZ-84273-421,2019-04-14,15405-60469-TM,R-M-0.5,3,Pen Wye,pwye2z@dagondesign.com,United States,Rob,M,0.5,5.97,17.91,1.0746,6%
+BRV-64870-915,2019-04-16,32070-55528-UG,L-L-2.5,5,Samuele Ales0,,Ireland,Lib,L,2.5,36.455,182.275,23.69575,13%
+SUB-13006-125,2019-04-17,26103-41504-IB,A-L-0.5,5,Ami Arnow,aarnow28@arizona.edu,United States,Ara,L,0.5,7.77,38.85,3.4965,9%
+RRP-51647-420,2019-04-18,89292-52335-YZ,E-D-1,3,Livy Lathleiff,llathleiffc9@nationalgeographic.com,Ireland,Exc,D,1,12.15,36.45,4.0095,11%
+VVL-95291-039,2019-04-18,96516-97464-MF,E-L-0.2,2,Silvanus Enefer,senefermm@blog.com,United States,Exc,L,0.2,4.455,8.91,0.9801,11%
+NXV-05302-067,2019-04-22,25754-33191-ZI,L-M-2.5,4,Mar McIver,,United States,Lib,M,2.5,33.465,133.86,17.4018,13%
+LPS-39089-432,2019-04-24,97655-45555-LI,R-D-1,5,Baudoin Alldridge,balldridge93@yandex.ru,United States,Rob,D,1,8.95,44.75,2.685,6%
+AGQ-06534-750,2019-04-24,52798-46508-HP,A-L-1,5,Kevan Grinsted,kgrinstedj4@google.com.br,Ireland,Ara,L,1,12.95,64.75,5.8275,9%
+LGD-24408-274,2019-04-25,13694-25001-LX,L-L-0.5,3,Silvio Strase,sstrase11@booking.com,United States,Lib,L,0.5,9.51,28.53,3.7089,13%
+MWP-46239-785,2019-04-27,87979-56781-YV,L-M-0.2,5,Stanford Rodliff,srodliff3g@ted.com,United States,Lib,M,0.2,4.365,21.825,2.83725,13%
+CXI-04933-855,2019-04-27,62923-29397-KX,E-L-2.5,6,Lacee Tanti,ltanti8b@techcrunch.com,United States,Exc,L,2.5,34.155,204.93,22.5423,11%
+HDQ-86094-507,2019-04-27,32481-61533-ZJ,E-D-1,6,Parker Tofful,ptoffula4@posterous.com,United States,Exc,D,1,12.15,72.9,8.019,11%
+NCH-55389-562,2019-04-27,86579-92122-OC,E-L-2.5,5,Brenn Dundredge,,United States,Exc,L,2.5,34.155,170.775,18.78525,11%
+NCH-55389-562,2019-04-27,86579-92122-OC,R-L-2.5,2,Brenn Dundredge,,United States,Rob,L,2.5,27.485,54.97,3.2982,6%
+NCH-55389-562,2019-04-27,86579-92122-OC,E-L-1,1,Brenn Dundredge,,United States,Exc,L,1,14.85,14.85,1.6335,11%
+NCH-55389-562,2019-04-27,86579-92122-OC,A-L-0.2,2,Brenn Dundredge,,United States,Ara,L,0.2,3.885,7.77,0.6993,9%
+FHD-89872-325,2019-04-29,31715-98714-OO,L-L-1,4,Killian Osler,koslerf@gmpg.org,United States,Lib,L,1,15.85,63.4,8.242,13%
+KMS-49214-806,2019-04-30,50384-52703-LA,E-L-2.5,4,Lyndsey MacManus,lmacmanusmu@imdb.com,United States,Exc,L,2.5,34.155,136.62,15.0282,11%
+XLD-12920-505,2019-05-01,21907-75962-VB,E-L-0.5,6,Marty Kidstoun,,United States,Exc,L,0.5,8.91,53.46,5.8806,11%
+XYL-52196-459,2019-05-02,13549-65017-VE,R-D-0.2,3,Jennifer Wilkisson,jwilkissongf@nba.com,United States,Rob,D,0.2,2.685,8.055,0.4833,6%
+IDQ-20193-502,2019-05-06,36021-61205-DF,L-M-0.2,2,Rutger Pithcock,rpithcockb5@yellowbook.com,United States,Lib,M,0.2,4.365,8.73,1.1349,13%
+MOU-74341-266,2019-05-07,99358-65399-TC,A-D-0.5,4,Joshuah Awdry,jawdry9q@utexas.edu,United States,Ara,D,0.5,5.97,23.88,2.1492,9%
+QLM-07145-668,2019-05-09,86437-17399-FK,E-D-0.2,2,Colene Elgey,celgey25@webs.com,United States,Exc,D,0.2,3.645,7.29,0.8019,11%
+SIB-83254-136,2019-05-12,45315-50206-DK,R-M-0.5,6,Dorian Vizor,dvizor88@furl.net,United States,Rob,M,0.5,5.97,35.82,2.1492,6%
+AMB-93600-000,2019-05-14,64435-53100-WM,A-L-2.5,1,Tomasina Cotmore,tcotmore9y@amazonaws.com,United States,Ara,L,2.5,29.785,29.785,2.68065,9%
+DWZ-69106-473,2019-05-15,76447-50326-IC,L-L-2.5,4,Karry Flanders,kflanders1f@over-blog.com,Ireland,Lib,L,2.5,36.455,145.82,18.9566,13%
+PSY-45485-542,2019-05-17,62246-99443-HF,R-D-0.5,3,Araldo Bilbrook,abilbrookcs@booking.com,Ireland,Rob,D,0.5,5.37,16.11,0.9666,6%
+MZJ-77284-941,2019-05-18,99978-56910-BN,E-L-0.2,5,Emalee Rolin,erolingq@google.fr,United States,Exc,L,0.2,4.455,22.275,2.45025,11%
+UMT-26130-151,2019-05-21,55864-37682-GQ,L-M-0.2,3,Cecil Weatherall,cweatherallim@toplist.cz,United States,Lib,M,0.2,4.365,13.095,1.70235,13%
+GPU-79113-136,2019-05-22,73284-01385-SJ,R-D-0.2,3,Abigail Tolworthy,atolworthy16@toplist.cz,United States,Rob,D,0.2,2.685,8.055,0.4833,6%
+QDV-03406-248,2019-05-23,74126-88836-KA,L-M-0.5,3,Stevana Woodham,swoodham3h@businesswire.com,Ireland,Lib,M,0.5,8.73,26.19,3.4047,13%
+NEU-86533-016,2019-06-03,96544-91644-IT,R-D-0.2,6,Gerardo Schonfeld,gschonfeld4j@oracle.com,United States,Rob,D,0.2,2.685,16.11,0.9666,6%
+MQU-86100-929,2019-06-04,64418-01720-VW,L-L-0.5,4,Homer Dulany,,United States,Lib,L,0.5,9.51,38.04,4.9452,13%
+ZPW-31329-741,2019-06-08,27132-68907-RC,R-D-1,6,Ailey Brash,abrashda@plala.or.jp,United States,Rob,D,1,8.95,53.7,3.222,6%
+ZPW-31329-741,2019-06-08,27132-68907-RC,E-M-2.5,4,Ailey Brash,abrashda@plala.or.jp,United States,Exc,M,2.5,31.625,126.5,13.915,11%
+ZPW-31329-741,2019-06-08,27132-68907-RC,E-M-0.2,1,Ailey Brash,abrashda@plala.or.jp,United States,Exc,M,0.2,4.125,4.125,0.45375,11%
+VPX-44956-367,2019-06-09,39582-35773-ZJ,R-M-0.5,5,Vasili Upstone,vupstoneei@google.pl,United States,Rob,M,0.5,5.97,29.85,1.791,6%
+YFH-87456-208,2019-06-12,23600-98432-ME,L-M-0.2,2,Sinclare Edsell,,United States,Lib,M,0.2,4.365,8.73,1.1349,13%
+TDZ-59011-211,2019-06-13,57611-05522-ST,R-D-2.5,4,Pall Redford,predfordi@ow.ly,Ireland,Rob,D,2.5,20.585,82.34,4.9404,6%
+PCA-14081-576,2019-06-13,63112-10870-LC,R-L-0.2,5,Lukas Whittlesee,lwhittleseem1@e-recht24.de,United States,Rob,L,0.2,3.585,17.925,1.0755,6%
+FWD-85967-769,2019-06-14,20256-54689-LO,E-D-0.2,3,Brittani Thoresbie,,United States,Exc,D,0.2,3.645,10.935,1.20285,11%
+WFK-99317-827,2019-06-16,32058-76765-ZL,L-D-2.5,3,Devan Crownshaw,dcrownshawnr@photobucket.com,United States,Lib,D,2.5,29.785,89.355,11.61615,13%
+LCU-93317-340,2019-06-17,84996-26826-DK,R-D-0.2,1,Scarlett Oliffe,soliffeop@yellowbook.com,United States,Rob,D,0.2,2.685,2.685,0.1611,6%
+XED-90333-402,2019-06-19,28300-14355-GF,E-M-0.2,5,Patsy Vasilenko,pvasilenkoos@addtoany.com,United Kingdom,Exc,M,0.2,4.125,20.625,2.26875,11%
+YIE-87008-621,2019-06-22,22503-52799-MI,L-M-0.5,4,Shelley Titley,stitleynu@whitehouse.gov,United States,Lib,M,0.5,8.73,34.92,4.5396,13%
+MPV-26985-215,2019-06-23,51466-52850-AG,R-D-0.5,1,Amity Chatto,achatto7v@sakura.ne.jp,United Kingdom,Rob,D,0.5,5.37,5.37,0.3222,6%
+VKA-82720-513,2019-06-24,12299-30914-NG,A-M-2.5,6,Grete Holborn,gholborn4b@ow.ly,United States,Ara,M,2.5,25.875,155.25,13.9725,9%
+QOJ-38788-727,2019-06-24,16358-63919-CE,E-M-2.5,5,Hall Ranner,hrannerp2@omniture.com,United States,Exc,M,2.5,31.625,158.125,17.39375,11%
+CZY-70361-485,2019-06-25,83308-82257-UN,E-L-2.5,6,Nanny Lush,nlush8s@dedecms.com,Ireland,Exc,L,2.5,34.155,204.93,22.5423,11%
+GPR-19973-483,2019-06-26,92926-08470-YS,R-D-0.5,5,Betty Fominov,bfominov33@yale.edu,United States,Rob,D,0.5,5.37,26.85,1.611,6%
+LTN-89139-350,2019-06-27,07756-71018-GU,R-L-2.5,5,Kacy Canto,kcantor4@gmpg.org,United States,Rob,L,2.5,27.485,137.425,8.2455,6%
+VMW-26889-781,2019-06-28,36078-91009-WU,A-L-0.2,2,Arda Curley,acurley1b@hao123.com,United States,Ara,L,0.2,3.885,7.77,0.6993,9%
+KYS-27063-603,2019-06-30,69958-32065-SW,E-L-2.5,4,Shannon List,slist1y@mapquest.com,United States,Exc,L,2.5,34.155,136.62,15.0282,11%
+CZF-40873-691,2019-06-30,64988-20636-XQ,E-M-0.5,2,Silas Deehan,,United Kingdom,Exc,M,0.5,8.25,16.5,1.815,11%
+GPZ-36017-366,2019-07-01,65732-22589-OW,A-D-2.5,5,Kippie Marrison,kmarrisonoq@dropbox.com,United States,Ara,D,2.5,22.885,114.425,10.29825,9%
+GVG-59542-307,2019-07-02,26314-66792-VP,E-M-1,2,Bran Sterke,bsterkekw@biblegateway.com,United States,Exc,M,1,13.75,27.5,3.025,11%
+CQW-37388-302,2019-07-03,97741-98924-KT,A-D-2.5,3,Willabella Harvison,wharvisonjx@gizmodo.com,United States,Ara,D,2.5,22.885,68.655,6.17895,9%
+DTB-71371-705,2019-07-03,48544-90737-AZ,L-D-1,1,Chiarra Shalders,cshaldersqx@cisco.com,United States,Lib,D,1,12.95,12.95,1.6835,13%
+CYV-13426-645,2019-07-06,88593-59934-VU,E-D-1,1,Evelina Dacca,edacca3l@google.pl,United States,Exc,D,1,12.15,12.15,1.3365,11%
+LRK-97117-150,2019-07-08,33000-22405-LO,L-L-1,6,Sean Lorenzetti,slorenzettidl@is.gd,United States,Lib,L,1,15.85,95.1,12.363,13%
+OGY-19377-175,2019-07-09,49084-44492-OJ,E-D-0.5,1,Barney Chisnell,,Ireland,Exc,D,0.5,7.29,7.29,0.8019,11%
+AXN-57779-891,2019-07-14,09668-23340-IC,R-M-0.2,3,Donavon Fowle,dfowlegr@epa.gov,United States,Rob,M,0.2,2.985,8.955,0.5373,6%
+TBB-29780-459,2019-07-15,61437-83623-PZ,A-L-0.5,1,Vivyan Dunning,vdunningji@independent.co.uk,United States,Ara,L,0.5,7.77,7.77,0.6993,9%
+XXJ-47000-307,2019-07-18,31582-23562-FM,A-L-2.5,3,Jeffrey Dufaire,jdufaire2d@fc2.com,United States,Ara,L,2.5,29.785,89.355,8.04195,9%
+XXJ-47000-307,2019-07-18,31582-23562-FM,A-D-0.2,4,Jeffrey Dufaire,jdufaire2d@fc2.com,United States,Ara,D,0.2,2.985,11.94,1.0746,9%
+HST-96923-073,2019-07-18,54722-76431-EX,R-D-2.5,6,Helli Petroulis,hpetroulisol@state.tx.us,Ireland,Rob,D,2.5,20.585,123.51,7.4106,6%
+OQS-46321-904,2019-07-20,19597-91185-CM,E-M-1,1,Diena Peetermann,,United States,Exc,M,1,13.75,13.75,1.5125,11%
+MIU-01481-194,2019-07-21,08439-55669-AI,R-M-1,6,Rafferty Pursglove,rpursglovel9@biblegateway.com,United States,Rob,M,1,9.95,59.7,3.582,6%
+MIU-01481-194,2019-07-21,08439-55669-AI,A-L-0.5,2,Rafferty Pursglove,rpursglovel9@biblegateway.com,United States,Ara,L,0.5,7.77,15.54,1.3986,9%
+VSQ-07182-513,2019-07-23,18366-65239-WF,L-L-0.2,6,Brendan Grece,bgrecefm@naver.com,United Kingdom,Lib,L,0.2,4.755,28.53,3.7089,13%
+ZQI-47236-301,2019-07-25,23446-47798-ID,L-L-0.5,5,Carmelita Thowes,cthowescp@craigslist.org,United States,Lib,L,0.5,9.51,47.55,6.1815,13%
+UVF-59322-459,2019-07-25,53971-49906-PZ,E-L-2.5,6,Daniel Heinonen,dheinonengd@printfriendly.com,United States,Exc,L,2.5,34.155,204.93,22.5423,11%
+JQT-14347-517,2019-07-26,11621-09964-ID,R-D-1,1,Lorelei Nardoni,lnardonil2@hao123.com,United States,Rob,D,1,8.95,8.95,0.537,6%
+UJQ-54441-340,2019-07-30,26822-19510-SD,E-M-0.2,2,Gabie Tweed,gtweed8v@yolasite.com,United States,Exc,M,0.2,4.125,8.25,0.9075,11%
+UJQ-54441-340,2019-07-30,26822-19510-SD,A-L-0.2,5,Gabie Tweed,gtweed8v@yolasite.com,United States,Ara,L,0.2,3.885,19.425,1.74825,9%
+LCB-02099-995,2019-07-31,06757-96251-UH,A-D-0.2,6,Gran Sibray,gsibrayb2@wsj.com,United States,Ara,D,0.2,2.985,17.91,1.6119,9%
+MIQ-16322-908,2019-08-03,20118-28138-QD,A-L-1,2,Jaquenette Skentelbery,jskentelberyoa@paypal.com,United States,Ara,L,1,12.95,25.9,2.331,9%
+HXL-22497-359,2019-08-06,64875-71224-UI,A-L-1,3,Marlena Howsden,mhowsden5f@infoseek.co.jp,United States,Ara,L,1,12.95,38.85,3.4965,9%
+HTS-15020-632,2019-08-06,53817-13148-RK,R-M-0.2,3,Gregg Hawkyens,ghawkyensbj@census.gov,United States,Rob,M,0.2,2.985,8.955,0.5373,6%
+QOO-24615-950,2019-08-07,01338-83217-GV,R-M-2.5,3,Mord Meriet,mmeriet56@noaa.gov,United States,Rob,M,2.5,22.885,68.655,4.1193,6%
+ITY-92466-909,2019-08-07,34927-68586-ZV,A-M-2.5,3,Neville Piatto,,Ireland,Ara,M,2.5,25.875,77.625,6.98625,9%
+PNU-22150-408,2019-08-11,77408-43873-RS,A-D-0.2,6,Nathaniel Bloxland,,Ireland,Ara,D,0.2,2.985,17.91,1.6119,9%
+FDY-03414-903,2019-08-12,94840-49457-UD,A-D-0.5,3,Quinn Parsons,qparsons98@blogtalkradio.com,United States,Ara,D,0.5,5.97,17.91,1.6119,9%
+VYD-28555-589,2019-08-13,29814-01459-RC,R-L-0.5,6,Ashbey Tomaszewski,atomaszewskiaj@answers.com,United Kingdom,Rob,L,0.5,7.17,43.02,2.5812,6%
+NYY-73968-094,2019-08-15,70451-38048-AH,R-D-0.5,6,Noam Climance,nclimance9j@europa.eu,United States,Rob,D,0.5,5.37,32.22,1.9332,6%
+WDR-06028-345,2019-08-16,66508-21373-OQ,L-L-1,1,Ingeberg Mulliner,imulliner37@pinterest.com,United Kingdom,Lib,L,1,15.85,15.85,2.0605,13%
+GRH-45571-667,2019-08-16,32291-18308-YZ,E-M-1,3,Javier Kopke,jkopke7a@auda.org.au,United States,Exc,M,1,13.75,41.25,4.5375,11%
+NYQ-24237-772,2019-08-16,13441-34686-SW,L-D-0.5,4,Johna Bluck,jbluckjc@imageshack.us,United States,Lib,D,0.5,7.77,31.08,4.0404,13%
+MOR-12987-399,2019-08-17,34015-31593-JC,L-M-1,6,Emiline Priddis,epriddis2w@nationalgeographic.com,United States,Lib,M,1,14.55,87.3,11.349,13%
+SUZ-83036-175,2019-08-20,55915-19477-MK,R-D-0.2,5,Alica Kift,,United States,Rob,D,0.2,2.685,13.425,0.8055,6%
+TED-81959-419,2019-08-26,27702-50024-XC,A-L-2.5,5,Noni Furber,nfurberqz@jugem.jp,United States,Ara,L,2.5,29.785,148.925,13.40325,9%
+DXA-50313-073,2019-08-30,19755-55847-VW,E-L-1,2,Peyter Matignon,pmatignono7@harvard.edu,United Kingdom,Exc,L,1,14.85,29.7,3.267,11%
+XWD-18933-006,2019-08-31,79420-11075-MY,A-L-0.2,2,Emlynne Palfrey,epalfrey7q@devhub.com,United States,Ara,L,0.2,3.885,7.77,0.6993,9%
+MBM-00112-248,2019-09-02,50238-24377-ZS,L-L-1,5,Currey MacAllister,,United States,Lib,L,1,15.85,79.25,10.3025,13%
+WXT-85291-143,2019-09-04,81414-81273-DK,R-M-0.5,4,Vivyan Ceely,vceely99@auda.org.au,United States,Rob,M,0.5,5.97,23.88,1.4328,6%
+QEV-37451-860,2019-09-05,17670-51384-MA,R-M-1,2,Aloisia Allner,aallner@lulu.com,United States,Rob,M,1,9.95,19.9,1.194,6%
+QEV-37451-860,2019-09-05,17670-51384-MA,E-M-0.5,5,Aloisia Allner,aallner@lulu.com,United States,Exc,M,0.5,114.425,572.125,4.5375,1%
+NWQ-70061-912,2019-09-05,61021-27840-ZN,R-M-0.5,1,Rodger Raven,rraven9@ed.gov,United States,Rob,M,0.5,5.97,5.97,0.3582,6%
+JAF-18294-750,2019-09-06,73564-98204-EY,R-D-2.5,6,Say Risborough,,United States,Rob,D,2.5,20.585,123.51,7.4106,6%
+ITE-28312-615,2019-09-06,56450-21890-HK,E-L-1,6,Chuck Kendrick,ckendrickl5@webnode.com,United States,Exc,L,1,14.85,89.1,9.801,11%
+UFZ-24348-219,2019-09-07,27930-59250-JT,L-M-2.5,3,Allis Wilmore,,United States,Lib,M,2.5,33.465,100.395,13.05135,13%
+HRM-94548-288,2019-09-08,08934-65581-ZI,A-L-2.5,6,Redd Simao,rsimaonv@simplemachines.org,United States,Ara,L,2.5,29.785,178.71,16.0839,9%
+YHV-68700-050,2019-09-11,26333-67911-OL,R-M-0.5,5,Hartley Mattioli,hmattioli1g@webmd.com,United Kingdom,Rob,M,0.5,5.97,29.85,1.791,6%
+YHV-68700-050,2019-09-11,26333-67911-OL,L-L-2.5,2,Hartley Mattioli,hmattioli1g@webmd.com,United Kingdom,Lib,L,2.5,36.455,72.91,9.4783,13%
+UBI-59229-277,2019-09-11,00886-35803-FG,L-D-0.5,3,Edeline Edney,,United States,Lib,D,0.5,7.77,23.31,3.0303,13%
+BWK-39400-446,2019-09-12,61302-06948-EH,L-D-0.5,4,Fleur Parres,fparresb1@imageshack.us,United States,Lib,D,0.5,7.77,31.08,4.0404,13%
+MHM-44857-599,2019-09-12,26295-44907-DK,L-D-1,1,Ambrosio Weinmann,aweinmannj8@shinystat.com,United States,Lib,D,1,12.95,12.95,1.6835,13%
+KXN-85094-246,2019-09-13,81744-27332-RR,L-M-2.5,3,Bunny Naulls,bnaulls2a@tiny.cc,Ireland,Lib,M,2.5,33.465,100.395,13.05135,13%
+HTY-30660-254,2019-09-16,83844-95908-RX,R-M-1,3,Joey Jefferys,jjefferysqt@blog.com,United States,Rob,M,1,9.95,29.85,1.791,6%
+CIX-22904-641,2019-09-17,78012-56878-UB,R-M-1,1,Grazia Oats,goatsny@live.com,United States,Rob,M,1,9.95,9.95,0.597,6%
+BRJ-19414-277,2019-09-17,16809-16936-WF,R-M-0.2,4,Modesty MacConnechie,mmacconnechieo9@reuters.com,United States,Rob,M,0.2,2.985,11.94,0.7164,6%
+YLK-78851-470,2019-09-18,58559-08254-UY,R-M-2.5,6,Paulie Fonzone,,United States,Rob,M,2.5,22.885,137.31,8.2386,6%
+EQI-82205-066,2019-09-20,52316-30571-GD,R-M-2.5,2,Maxim McParland,mmcparlandi7@w3.org,United States,Rob,M,2.5,22.885,45.77,2.7462,6%
+ZDC-64769-740,2019-09-21,79463-01597-FQ,E-M-0.5,1,Sharl Southerill,,United States,Exc,M,0.5,8.25,8.25,0.9075,11%
+TJE-91516-344,2019-09-22,49894-06550-OQ,E-M-1,2,Adolphe Treherne,atrehernecv@state.tx.us,Ireland,Exc,M,1,13.75,27.5,3.025,11%
+QHL-27188-431,2019-09-28,75443-07820-DZ,L-L-0.5,2,Barrett Gudde,bguddejg@dailymotion.com,United States,Lib,L,0.5,9.51,19.02,2.4726,13%
+NOY-99738-977,2019-09-29,82872-34456-LJ,R-L-2.5,2,Madelaine Sharples,,United Kingdom,Rob,L,2.5,27.485,54.97,3.2982,6%
+OHX-11953-965,2019-10-01,19524-21432-XP,E-L-2.5,2,Temple Castiglione,tcastiglionegz@xing.com,United States,Exc,L,2.5,34.155,68.31,7.5141,11%
+WTT-91832-645,2019-10-03,24344-88599-PP,A-M-1,3,Hussein Olliff,holliffkq@sciencedirect.com,Ireland,Ara,M,1,11.25,33.75,3.0375,9%
+QNP-18893-547,2019-10-04,76930-61689-CH,R-L-1,5,Elonore Goodings,,United States,Rob,L,1,11.95,59.75,3.585,6%
+IDJ-55379-750,2019-10-05,24040-20817-QB,R-M-1,4,Angelia Cleyburn,acleyburngy@lycos.com,United States,Rob,M,1,9.95,39.8,2.388,6%
+WAG-26945-689,2019-10-08,50124-88608-EO,A-M-0.2,5,Vivie Danneil,vdanneilr@mtv.com,Ireland,Ara,M,0.2,3.375,16.875,1.51875,9%
+FMT-94584-786,2019-10-08,86504-96610-BH,A-L-1,2,Katerina Melloi,kmelloi4y@imdb.com,United States,Ara,L,1,12.95,25.9,2.331,9%
+NJR-03699-189,2019-10-08,95152-82155-VQ,E-D-2.5,1,Goldie Wynes,gwynespn@dagondesign.com,United States,Exc,D,2.5,27.945,27.945,3.07395,11%
+UBI-83843-396,2019-10-09,58816-74064-TF,R-L-1,2,Nanny Izhakov,nizhakovdd@aol.com,United Kingdom,Rob,L,1,11.95,23.9,1.434,6%
+UME-75640-698,2019-10-11,62494-09113-RP,A-M-0.5,4,Marguerite Graves,,United States,Ara,M,0.5,6.75,27,2.43,9%
+AZF-45991-584,2019-10-12,73759-17258-KA,A-D-2.5,1,Lora Dukes,,Ireland,Ara,D,2.5,22.885,22.885,2.05965,9%
+TFY-52090-386,2019-10-13,08613-17327-XT,E-L-0.5,2,Lucienne Scargle,lscargle9h@myspace.com,United States,Exc,L,0.5,8.91,17.82,1.9602,11%
+TFY-52090-386,2019-10-13,08613-17327-XT,L-D-0.5,5,Lucienne Scargle,lscargle9h@myspace.com,United States,Lib,D,0.5,7.77,38.85,5.0505,13%
+WYL-29300-070,2019-10-16,42770-36274-QA,R-M-0.2,1,Hayward Goulter,hgoulter1w@abc.net.au,United States,Rob,M,0.2,2.985,2.985,0.1791,6%
+EFB-72860-209,2019-10-17,53035-99701-WG,A-M-0.2,4,Byram Mergue,bmergue7y@umn.edu,United States,Ara,M,0.2,3.375,13.5,1.215,9%
+RDW-33155-159,2019-10-19,62173-15287-CU,A-L-1,6,Rhianon Broxup,rbroxuph@jimdo.com,United States,Ara,L,1,12.95,77.7,6.993,9%
+QBB-07903-622,2019-10-21,32622-54551-UC,R-L-1,5,Minetta Ackrill,mackrillbw@bandcamp.com,United States,Rob,L,1,11.95,59.75,3.585,6%
+RXN-55491-201,2019-10-21,86071-79238-CX,R-L-0.2,6,Ronda Pyson,rpysono@constantcontact.com,Ireland,Rob,L,0.2,3.585,21.51,1.2906,6%
+RFH-64349-897,2019-10-22,61954-61462-RJ,E-D-0.5,3,Muffin Yallop,myallop3a@fema.gov,United States,Exc,D,0.5,7.29,21.87,2.4057,11%
+OKU-29966-417,2019-10-23,76192-13390-HZ,E-L-0.2,4,Granville Alberts,galbertsfc@etsy.com,United Kingdom,Exc,L,0.2,4.455,17.82,1.9602,11%
+DYP-74337-787,2019-10-23,41486-52502-QQ,R-M-0.5,1,Gunilla Lynch,,United States,Rob,M,0.5,5.97,5.97,0.3582,6%
+PSD-57291-590,2019-10-24,37191-12203-MX,A-M-0.5,1,Perkin Stonner,pstonner8e@moonfruit.com,United States,Ara,M,0.5,6.75,6.75,0.6075,9%
+CQM-49696-263,2019-10-25,76534-45229-SG,L-L-2.5,3,Sheppard Yann,syann29@senate.gov,United States,Lib,L,2.5,36.455,109.365,14.21745,13%
+THA-60599-417,2019-10-26,59971-35626-YJ,A-M-2.5,3,Fielding Keinrat,fkeinrat4c@dailymail.co.uk,United States,Ara,M,2.5,25.875,77.625,6.98625,9%
+IGK-51227-573,2019-10-26,46959-60474-LT,L-D-0.5,2,Bob Giannazzi,bgiannazzidm@apple.com,United States,Lib,D,0.5,7.77,15.54,2.0202,13%
+YTW-40242-005,2019-10-28,01035-70465-UO,L-D-1,4,Anselma Attwater,aattwater5u@wikia.com,United States,Lib,D,1,12.95,51.8,6.734,13%
+DFK-35846-692,2019-11-03,49612-33852-CN,R-D-0.2,5,Marris Grcic,,United States,Rob,D,0.2,2.685,13.425,0.8055,6%
+QPM-95832-683,2019-11-06,35058-04550-VC,L-L-1,2,Murdock Hame,mhame5y@newsvine.com,Ireland,Lib,L,1,15.85,31.7,4.121,13%
+DJH-05202-380,2019-11-07,85589-17020-CX,E-M-2.5,2,Donna Baskeyfied,,United States,Exc,M,2.5,31.625,63.25,6.9575,11%
+YVH-19865-819,2019-11-09,08946-56610-IH,L-L-2.5,4,Lacee Burtenshaw,lburtenshawlp@shinystat.com,United States,Lib,L,2.5,36.455,145.82,18.9566,13%
+IOQ-84840-827,2019-11-12,32038-81174-JF,A-M-1,6,Cornie Venour,cvenourfx@ask.com,United States,Ara,M,1,11.25,67.5,6.075,9%
+GPT-67705-953,2019-11-12,70631-33225-MZ,A-M-0.2,5,Correy Bourner,cbournermw@chronoengine.com,United States,Ara,M,0.2,3.375,16.875,1.51875,9%
+OVI-27064-381,2019-11-13,37274-08534-FM,R-D-0.5,3,Selma McMillian,smcmillian8t@csmonitor.com,United States,Rob,D,0.5,5.37,16.11,0.9666,6%
+HYF-10254-369,2019-11-14,30373-66619-CB,L-L-0.5,1,Zaccaria Sherewood,zsherewood2c@apache.org,United States,Lib,L,0.5,9.51,9.51,1.2363,13%
+IXU-20263-532,2019-11-15,68044-89277-ML,L-M-2.5,2,Kizzie Warman,kwarmancd@printfriendly.com,Ireland,Lib,M,2.5,33.465,66.93,8.7009,13%
+WVT-88135-549,2019-11-16,66458-91190-YC,A-D-1,3,Marja Urion,murione5@alexa.com,Ireland,Ara,D,1,9.95,29.85,2.6865,9%
+QTR-19001-114,2019-11-21,01035-70465-UO,A-D-1,2,Anselma Attwater,aattwater5u@wikia.com,United States,Ara,D,1,9.95,19.9,1.791,9%
+KBB-52530-416,2019-11-21,06488-46303-IZ,L-D-2.5,2,Orion Dyott,,United States,Lib,D,2.5,29.785,59.57,7.7441,13%
+KTO-53793-109,2019-11-21,17572-27091-AA,R-L-0.2,2,Constanta Hatfull,chatfullog@ebay.com,United States,Rob,L,0.2,3.585,7.17,0.4302,6%
+JHW-74554-805,2019-11-26,14103-58987-ZU,R-M-1,6,Gay Rizzello,grizzello1x@symantec.com,United Kingdom,Rob,M,1,9.95,59.7,3.582,6%
+RDM-99811-230,2019-11-27,22349-47389-GY,L-M-0.2,5,Benn Checci,bchecci8h@usa.gov,United Kingdom,Lib,M,0.2,4.365,21.825,2.83725,13%
+ZVQ-26122-859,2019-11-28,77154-45038-IH,A-L-2.5,6,Bobby Folomkin,bfolomkinl8@yolasite.com,United States,Ara,L,2.5,29.785,178.71,16.0839,9%
+UDS-04807-593,2019-11-29,84074-28110-OV,L-D-0.5,2,Bayard Wellan,bwellanmp@cafepress.com,United States,Lib,D,0.5,7.77,15.54,2.0202,13%
+BMK-49520-383,2019-12-03,72233-08665-IP,R-L-0.2,3,Kiri Avramow,,United States,Rob,L,0.2,3.585,10.755,0.6453,6%
+TWD-70988-853,2019-12-03,87519-68847-ZG,L-D-1,6,Noel Chisholm,nchisholmnx@example.com,United States,Lib,D,1,12.95,77.7,10.101,13%
+XNM-14163-951,2019-12-04,78224-60622-KH,E-L-2.5,6,Shelli Keynd,skeynd9o@narod.ru,United States,Exc,L,2.5,34.155,204.93,22.5423,11%
+IPA-94170-889,2019-12-04,64439-27325-LG,R-L-0.2,3,Camellia Kid,ckide6@narod.ru,Ireland,Rob,L,0.2,3.585,10.755,0.6453,6%
+BLI-21697-702,2019-12-05,21141-12455-VB,A-M-0.5,2,Shelli De Banke,sdejo@newsvine.com,United States,Ara,M,0.5,6.75,13.5,1.215,9%
+SQT-07286-736,2019-12-08,87726-16941-QW,A-M-1,6,Nevsa Fields,,United States,Ara,M,1,11.25,67.5,6.075,9%
+IKL-95976-565,2019-12-09,53486-73919-BQ,A-M-1,2,Rod Gowdie,,United States,Ara,M,1,11.25,22.5,2.025,9%
+AKV-93064-769,2019-12-12,22305-40299-CY,L-D-0.5,1,Terry Sheryn,tsheryn31@mtv.com,United States,Lib,D,0.5,7.77,7.77,1.0101,13%
+BQK-38412-229,2019-12-13,90392-73338-BC,R-L-0.2,3,Natal Vigrass,nvigrasski@ezinearticles.com,United Kingdom,Rob,L,0.2,3.585,10.755,0.6453,6%
+WOR-52762-511,2019-12-14,04739-85772-QT,E-L-2.5,6,Elysee Sketch,,United States,Exc,L,2.5,34.155,204.93,22.5423,11%
+BWR-85735-955,2019-12-14,32638-38620-AX,L-M-1,3,Burnard Bartholin,bbartholin59@xinhuanet.com,United States,Lib,M,1,14.55,43.65,5.6745,13%
+VIO-27668-766,2019-12-15,10074-20104-NN,R-D-2.5,1,Dick Drinkall,ddrinkallcx@psu.edu,United States,Rob,D,2.5,20.585,20.585,1.2351,6%
+TRA-79507-007,2019-12-16,70089-27418-UJ,R-L-2.5,4,Aurelia Burgwin,aburgwingp@redcross.org,United States,Rob,L,2.5,27.485,109.94,6.5964,6%
+LBZ-75997-047,2019-12-17,40946-22090-FP,A-M-2.5,6,Norene Magauran,nmagauran2n@51.la,United States,Ara,M,2.5,25.875,155.25,13.9725,9%
+CBT-15092-420,2019-12-17,71364-35210-HS,L-M-0.5,1,Wain Cholomin,wcholomince@about.com,United Kingdom,Lib,M,0.5,8.73,8.73,1.1349,13%
+BPC-54727-307,2019-12-21,18684-73088-YL,R-L-1,4,Gaspar McGavin,gmcgavinhl@histats.com,United States,Rob,L,1,11.95,47.8,2.868,6%
+ZGD-94763-868,2019-12-27,53086-67334-KT,E-L-2.5,1,Melli Brockway,mbrockway8r@ibm.com,United States,Exc,L,2.5,34.155,34.155,3.75705,11%
+ZSL-66684-103,2019-12-28,39193-51770-FM,E-M-0.2,2,Laryssa Benediktovich,lbenediktovichiy@wunderground.com,United States,Exc,M,0.2,4.125,8.25,0.9075,11%
+KTX-17944-494,2019-12-29,74330-29286-RO,A-L-0.2,1,Claudetta Rushe,crushe8n@about.me,United States,Ara,L,0.2,3.885,3.885,0.34965,9%
+BNQ-88920-567,2019-12-30,27226-53717-SY,L-D-0.2,6,Ilka Gurnee,igurnee5z@usnews.com,United States,Lib,D,0.2,3.885,23.31,3.0303,13%
+KCW-50949-318,2019-12-30,52374-27313-IV,E-L-1,5,Dell Gut,dgutq2@umich.edu,United States,Exc,L,1,14.85,74.25,8.1675,11%
+NWT-78222-575,2019-12-31,75986-98864-EZ,A-D-0.2,1,Tiffany Scardafield,,Ireland,Ara,D,0.2,2.985,2.985,0.26865,9%
+THE-61147-027,2019-12-31,94091-86957-HX,L-D-1,2,Jimmy Dymoke,jdymokeje@prnewswire.com,Ireland,Lib,D,1,12.95,25.9,3.367,13%
+JYR-22052-185,2020-01-01,39528-19971-OR,A-M-0.5,2,Wren Place,wplacei9@wsj.com,United States,Ara,M,0.5,6.75,13.5,1.215,9%
+GQA-37241-629,2020-01-01,08405-33165-BS,A-M-0.2,2,Fanchette Parlot,fparlotrb@forbes.com,United States,Ara,M,0.2,3.375,6.75,0.6075,9%
+IZA-61469-812,2020-01-06,13561-92774-WP,L-D-2.5,4,Ketty Bromehead,kbromehead68@un.org,United States,Lib,D,2.5,29.785,119.14,15.4882,13%
+DLX-01059-899,2020-01-06,74940-09646-MU,R-L-1,5,Gustaf Ciccotti,gciccottip8@so-net.ne.jp,United States,Rob,L,1,11.95,59.75,3.585,6%
+RLM-96511-467,2020-01-06,43014-53743-XK,R-L-2.5,1,Jennica Tewelson,jtewelsonrn@samsung.com,United States,Rob,L,2.5,27.485,27.485,1.6491,6%
+UDG-65353-824,2020-01-07,17514-94165-RJ,E-M-0.5,4,Kari Swede,kswede4g@addthis.com,United States,Exc,M,0.5,8.25,33,3.63,11%
+PMR-56062-609,2020-01-10,43605-12616-YH,E-D-0.5,3,Elka Windress,ewindressam@marketwatch.com,United States,Exc,D,0.5,7.29,21.87,2.4057,11%
+QEW-47945-682,2020-01-10,42466-87067-DT,L-L-0.2,5,Alvis Elwin,aelwincr@privacy.gov.au,United States,Lib,L,0.2,4.755,23.775,3.09075,13%
+EOL-92666-762,2020-01-11,15776-91507-GT,L-L-0.2,2,Stan Barribal,sbarribalcn@microsoft.com,Ireland,Lib,L,0.2,4.755,9.51,1.2363,13%
+YFX-64795-136,2020-01-15,83163-65741-IH,L-M-2.5,1,Madelene Prinn,mprinn5a@usa.gov,United States,Lib,M,2.5,33.465,33.465,4.35045,13%
+SKO-45740-621,2020-01-16,04666-71569-RI,L-M-0.5,2,Zacharias Kiffe,zkiffe74@cyberchimps.com,United States,Lib,M,0.5,8.73,17.46,2.2698,13%
+NUU-03893-975,2020-01-17,41054-59693-XE,L-L-0.5,2,Vinny Shoebotham,vshoebothamkv@redcross.org,United States,Lib,L,0.5,9.51,19.02,2.4726,13%
+GKQ-82603-910,2020-01-19,83737-56117-JE,R-L-1,5,Ameline Snazle,asnazle9l@oracle.com,United States,Rob,L,1,11.95,59.75,3.585,6%
+FHD-94983-982,2020-01-21,62839-56723-CH,R-M-0.5,3,Alexina Randals,,United States,Rob,M,0.5,5.97,17.91,1.0746,6%
+AWT-22827-563,2020-01-25,12018-75670-EU,R-L-0.2,1,Melania Beadle,,Ireland,Rob,L,0.2,3.585,3.585,0.2151,6%
+NXF-15738-707,2020-01-26,28699-16256-XV,R-D-0.5,2,Javier Causnett,,United States,Rob,D,0.5,5.37,10.74,0.6444,6%
+CWK-60159-881,2020-01-27,04671-85591-RT,E-D-0.2,3,Theda Grizard,tgrizard1k@odnoklassniki.ru,United States,Exc,D,0.2,3.645,10.935,1.20285,11%
+ICF-17486-106,2020-01-27,19196-09748-DB,L-L-2.5,1,Waylan Springall,wspringallbh@jugem.jp,United States,Lib,L,2.5,36.455,36.455,4.73915,13%
+UEB-09112-118,2020-01-30,82718-93677-XO,A-M-0.5,4,Maitilde Boxill,,United States,Ara,M,0.5,6.75,27,2.43,9%
+VNC-93921-469,2020-01-31,04666-71569-RI,L-L-1,1,Zacharias Kiffe,zkiffe74@cyberchimps.com,United States,Lib,L,1,15.85,15.85,2.0605,13%
+AEL-51169-725,2020-02-03,37430-29579-HD,L-M-0.2,6,Eveleen Bletsor,ebletsor8l@vinaora.com,United States,Lib,M,0.2,4.365,26.19,3.4047,13%
+TYH-81940-054,2020-02-04,69374-08133-RI,E-L-0.2,5,Cleopatra Goodrum,cgoodrumqs@goodreads.com,United States,Exc,L,0.2,4.455,22.275,2.45025,11%
+WNR-71736-993,2020-02-05,16880-78077-FB,L-D-0.5,4,Terri Farra,tfarraac@behance.net,United States,Lib,D,0.5,7.77,31.08,4.0404,13%
+WNR-71736-993,2020-02-05,16880-78077-FB,A-D-2.5,6,Terri Farra,tfarraac@behance.net,United States,Ara,D,2.5,22.885,137.31,12.3579,9%
+UPF-60123-025,2020-02-06,88992-49081-AT,R-L-2.5,3,Zilvia Claisse,,United States,Rob,L,2.5,27.485,82.455,4.9473,6%
+RWR-77888-800,2020-02-07,69904-02729-YS,A-M-0.5,1,Annadiane Dykes,adykes1r@eventbrite.com,United States,Ara,M,0.5,6.75,6.75,0.6075,9%
+HNI-91338-546,2020-02-07,67285-75317-XI,A-D-0.5,5,Nevins Glowacz,,United States,Ara,D,0.5,5.97,29.85,2.6865,9%
+MHD-95615-696,2020-02-07,27930-59250-JT,R-L-2.5,5,Allis Wilmore,,United States,Rob,L,2.5,27.485,137.425,8.2455,6%
+DYG-25473-881,2020-02-08,10138-31681-SD,A-D-0.2,2,Roxine Drivers,rdriversd4@hexun.com,United States,Ara,D,0.2,2.985,5.97,0.5373,9%
+NFA-03411-746,2020-02-08,07476-13102-NJ,A-L-0.5,2,Heda Fromant,hfromantf4@ucsd.edu,United States,Ara,L,0.5,7.77,15.54,1.3986,9%
+UBW-50312-037,2020-02-09,69503-12127-YD,A-L-2.5,4,Nickey Dimbleby,,United States,Ara,L,2.5,29.785,119.14,10.7226,9%
+KIX-93248-135,2020-02-11,36605-83052-WB,A-D-0.5,1,Violette Hellmore,vhellmore7d@bbc.co.uk,United States,Ara,D,0.5,5.97,5.97,0.5373,9%
+YIS-96268-844,2020-02-11,60221-67036-TD,E-L-0.2,6,Ken Lestrange,klestrange8a@lulu.com,United States,Exc,L,0.2,4.455,26.73,2.9403,11%
+RGJ-12544-083,2020-02-12,48873-84433-PN,L-D-2.5,3,Carlie Harce,charce6k@cafepress.com,Ireland,Lib,D,2.5,29.785,89.355,11.61615,13%
+SNF-57032-096,2020-02-13,93832-04799-ID,E-D-0.5,6,Saree Ellesworth,,United States,Exc,D,0.5,7.29,43.74,4.8114,11%
+ORZ-67699-748,2020-02-15,44708-78241-DF,A-M-2.5,6,Jodee Caldicott,jcaldicott9u@usda.gov,United States,Ara,M,2.5,25.875,155.25,13.9725,9%
+OGB-91614-810,2020-02-18,08909-77713-CG,R-M-0.2,1,Mercedes Acott,macott6y@pagesperso-orange.fr,United States,Rob,M,0.2,2.985,2.985,0.1791,6%
+HMB-30634-745,2020-02-18,19485-98072-PS,A-D-2.5,6,Don Flintiff,dflintiffg1@e-recht24.de,United Kingdom,Ara,D,2.5,22.885,137.31,12.3579,9%
+ALA-62598-016,2020-02-19,57145-03803-ZL,R-D-0.2,6,Noak Wyvill,nwyvill6b@naver.com,United Kingdom,Rob,D,0.2,2.685,16.11,0.9666,6%
+SBC-95710-706,2020-02-19,85634-61759-ND,E-M-0.2,2,Maggy Baistow,mbaistowhu@i2i.jp,United Kingdom,Exc,M,0.2,4.125,8.25,0.9075,11%
+ELJ-87741-745,2020-02-20,48389-71976-JB,E-L-1,4,Devon Magowan,dmagowan6n@fc2.com,United States,Exc,L,1,14.85,59.4,6.534,11%
+TJG-73587-353,2020-02-22,24766-58139-GT,R-D-0.2,3,Kendra Glison,,United States,Rob,D,0.2,2.685,8.055,0.4833,6%
+NEX-63825-598,2020-02-22,72072-33025-SD,R-L-0.5,2,Abbe Thys,athysfo@cdc.gov,United States,Rob,L,0.5,7.17,14.34,0.8604,6%
+FUO-99821-974,2020-02-22,31245-81098-PJ,E-M-1,3,Verne Dunkerley,,United States,Exc,M,1,13.75,41.25,4.5375,11%
+OAW-17338-101,2020-02-23,52143-35672-JF,R-D-0.2,6,Tuckie Mathonnet,tmathonneti@google.co.jp,United States,Rob,D,0.2,2.685,16.11,0.9666,6%
+DOH-92927-530,2020-02-24,12839-56537-TQ,L-L-0.2,6,Clement Vasiliev,cvasiliev9b@discuz.net,United States,Lib,L,0.2,4.755,28.53,3.7089,13%
+REH-56504-397,2020-02-26,90961-35603-RP,A-M-2.5,5,Anabelle Hutchens,ahutchens6a@amazonaws.com,United States,Ara,M,2.5,25.875,129.375,11.64375,9%
+TZD-67261-174,2020-02-27,01841-48191-NL,E-D-2.5,1,Cam Jewster,cjewsterlu@moonfruit.com,United States,Exc,D,2.5,27.945,27.945,3.07395,11%
+CSW-59644-267,2020-02-28,60378-26473-FE,E-M-2.5,1,Benedikta Paumier,bpaumierhp@umn.edu,Ireland,Exc,M,2.5,31.625,31.625,3.47875,11%
+FSA-98650-921,2020-02-28,01841-48191-NL,L-L-0.5,2,Cam Jewster,cjewsterlu@moonfruit.com,United States,Lib,L,0.5,9.51,19.02,2.4726,13%
+BQJ-44755-910,2020-02-28,75006-89922-VW,E-D-2.5,6,Murielle Lorinez,mlorineznh@whitehouse.gov,United States,Exc,D,2.5,27.945,167.67,18.4437,11%
+SXC-62166-515,2020-02-28,69171-65646-UC,R-L-2.5,5,Joceline Reddoch,jreddochnt@sun.com,United States,Rob,L,2.5,27.485,137.425,8.2455,6%
+JTU-55897-581,2020-02-29,70290-38099-GB,R-M-0.2,5,Janifer Bagot,jbagot8i@mac.com,United States,Rob,M,0.2,2.985,14.925,0.8955,6%
+SBN-16537-046,2020-02-29,60255-12579-PZ,A-D-0.2,1,Hillel Mairs,hmairsn1@so-net.ne.jp,United States,Ara,D,0.2,2.985,2.985,0.26865,9%
+HSF-66926-425,2020-03-01,00539-42510-RY,L-D-2.5,5,Nickey Youles,nyoules2t@reference.com,Ireland,Lib,D,2.5,29.785,148.925,19.36025,13%
+YZG-20575-451,2020-03-02,64845-00270-NO,L-L-1,4,Rhetta Zywicki,rzywickii4@ifeng.com,Ireland,Lib,L,1,15.85,63.4,8.242,13%
+TVV-42245-088,2020-03-06,14398-43114-RV,A-M-0.2,4,Betti Lacasa,,Ireland,Ara,M,0.2,3.375,13.5,1.215,9%
+NNF-47422-501,2020-03-07,20260-32948-EB,E-L-0.2,6,Adorne Gregoratti,agregorattilq@vistaprint.com,Ireland,Exc,L,0.2,4.455,26.73,2.9403,11%
+GNL-98714-885,2020-03-07,83731-53280-YC,R-M-1,3,Adele McFayden,,United Kingdom,Rob,M,1,9.95,29.85,1.791,6%
+CKF-43291-846,2020-03-10,91829-99544-DS,E-L-2.5,1,Odille Thynne,othynne4w@auda.org.au,United States,Exc,L,2.5,34.155,34.155,3.75705,11%
+TVF-57766-608,2020-03-10,88420-46464-XE,L-D-0.5,1,Perice Eberz,peberznn@woothemes.com,United States,Lib,D,0.5,7.77,7.77,1.0101,13%
+YLE-18247-749,2020-03-11,92227-49331-QR,A-L-0.5,3,Reggis Pracy,,United States,Ara,L,0.5,7.77,23.31,2.0979,9%
+QXX-89943-393,2020-03-12,15673-18812-IU,R-D-0.2,4,Caddric Krzysztofiak,ckrzysztofiakma@skyrock.com,United States,Rob,D,0.2,2.685,10.74,0.6444,6%
+VQW-91903-926,2020-03-13,05325-97750-WP,E-D-2.5,1,Cody Verissimo,cverissimogh@theglobeandmail.com,United Kingdom,Exc,D,2.5,27.945,27.945,3.07395,11%
+TGF-38649-658,2020-03-15,67743-54817-UT,L-M-0.5,2,Berkly Imrie,bimriep3@addtoany.com,United States,Lib,M,0.5,8.73,17.46,2.2698,13%
+PKQ-46841-696,2020-03-18,37177-68797-ON,R-M-0.5,3,Arleen Braidman,abraidmancf@census.gov,United States,Rob,M,0.5,5.97,17.91,1.0746,6%
+EOI-02511-919,2020-03-20,66776-88682-RG,E-L-0.2,5,Abrahan Mussen,amussen5@51.la,United States,Exc,L,0.2,4.455,22.275,2.45025,11%
+EOI-02511-919,2020-03-20,66776-88682-RG,A-D-0.5,5,Abrahan Mussen,amussen5@51.la,United States,Ara,D,0.5,5.97,29.85,2.6865,9%
+EJA-79176-833,2020-03-22,91509-62250-GN,R-M-2.5,6,Dalia Eburah,deburahld@google.co.jp,United Kingdom,Rob,M,2.5,22.885,137.31,8.2386,6%
+LHN-75209-742,2020-03-23,01433-04270-AX,R-M-0.5,6,Felecia Dodgson,,United States,Rob,M,0.5,5.97,35.82,2.1492,6%
+ALM-80762-974,2020-03-23,84045-66771-SL,A-L-0.5,3,Charlean Keave,ckeaver1@ucoz.com,United States,Ara,L,0.5,7.77,23.31,2.0979,9%
+RZC-75150-413,2020-03-25,92204-96636-BS,E-D-0.5,5,Roxie Deaconson,rdeaconsonja@archive.org,United States,Exc,D,0.5,7.29,36.45,4.0095,11%
+ULU-07744-724,2020-03-26,94058-95794-IJ,L-M-0.5,5,Layne Imason,limasonio@discuz.net,United States,Lib,M,0.5,8.73,43.65,5.6745,13%
+ISK-42066-094,2020-03-28,41505-42181-EF,E-D-1,3,Sibella Rushbrooke,srushbrooke6q@youku.com,United States,Exc,D,1,12.15,36.45,4.0095,11%
+ILQ-11027-588,2020-03-29,76293-30918-DQ,E-D-1,6,Philipa Petrushanko,ppetrushanko5c@blinklist.com,Ireland,Exc,D,1,12.15,72.9,8.019,11%
+HVQ-64398-930,2020-03-30,62979-53167-ML,A-M-0.5,6,Lothaire Mizzi,lmizzi26@rakuten.co.jp,United States,Ara,M,0.5,6.75,40.5,3.645,9%
+GSJ-01065-125,2020-03-31,69779-40609-RS,E-D-0.2,4,Dael Camilletti,dcamilletti5w@businesswire.com,United States,Exc,D,0.2,3.645,14.58,1.6038,11%
+XZG-51938-658,2020-04-05,18275-73980-KL,E-L-0.5,6,Lem Pennacci,lpennaccieo@statcounter.com,United States,Exc,L,0.5,8.91,53.46,5.8806,11%
+XTL-68000-371,2020-04-07,70140-82812-KD,A-M-0.5,4,Donalt Sangwin,dsangwinfu@weebly.com,United States,Ara,M,0.5,6.75,27,2.43,9%
+JZC-31180-557,2020-04-07,09171-42203-EB,L-M-2.5,1,Rachelle Elizabeth,relizabethh5@live.com,United States,Lib,M,2.5,33.465,33.465,4.35045,13%
+HPI-42308-142,2020-04-11,06631-86965-XP,E-M-0.5,2,Olag Baudassi,obaudassi18@seesaa.net,United States,Exc,M,0.5,8.25,16.5,1.815,11%
+AWP-11469-510,2020-04-11,76730-63769-ND,E-D-1,2,Ryann Stickler,rsticklerox@printfriendly.com,United Kingdom,Exc,D,1,12.15,24.3,2.673,11%
+XOQ-12405-419,2020-04-12,91513-75657-PH,R-D-2.5,4,Hally Lorait,,United States,Rob,D,2.5,20.585,82.34,4.9404,6%
+KSH-47717-456,2020-04-19,74671-55639-TU,L-M-1,3,Lindy Uttermare,luttermarehm@engadget.com,United States,Lib,M,1,14.55,43.65,5.6745,13%
+WNE-73911-475,2020-04-20,61323-91967-GG,L-D-0.5,6,Theo Jacobovitz,tjacobovitziz@cbc.ca,United States,Lib,D,0.5,7.77,46.62,6.0606,13%
+WFH-21507-708,2020-04-20,07237-32539-NB,R-D-0.5,1,Delainey Kiddy,dkiddyok@fda.gov,United States,Rob,D,0.5,5.37,5.37,0.3222,6%
+OKA-93124-100,2020-04-23,05325-97750-WP,R-M-0.5,5,Cody Verissimo,cverissimogh@theglobeandmail.com,United Kingdom,Rob,M,0.5,5.97,29.85,1.791,6%
+HCT-95608-959,2020-04-25,08523-01791-TI,R-M-2.5,5,Dorie de la Tremoille,dde12@unesco.org,United States,Rob,M,2.5,22.885,114.425,6.8655,6%
+VET-41158-896,2020-04-29,10728-17633-ST,E-M-2.5,2,Jewelle Shenton,jshentonge@google.com.hk,United States,Exc,M,2.5,31.625,63.25,6.9575,11%
+IWL-13117-537,2020-04-29,29129-60664-KO,R-D-0.2,3,Guenevere Ruggen,gruggenm6@nymag.com,United States,Rob,D,0.2,2.685,8.055,0.4833,6%
+HVW-25584-144,2020-04-30,93405-51204-UW,L-L-0.2,5,Lexie Mallan,lmallan6t@state.gov,United States,Lib,L,0.2,4.755,23.775,3.09075,13%
+JBP-78754-392,2020-04-30,74330-29286-RO,E-M-2.5,6,Claudetta Rushe,crushe8n@about.me,United States,Exc,M,2.5,31.625,189.75,20.8725,11%
+LKE-14821-285,2020-05-03,13736-92418-JS,R-M-0.2,5,Becky Semkins,bsemkinsdk@unc.edu,Ireland,Rob,M,0.2,2.985,14.925,0.8955,6%
+OJL-96844-459,2020-05-03,61253-98356-VD,L-L-0.2,5,Karylin Huddart,khuddartlz@about.com,United States,Lib,L,0.2,4.755,23.775,3.09075,13%
+WVS-57822-366,2020-05-04,52151-75971-YY,E-M-2.5,4,Darn Penquet,dpenquetmb@diigo.com,United States,Exc,M,2.5,31.625,126.5,13.915,11%
+HBY-35655-049,2020-05-04,69207-93422-CQ,E-D-2.5,3,Isis Hessel,ihesselpf@ox.ac.uk,United States,Exc,D,2.5,27.945,83.835,9.22185,11%
+GCD-75444-320,2020-05-04,51277-93873-RP,L-M-2.5,1,Claudell Ayre,cayrere@symantec.com,United States,Lib,M,2.5,33.465,33.465,4.35045,13%
+AJL-52941-018,2020-05-05,55871-61935-MF,E-D-1,2,Lind Conyers,lconyers2y@twitter.com,United States,Exc,D,1,12.15,24.3,2.673,11%
+BZP-33213-637,2020-05-05,77175-09826-SF,A-M-2.5,3,Lindon Agnolo,lagnolooj@pinterest.com,United States,Ara,M,2.5,25.875,77.625,6.98625,9%
+IYO-10245-081,2020-05-09,57145-31023-FK,E-M-2.5,3,Nanine McCarthy,,United States,Exc,M,2.5,31.625,94.875,10.43625,11%
+AIA-98989-755,2020-05-09,34704-83143-KS,R-M-0.2,1,Sacha Bruun,sbruunjt@blogtalkradio.com,United States,Rob,M,0.2,2.985,2.985,0.1791,6%
+AWH-16980-469,2020-05-11,27493-46921-TZ,L-M-0.2,6,Fanny Flanagan,fflanagand9@woothemes.com,United States,Lib,M,0.2,4.365,26.19,3.4047,13%
+QYC-63914-195,2020-05-14,39789-43945-IV,E-L-1,3,Reinaldos Kirtley,rkirtleyg4@hatena.ne.jp,United States,Exc,L,1,14.85,44.55,4.9005,11%
+LOO-35324-159,2020-05-19,68412-11126-YJ,A-L-0.2,4,Boyd Bett,bbett3x@google.de,United States,Ara,L,0.2,3.885,15.54,1.3986,9%
+NHL-11063-100,2020-05-20,39181-35745-WH,A-L-1,4,Loydie Langlais,,Ireland,Ara,L,1,12.95,51.8,4.662,9%
+ESR-66651-814,2020-05-20,76624-72205-CK,A-D-0.2,4,Jasper Sisneros,jsisneros7j@a8.net,United States,Ara,D,0.2,2.985,11.94,1.0746,9%
+FRD-17347-990,2020-05-20,46681-78850-ZW,A-D-1,4,Tania Craggs,tcraggsb8@house.gov,Ireland,Ara,D,1,9.95,39.8,3.582,9%
+ITA-87418-783,2020-05-22,39396-12890-PE,R-D-2.5,2,Terence Vanyutin,tvanyutind@wix.com,United States,Rob,D,2.5,20.585,41.17,2.4702,6%
+LWL-68108-794,2020-05-26,44494-89923-UW,A-D-0.5,3,Dorotea Hollyman,dhollymanl1@ibm.com,United States,Ara,D,0.5,5.97,17.91,1.6119,9%
+UOA-23786-489,2020-05-31,90305-50099-SV,A-M-0.5,6,Queenie Veel,qveel2x@jugem.jp,United States,Ara,M,0.5,6.75,40.5,3.645,9%
+MVV-19034-198,2020-05-31,98476-63654-CG,E-D-2.5,6,Demetris Micheli,,United States,Exc,D,2.5,27.945,167.67,18.4437,11%
+DKM-97676-850,2020-06-02,43439-94003-DW,E-D-0.5,5,Flynn Antony,,United States,Exc,D,0.5,7.29,36.45,4.0095,11%
+SFF-86059-407,2020-06-03,30585-48726-BK,A-M-2.5,1,Donnie Hedlestone,dhedlestone7m@craigslist.org,United States,Ara,M,2.5,25.875,25.875,2.32875,9%
+ZUR-55774-294,2020-06-03,33269-10023-CO,L-D-1,6,Ugo Southerden,usoutherdenln@hao123.com,United States,Lib,D,1,12.95,77.7,10.101,13%
+HUG-52766-375,2020-06-05,78786-77449-RQ,A-D-2.5,4,Jermaine Branchett,jbranchettii@bravesites.com,United States,Ara,D,2.5,22.885,91.54,8.2386,9%
+SCS-67069-962,2020-06-05,21403-49423-PD,A-L-2.5,5,Gregorius Trengrove,gtrengrovem2@elpais.com,United States,Ara,L,2.5,29.785,148.925,13.40325,9%
+SHP-17012-870,2020-06-07,69529-07533-CV,R-M-2.5,1,Corine Drewett,cdrewett97@wikipedia.org,United States,Rob,M,2.5,22.885,22.885,1.3731,6%
+LIS-96202-702,2020-06-07,72028-63343-SU,L-D-2.5,4,Annetta Brentnall,abrentnallcw@biglobe.ne.jp,United Kingdom,Lib,D,2.5,29.785,119.14,15.4882,13%
+SPF-31673-217,2020-06-09,19485-98072-PS,E-M-1,6,Don Flintiff,dflintiffg1@e-recht24.de,United Kingdom,Exc,M,1,13.75,82.5,9.075,11%
+HVU-21634-076,2020-06-10,27723-45097-MH,R-L-2.5,4,Dorelia Bury,dbury7o@tinyurl.com,Ireland,Rob,L,2.5,27.485,109.94,6.5964,6%
+SGI-48226-857,2020-06-11,84033-80762-EQ,A-M-2.5,6,Codi Littrell,,United States,Ara,M,2.5,25.875,155.25,13.9725,9%
+OYH-16533-767,2020-06-13,44932-34838-RM,E-L-1,4,Wyatan Fetherston,wfetherston9e@constantcontact.com,United States,Exc,L,1,14.85,59.4,6.534,11%
+BHA-47429-889,2020-06-20,51114-51191-EW,E-L-0.2,3,Kienan Ferson,kfersonon@g.co,United States,Exc,L,0.2,4.455,13.365,1.47015,11%
+ALR-62963-723,2020-06-21,80463-43913-WZ,R-D-0.2,3,Malynda Purbrick,,Ireland,Rob,D,0.2,2.685,8.055,0.4833,6%
+IXW-20780-268,2020-06-24,20236-64364-QL,L-L-2.5,2,Shay Couronne,scouronneh3@mozilla.org,United States,Lib,L,2.5,36.455,72.91,9.4783,13%
+CVA-64996-969,2020-06-24,13324-78688-MI,A-L-1,6,Cordy Odgaard,codgaardh9@nsw.gov.au,United States,Ara,L,1,12.95,77.7,6.993,9%
+RAU-17060-674,2020-06-26,12747-63766-EU,L-L-0.2,1,Caddric Atcheson,catchesonmr@xinhuanet.com,United States,Lib,L,0.2,4.755,4.755,0.61815,13%
+JLN-14700-924,2020-06-28,79058-02767-CP,L-L-0.2,5,Conny Gheraldi,cgheraldi6g@opera.com,United Kingdom,Lib,L,0.2,4.755,23.775,3.09075,13%
+XSN-26809-910,2020-06-28,80467-17137-TO,E-M-2.5,2,Dianne Chardin,dchardinhc@nhs.uk,Ireland,Exc,M,2.5,31.625,63.25,6.9575,11%
+GFK-52063-244,2020-06-29,44981-99666-XB,L-L-0.5,6,Una Welberry,uwelberryy@ebay.co.uk,United Kingdom,Lib,L,0.5,9.51,57.06,7.4178,13%
+WRN-55114-031,2020-06-29,40180-22940-QB,E-L-2.5,3,Courtney Pallant,cpallanthv@typepad.com,United States,Exc,L,2.5,34.155,102.465,11.27115,11%
+KGC-95046-911,2020-06-30,95351-96177-QV,A-M-2.5,2,Elden Andriessen,eandriessenj9@europa.eu,United States,Ara,M,2.5,25.875,51.75,4.6575,9%
+OLA-68289-577,2020-06-30,40226-52317-IO,A-M-0.5,5,Evy Wilsone,ewilsonepq@eepurl.com,United States,Ara,M,0.5,6.75,33.75,3.0375,9%
+ISL-11200-600,2020-07-02,13654-85265-IL,A-D-0.2,6,Rudy Farquharson,,Ireland,Ara,D,0.2,2.985,17.91,1.6119,9%
+KYG-28296-920,2020-07-02,78050-20355-DI,E-M-2.5,1,Granger Smallcombe,gsmallcombed6@ucla.edu,Ireland,Exc,M,2.5,31.625,31.625,3.47875,11%
+ALP-37623-536,2020-07-03,24689-69376-XX,L-L-1,6,Charmane Denys,cdenysi1@is.gd,United Kingdom,Lib,L,1,15.85,95.1,12.363,13%
+KAW-95195-329,2020-07-04,34570-99384-AF,R-D-2.5,4,Sharity Wickens,,Ireland,Rob,D,2.5,20.585,82.34,4.9404,6%
+AJV-18231-334,2020-07-05,23473-41001-CD,R-D-2.5,2,Agnes Adamides,aadamidesco@bizjournals.com,United Kingdom,Rob,D,2.5,20.585,41.17,2.4702,6%
+UDN-88321-005,2020-07-05,14640-87215-BK,R-L-0.5,5,Hailee Radbone,hradbonehd@newsvine.com,United States,Rob,L,0.5,7.17,35.85,2.151,6%
+YJU-84377-606,2020-07-07,20259-47723-AC,A-D-1,1,Lyn Entwistle,lentwistle6w@omniture.com,United States,Ara,D,1,9.95,9.95,0.8955,9%
+CUU-92244-729,2020-07-11,99735-44927-OL,E-M-1,3,Julius Mccaull,jmccaulld@parallels.com,United States,Exc,M,1,13.75,41.25,4.5375,11%
+ZWI-52029-159,2020-07-12,40172-12000-AU,L-M-1,3,Leonore Francisco,lfrancisco42@fema.gov,United States,Lib,M,1,14.55,43.65,5.6745,13%
+ZWI-52029-159,2020-07-12,40172-12000-AU,E-M-1,2,Leonore Francisco,lfrancisco42@fema.gov,United States,Exc,M,1,13.75,27.5,3.025,11%
+JIG-27636-870,2020-07-13,67204-04870-LG,R-L-1,4,Alf Housaman,,United States,Rob,L,1,11.95,47.8,2.868,6%
+LXR-09892-726,2020-07-13,50924-94200-SQ,R-D-2.5,2,Boyce Tarte,btartem9@aol.com,United States,Rob,D,2.5,20.585,41.17,2.4702,6%
+GPH-40635-105,2020-07-14,37397-05992-VO,A-M-1,1,Hewet Synnot,hsynnot3i@about.com,United States,Ara,M,1,11.25,11.25,1.0125,9%
+ZIL-34948-499,2020-07-14,66458-91190-YC,A-D-0.5,2,Marja Urion,murione5@alexa.com,Ireland,Ara,D,0.5,5.97,11.94,1.0746,9%
+TXF-79780-017,2020-07-14,92048-47813-QB,R-L-1,5,Mab Blakemore,mblakemorer5@nsw.gov.au,United States,Rob,L,1,11.95,59.75,3.585,6%
+TMO-22785-872,2020-07-15,01811-60350-CU,E-M-1,6,Sarette Ducarel,,United States,Exc,M,1,13.75,82.5,9.075,11%
+LTS-03470-353,2020-07-16,90985-89807-RW,A-L-2.5,5,Wang Powlesland,wpowleslandgt@soundcloud.com,United States,Ara,L,2.5,29.785,148.925,13.40325,9%
+BYZ-39669-954,2020-07-18,66408-53777-VE,L-L-2.5,1,Lyndsey Megany,,United States,Lib,L,2.5,36.455,36.455,4.73915,13%
+XPG-66112-335,2020-07-19,58118-22461-GC,R-D-2.5,4,Jackquelin Chugg,jchuggfp@about.me,United States,Rob,D,2.5,20.585,82.34,4.9404,6%
+SFD-00372-284,2020-07-19,54798-14109-HC,L-M-0.2,2,Odelia Skerme,oskermen3@hatena.ne.jp,United States,Lib,M,0.2,4.365,8.73,1.1349,13%
+BAQ-74241-156,2020-07-24,99869-55718-UU,R-D-0.2,4,Ransell McKall,rmckallct@sakura.ne.jp,United Kingdom,Rob,D,0.2,2.685,10.74,0.6444,6%
+DGY-35773-612,2020-07-25,17503-27693-ZH,E-L-1,3,Hamish MacSherry,,United States,Exc,L,1,14.85,44.55,4.9005,11%
+ITR-54735-364,2020-07-26,92599-58687-CS,R-D-0.2,5,Edin Yantsurev,,United States,Rob,D,0.2,2.685,13.425,0.8055,6%
+NUN-48214-216,2020-07-29,06953-94794-FB,A-M-0.5,4,Isahella Hagland,,United States,Ara,M,0.5,6.75,27,2.43,9%
+TKH-62197-239,2020-07-30,25181-97933-UX,A-D-0.5,3,Tersina Castagne,tcastagnekn@wikia.com,United States,Ara,D,0.5,5.97,17.91,1.6119,9%
+VTV-03546-175,2020-07-31,03384-62101-IY,A-L-2.5,5,Osbert Robins,orobins3o@salon.com,United States,Ara,L,2.5,29.785,148.925,13.40325,9%
+CPX-19312-088,2020-07-31,38387-64959-WW,L-M-0.5,6,Franny Kienlein,fkienleindi@trellian.com,Ireland,Lib,M,0.5,8.73,52.38,6.8094,13%
+YQL-63755-365,2020-07-31,78570-76770-LB,A-M-0.2,4,Carolann Beine,cbeinee7@xinhuanet.com,United States,Ara,M,0.2,3.375,13.5,1.215,9%
+ATY-28980-884,2020-07-31,50705-17295-NK,A-L-0.2,6,Cristina Aleixo,caleixok5@globo.com,United States,Ara,L,0.2,3.885,23.31,2.0979,9%
+MGH-36050-573,2020-08-03,75156-80911-YT,R-M-0.5,2,Valenka Stansbury,vstansburygc@unblog.fr,United States,Rob,M,0.5,5.97,11.94,0.7164,6%
+DXQ-44537-297,2020-08-06,96116-24737-LV,E-L-0.5,4,Marjorie Yoxen,myoxenhk@google.com,United States,Exc,L,0.5,8.91,35.64,3.9204,11%
+AMT-40418-362,2020-08-08,04513-76520-QO,L-D-1,1,Jacinthe Balsillie,jbalsillie46@princeton.edu,United States,Lib,D,1,12.95,12.95,1.6835,13%
+MXM-42948-061,2020-08-11,20203-03950-FY,L-L-0.2,4,Geneva Standley,gstandley38@dion.ne.jp,Ireland,Lib,L,0.2,4.755,19.02,2.4726,13%
+CNJ-56058-223,2020-08-11,40780-22081-LX,L-L-0.5,3,Alberta Balsdone,abalsdonemi@toplist.cz,United States,Lib,L,0.5,9.51,28.53,3.7089,13%
+QAK-77286-758,2020-08-11,34786-30419-XY,R-L-0.5,5,Fanchon Haughian,fhaughianq8@1688.com,United States,Rob,L,0.5,7.17,35.85,2.151,6%
+ULM-49433-003,2020-08-14,99421-80253-UI,E-M-1,2,Cybill Graddell,,United States,Exc,M,1,13.75,27.5,3.025,11%
+DGZ-82537-477,2020-08-14,43439-94003-DW,R-D-1,5,Flynn Antony,,United States,Rob,D,1,8.95,44.75,2.685,6%
+RXW-91413-276,2020-08-15,29588-35679-RG,R-D-2.5,2,Nicko Corps,ncorpsa@gmpg.org,United States,Rob,D,2.5,20.585,41.17,2.4702,6%
+RXW-91413-276,2020-08-15,29588-35679-RG,R-M-0.5,1,Nicko Corps,ncorpsa@gmpg.org,United States,Rob,M,0.5,5.97,5.97,0.3582,6%
+DHJ-87461-571,2020-08-23,94525-76037-JP,A-M-1,2,Ethel Ryles,eryles9r@fastcompany.com,United States,Ara,M,1,11.25,22.5,2.025,9%
+UDB-09651-780,2020-08-31,90767-92589-LV,E-D-0.5,2,Felita Eshmade,feshmadeks@umn.edu,United States,Exc,D,0.5,7.29,14.58,1.6038,11%
+MAY-77231-536,2020-09-02,01304-59807-OB,A-M-0.2,2,Nico Hubert,,United States,Ara,M,0.2,3.375,6.75,0.6075,9%
+AHY-20324-088,2020-09-06,63499-24884-PP,L-L-0.2,2,Nicky Ayris,nayrisix@t-online.de,United Kingdom,Lib,L,0.2,4.755,9.51,1.2363,13%
+AHV-66988-037,2020-09-08,12743-00952-KO,R-M-2.5,2,Christel Speak,,United States,Rob,M,2.5,22.885,45.77,2.7462,6%
+EHX-66333-637,2020-09-09,01297-94364-XH,L-M-0.5,2,Deana Staite,dstaite3z@scientificamerican.com,United States,Lib,M,0.5,8.73,17.46,2.2698,13%
+EPT-12715-397,2020-09-09,08478-75251-OG,A-D-0.2,6,Lenore Messenbird,,United States,Ara,D,0.2,2.985,17.91,1.6119,9%
+ZZL-76364-387,2020-09-09,11263-86515-VU,R-L-2.5,4,Randal Longfield,rlongfielday@bluehost.com,United States,Rob,L,2.5,27.485,109.94,6.5964,6%
+USN-44968-231,2020-09-10,71749-05400-CN,R-L-1,4,Giana Tonnesen,,United States,Rob,L,1,11.95,47.8,2.868,6%
+MJF-20065-335,2020-09-10,56891-86662-UY,E-L-0.5,6,Val Wakelin,vwakelinic@unesco.org,United States,Exc,L,0.5,8.91,53.46,5.8806,11%
+DBU-81099-586,2020-09-11,15770-27099-GX,A-D-2.5,4,Raynor McGilvary,rmcgilvary1c@tamu.edu,United States,Ara,D,2.5,22.885,91.54,8.2386,9%
+MEX-29350-659,2020-09-11,02009-87294-SY,E-M-1,5,Vasily Polglase,vpolglasefd@about.me,United States,Exc,M,1,13.75,68.75,7.5625,11%
+KXA-27983-918,2020-09-15,96042-27290-EQ,R-L-0.5,5,Daryn Cassius,,United States,Rob,L,0.5,7.17,35.85,2.151,6%
+WKD-81956-870,2020-09-16,48090-06534-HI,L-D-0.5,3,Waneta Edinborough,wedinborough66@github.io,United States,Lib,D,0.5,7.77,23.31,3.0303,13%
+FBI-35855-418,2020-09-16,06552-04430-AG,R-M-0.5,6,Sky Farnish,sfarnishdp@dmoz.org,United Kingdom,Rob,M,0.5,5.97,35.82,2.1492,6%
+AHQ-40440-522,2020-09-18,83833-46106-ZC,A-D-1,1,Martie Brimilcombe,mbrimilcombele@cnn.com,United States,Ara,D,1,9.95,9.95,0.8955,9%
+UQI-28177-865,2020-09-18,04317-46176-TB,R-L-0.2,6,Ingamar Eberlein,ieberleinqf@hc36.com,United States,Rob,L,0.2,3.585,21.51,1.2906,6%
+RXI-67978-260,2020-09-19,48418-60841-CC,E-D-1,6,Klarika Egglestone,kegglestonedj@sphinn.com,Ireland,Exc,D,1,12.15,72.9,8.019,11%
+YXP-20078-116,2020-09-23,37238-52421-JJ,R-M-0.5,1,Judd De Leek,jdeag@xrea.com,United States,Rob,M,0.5,5.97,5.97,0.3582,6%
+ZAY-43009-775,2020-09-27,73431-39823-UP,L-D-0.2,6,Kendra Backshell,,United States,Lib,D,0.2,3.885,23.31,3.0303,13%
+WIT-40912-783,2020-09-28,86768-91598-FA,L-D-0.2,4,Trescha Jedrachowicz,tjedrachowicz8d@acquirethisname.com,United States,Lib,D,0.2,3.885,15.54,2.0202,13%
+AUP-10128-606,2020-10-01,54387-64897-XC,A-M-0.5,1,Fransisco Malecky,fmalecky5t@list-manage.com,United Kingdom,Ara,M,0.5,6.75,6.75,0.6075,9%
+JVF-91003-729,2020-10-02,98536-88616-FF,A-D-2.5,3,Denny O' Ronan,dohx@redcross.org,United States,Ara,D,2.5,22.885,68.655,6.17895,9%
+VYP-89830-878,2020-10-04,12715-05198-QU,A-M-2.5,2,Gerard Pirdy,,United States,Ara,M,2.5,25.875,51.75,4.6575,9%
+OGD-10781-526,2020-10-04,16880-78077-FB,R-L-0.5,6,Terri Farra,tfarraac@behance.net,United States,Rob,L,0.5,7.17,43.02,2.5812,6%
+TNI-91067-006,2020-10-05,80444-58185-FX,E-L-1,4,Bobbe Piggott,,United States,Exc,L,1,14.85,59.4,6.534,11%
+FTC-35822-530,2020-10-10,14307-87663-KB,E-D-0.5,4,Tammie Drynan,tdrynan6r@deviantart.com,United States,Exc,D,0.5,7.29,29.16,3.2076,11%
+ASS-05878-128,2020-10-10,66580-33745-OQ,E-L-0.5,2,Shelley Gehring,sgehringjl@gnu.org,United States,Exc,L,0.5,8.91,17.82,1.9602,11%
+KHO-27106-786,2020-10-10,01603-43789-TN,A-M-1,6,Brice Romera,bromeramj@list-manage.com,Ireland,Ara,M,1,11.25,67.5,6.075,9%
+KHO-27106-786,2020-10-10,01603-43789-TN,L-D-2.5,6,Brice Romera,bromeramj@list-manage.com,Ireland,Lib,D,2.5,29.785,178.71,23.2323,13%
+NFQ-23241-793,2020-10-11,88446-59251-SQ,A-M-1,3,Quinton Fouracres,,United States,Ara,M,1,11.25,33.75,3.0375,9%
+EQH-53569-934,2020-10-13,53667-91553-LT,E-M-1,4,Barnett Sillis,bsillispw@istockphoto.com,United States,Exc,M,1,13.75,55,6.05,11%
+NOM-56457-507,2020-10-14,40214-03678-GU,E-M-1,6,Hazel Saill,hsaillip@odnoklassniki.ru,United States,Exc,M,1,13.75,82.5,9.075,11%
+IRV-20769-219,2020-10-15,77131-58092-GE,E-M-0.2,3,Vidovic Antonelli,,United Kingdom,Exc,M,0.2,4.125,12.375,1.36125,11%
+RMW-74160-339,2020-10-16,38978-59582-JP,R-L-2.5,4,Emlynne Heining,eheining4x@flickr.com,United States,Rob,L,2.5,27.485,109.94,6.5964,6%
+FUX-85791-078,2020-10-16,59122-08794-WT,A-M-0.2,2,Waylin Hollingdale,whollingdaleaf@about.me,United States,Ara,M,0.2,3.375,6.75,0.6075,9%
+CYM-74988-450,2020-10-16,87223-37422-SK,L-D-0.2,4,Rufus Flear,rflearf5@artisteer.com,United Kingdom,Lib,D,0.2,3.885,15.54,2.0202,13%
+BVU-77367-451,2020-10-20,77421-46059-RY,A-D-1,5,Borg Daile,bdailecu@vistaprint.com,United States,Ara,D,1,9.95,49.75,4.4775,9%
+BNZ-20544-633,2020-10-21,31798-95707-NR,L-L-0.5,4,Gothart Bamfield,gbamfieldae@yellowpages.com,United States,Lib,L,0.5,9.51,38.04,4.9452,13%
+BMM-86471-923,2020-10-22,76319-80715-II,L-D-2.5,1,Dallas Yarham,dyarhaml3@moonfruit.com,United States,Lib,D,2.5,29.785,29.785,3.87205,13%
+WTV-24996-658,2020-10-23,57837-15577-YK,E-D-2.5,3,Dom Milella,,Ireland,Exc,D,2.5,27.945,83.835,9.22185,11%
+OXY-65322-253,2020-10-24,07591-92789-UA,E-M-0.2,3,Culley Farris,,United States,Exc,M,0.2,4.125,12.375,1.36125,11%
+VTB-46451-959,2020-10-25,66240-46962-IO,L-D-2.5,1,Berty Beelby,bbeelbyej@rediff.com,Ireland,Lib,D,2.5,29.785,29.785,3.87205,13%
+DMY-96037-963,2020-10-26,42179-95059-DO,L-D-0.2,3,Maisie Sarvar,msarvaras@artisteer.com,United States,Lib,D,0.2,3.885,11.655,1.51515,13%
+RPJ-37787-335,2020-10-27,76005-95461-CI,A-M-2.5,3,Aurlie McCarl,,United States,Ara,M,2.5,25.875,77.625,6.98625,9%
+VAJ-44572-469,2020-10-27,79216-73157-TE,R-L-0.2,6,Delmar Beasant,,Ireland,Rob,L,0.2,3.585,21.51,1.2906,6%
+VQR-01002-970,2020-10-28,49315-21985-BB,E-L-2.5,5,Duky Phizackerly,dphizackerlyb@utexas.edu,United States,Exc,L,2.5,34.155,170.775,18.78525,11%
+TXB-80533-417,2020-10-28,54597-57004-QM,L-L-1,2,Felicia Jecock,fjecockdq@unicef.org,United States,Lib,L,1,15.85,31.7,4.121,13%
+WDM-77521-710,2020-10-29,86144-10144-CB,A-M-0.5,2,Itch Norquoy,inorquoyav@businessweek.com,United States,Ara,M,0.5,6.75,13.5,1.215,9%
+SKA-73676-005,2020-10-29,36572-91896-PP,L-M-1,4,Reese Lidgey,rlidgeykm@vimeo.com,United States,Lib,M,1,14.55,58.2,7.566,13%
+ABK-08091-531,2020-10-30,53864-36201-FG,L-L-1,3,Tess Benediktovich,tbenediktovichmv@ebay.com,United States,Lib,L,1,15.85,47.55,6.1815,13%
+ROV-87448-086,2020-11-02,30381-64762-NG,A-M-2.5,4,Adham Greenhead,agreenhead2j@dailymail.co.uk,United States,Ara,M,2.5,25.875,103.5,9.315,9%
+UMM-28497-689,2020-11-03,05325-97750-WP,L-L-2.5,3,Cody Verissimo,cverissimogh@theglobeandmail.com,United Kingdom,Lib,L,2.5,36.455,109.365,14.21745,13%
+DBC-44122-300,2020-11-04,13366-78506-KP,L-M-0.2,3,Aube Follett,,United States,Lib,M,0.2,4.365,13.095,1.70235,13%
+TDJ-20844-787,2020-11-05,77876-28498-HI,A-L-0.5,5,Xenos Gibbons,xgibbonsb@artisteer.com,United States,Ara,L,0.5,7.77,38.85,3.4965,9%
+QWY-99467-368,2020-11-06,96434-50068-DZ,A-D-2.5,1,Nadeen Broomer,nbroomern6@examiner.com,United States,Ara,D,2.5,22.885,22.885,2.05965,9%
+RGU-43561-950,2020-11-07,44220-00348-MB,A-L-2.5,5,Broderick McGilvra,bmcgilvrabm@so-net.ne.jp,United States,Ara,L,2.5,29.785,148.925,13.40325,9%
+NOA-79645-377,2020-11-09,53729-30320-XZ,R-D-0.5,5,Ericka Tripp,etrippmt@wp.com,United States,Rob,D,0.5,5.37,26.85,1.611,6%
+RIK-61730-794,2020-11-12,69761-61146-KD,L-M-0.2,6,Ancell Fendt,afendtgx@forbes.com,United States,Lib,M,0.2,4.365,26.19,3.4047,13%
+PJB-15659-994,2020-11-13,39457-62611-YK,L-D-2.5,4,Jorge Bettison,,Ireland,Lib,D,2.5,29.785,119.14,15.4882,13%
+VPX-08817-517,2020-11-15,46963-10322-ZA,L-L-1,5,Granger Fantham,gfanthamjz@hexun.com,United States,Lib,L,1,15.85,79.25,10.3025,13%
+LWS-13938-905,2020-11-18,90533-82440-EE,A-M-2.5,6,Michale Delves,mdelvespz@nature.com,United States,Ara,M,2.5,25.875,155.25,13.9725,9%
+FVV-75700-005,2020-11-20,24891-77957-LU,E-D-0.5,3,Rochette Huscroft,rhuscroftk8@jimdo.com,United States,Exc,D,0.5,7.29,21.87,2.4057,11%
+DFZ-45083-941,2020-11-21,34665-62561-AU,R-L-2.5,1,Tani Taffarello,ttaffarello78@sciencedaily.com,United States,Rob,L,2.5,27.485,27.485,1.6491,6%
+OGW-60685-912,2020-11-21,67423-10113-LM,E-D-2.5,4,Hildegarde Brangan,hbranganex@woothemes.com,United States,Exc,D,2.5,27.945,111.78,12.2958,11%
+JMS-48374-462,2020-11-23,49667-96708-JL,A-D-2.5,2,Florinda Matusovsky,,United States,Ara,D,2.5,22.885,45.77,4.1193,9%
+TNW-41601-420,2020-11-24,66458-91190-YC,R-M-1,5,Marja Urion,murione5@alexa.com,Ireland,Rob,M,1,9.95,49.75,2.985,6%
+OBN-66334-505,2020-11-30,86757-52367-ON,E-L-0.2,2,Jarred Camillo,jcamillopt@shinystat.com,United States,Exc,L,0.2,4.455,8.91,0.9801,11%
+YPP-27450-525,2020-12-02,01932-87052-KO,E-M-0.5,3,Leonie Cullrford,lcullrfordb9@xing.com,United States,Exc,M,0.5,8.25,24.75,2.7225,11%
+LQU-08404-173,2020-12-03,09960-34242-LZ,L-L-1,3,Salomo Cushworth,,United States,Lib,L,1,15.85,47.55,6.1815,13%
+IDU-25793-399,2020-12-04,76664-37050-DT,A-M-0.2,5,Aurea Corradino,acorradinoj@harvard.edu,United States,Ara,M,0.2,3.375,16.875,1.51875,9%
+IDU-25793-399,2020-12-04,76664-37050-DT,E-D-0.2,4,Aurea Corradino,acorradinoj@harvard.edu,United States,Exc,D,0.2,3.645,14.58,1.6038,11%
+NUO-20013-488,2020-12-04,03090-88267-BQ,A-D-0.2,6,Avrit Davidowsky,adavidowskyl@netvibes.com,United States,Ara,D,0.2,2.985,17.91,1.6119,9%
+OWY-43108-475,2020-12-05,06432-73165-ML,A-M-0.2,6,Gaile Goggin,ggoggin8x@wix.com,Ireland,Ara,M,0.2,3.375,20.25,1.8225,9%
+EUH-08089-954,2020-12-06,29050-93691-TS,A-D-0.2,2,Vicki Kirdsch,vkirdsch2o@google.fr,United States,Ara,D,0.2,2.985,5.97,0.5373,9%
+ZVG-20473-043,2020-12-06,71769-10219-IM,A-D-0.2,3,Dagny Kornel,dkornelcy@cyberchimps.com,United States,Ara,D,0.2,2.985,8.955,0.80595,9%
+BIU-21970-705,2020-12-07,89711-56688-GG,R-M-2.5,2,Friederike Drysdale,fdrysdale6m@symantec.com,United States,Rob,M,2.5,22.885,45.77,2.7462,6%
+YAC-50329-982,2020-12-08,75419-92838-TI,E-M-2.5,1,Conchita Bryde,cbrydeml@tuttocitta.it,United States,Exc,M,2.5,31.625,31.625,3.47875,11%
+COL-72079-610,2020-12-09,38487-01549-MV,E-L-0.5,4,Godfry Poinsett,gpoinsett61@berkeley.edu,United States,Exc,L,0.5,8.91,35.64,3.9204,11%
+XCG-07109-195,2020-12-11,92976-19453-DT,L-D-0.2,6,Nick Brakespear,nbrakespearfa@rediff.com,United States,Lib,D,0.2,3.885,23.31,3.0303,13%
+QKA-72582-644,2020-12-16,64852-04619-XZ,E-M-0.5,2,Violante Skouling,,Ireland,Exc,M,0.5,8.25,16.5,1.815,11%
+WFT-16178-396,2020-12-16,33555-01585-RP,R-D-0.2,5,Quintina Heavyside,qheavysidepj@unc.edu,United States,Rob,D,0.2,2.685,13.425,0.8055,6%
+BYU-58154-603,2020-12-17,51971-70393-QM,E-D-0.5,4,Claiborne Feye,cfeye4k@google.co.jp,Ireland,Exc,D,0.5,7.29,29.16,3.2076,11%
+GNO-91911-159,2020-12-17,96503-31833-CW,L-D-0.5,3,Skylar Jeyness,sjeyness8y@biglobe.ne.jp,Ireland,Lib,D,0.5,7.77,23.31,3.0303,13%
+XUS-73326-418,2020-12-18,37078-56703-AF,E-L-1,6,Gussy Broadbear,gbroadbear7p@omniture.com,United States,Exc,L,1,14.85,89.1,9.801,11%
+CYH-53243-218,2020-12-18,88167-57964-PH,R-M-0.5,3,Adelice Isabell,,United States,Rob,M,0.5,5.97,17.91,1.0746,6%
+BXN-64230-789,2020-12-19,25598-77476-CB,A-L-1,2,Diane-marie Wincer,dwincere2@marriott.com,United States,Ara,L,1,12.95,25.9,2.331,9%
+IXU-67272-326,2020-12-24,91654-79216-IC,E-L-0.5,5,Arlana Ferrea,aferreal4@wikia.com,United States,Exc,L,0.5,8.91,44.55,4.9005,11%
+OIB-77163-890,2020-12-25,38972-89678-ZM,E-L-0.5,5,Carney Clemencet,cclemencetg5@weather.com,United Kingdom,Exc,L,0.5,8.91,44.55,4.9005,11%
+JBE-92943-643,2020-12-29,84466-22864-CE,E-D-2.5,5,Karl Imorts,kimortsee@alexa.com,United States,Exc,D,2.5,27.945,139.725,15.36975,11%
+VDZ-76673-968,2020-12-31,82246-82543-DW,E-D-0.5,2,Bobinette Hindsberg,bhindsberg3n@blogs.com,United States,Exc,D,0.5,7.29,14.58,1.6038,11%
+GAZ-58626-277,2021-01-04,69533-84907-FA,L-L-0.2,2,Shirlene Edmondson,sedmondson1z@theguardian.com,Ireland,Lib,L,0.2,4.755,9.51,1.2363,13%
+VUT-20974-364,2021-01-04,90285-56295-PO,R-M-0.5,6,Lenci Haggerstone,lhaggerstonemn@independent.co.uk,United States,Rob,M,0.5,5.97,35.82,2.1492,6%
+VRT-39834-265,2021-01-07,86686-37462-CK,L-L-1,3,Hamish Skeech,,Ireland,Lib,L,1,15.85,47.55,6.1815,13%
+YVK-82679-655,2021-01-07,95342-88311-SF,R-M-0.5,4,Yuri Burrells,yburrellsqr@vinaora.com,United States,Rob,M,0.5,5.97,23.88,1.4328,6%
+ZYU-11345-774,2021-01-10,18293-78136-MN,L-M-0.5,5,Charin Penwarden,cpenwardenit@mlb.com,Ireland,Lib,M,0.5,8.73,43.65,5.6745,13%
+ENQ-42923-176,2021-01-11,56248-75861-JX,A-L-0.5,3,Leontine Rubrow,lrubrow4h@microsoft.com,United States,Ara,L,0.5,7.77,23.31,2.0979,9%
+RMA-08327-369,2021-01-11,93809-05424-MG,A-M-0.5,6,Orbadiah Duny,oduny5r@constantcontact.com,United States,Ara,M,0.5,6.75,40.5,3.645,9%
+SVU-27222-213,2021-01-11,60748-46813-DZ,L-L-0.2,5,Sim Pamphilon,spamphilonci@mlb.com,Ireland,Lib,L,0.2,4.755,23.775,3.09075,13%
+EHJ-82097-549,2021-01-13,27517-43747-YD,R-D-0.2,2,Melodie OIlier,moilierkt@paginegialle.it,Ireland,Rob,D,0.2,2.685,5.37,0.3222,6%
+PJC-31401-893,2021-01-13,11212-69985-ZJ,A-D-0.5,3,Rafaela Treacher,rtreachero2@usa.gov,Ireland,Ara,D,0.5,5.97,17.91,1.6119,9%
+NNH-62058-950,2021-01-14,96112-42558-EA,E-L-1,4,Karlan Karby,kkarby7t@sbwire.com,United States,Exc,L,1,14.85,59.4,6.534,11%
+ZTX-80764-911,2021-01-14,92793-68332-NR,L-D-0.5,6,Heall Perris,hperrise4@studiopress.com,Ireland,Lib,D,0.5,7.77,46.62,6.0606,13%
+OOU-61343-455,2021-01-15,90123-70970-NY,A-M-1,2,Nertie Poolman,npoolman5q@howstuffworks.com,United States,Ara,M,1,11.25,22.5,2.025,9%
+WSV-49732-075,2021-01-17,76263-95145-GJ,L-D-2.5,1,Willabella Abramski,,United States,Lib,D,2.5,29.785,29.785,3.87205,13%
+WVV-79948-067,2021-01-18,66070-30559-WI,E-M-2.5,1,Ramon Cheak,rcheakrc@tripadvisor.com,Ireland,Exc,M,2.5,31.625,31.625,3.47875,11%
+PBP-87115-410,2021-01-19,93812-74772-MV,E-D-0.5,5,Reynolds Crookshanks,rcrookshanksk@unc.edu,United States,Exc,D,0.5,7.29,36.45,4.0095,11%
+RYY-38961-093,2021-01-21,14756-18321-CL,A-M-0.2,6,Linn Alaway,lalawayhh@weather.com,United States,Ara,M,0.2,3.375,20.25,1.8225,9%
+EZL-27919-704,2021-01-21,49480-85909-DG,L-L-0.5,5,Gabey Cogan,,United States,Lib,L,0.5,9.51,47.55,6.1815,13%
+UQU-65630-479,2021-01-22,37651-47492-NC,R-M-2.5,4,Annabel Antuk,aantukm@kickstarter.com,United States,Rob,M,2.5,22.885,91.54,5.4924,6%
+EBA-82404-343,2021-01-26,20236-42322-CM,L-D-0.2,4,Leta Clarricoates,,United States,Lib,D,0.2,3.885,15.54,2.0202,13%
+SXW-34014-556,2021-01-27,99144-98314-GN,R-L-0.2,1,Drake Jevon,djevonp1@ibm.com,United States,Rob,L,0.2,3.585,3.585,0.2151,6%
+ACY-56225-839,2021-01-28,47386-50743-FG,A-M-2.5,3,Kynthia Berick,,United States,Ara,M,2.5,25.875,77.625,6.98625,9%
+PVU-02950-470,2021-01-28,01927-46702-YT,E-D-1,1,Nelie Garnson,,United Kingdom,Exc,D,1,12.15,12.15,1.3365,11%
+CUN-90044-279,2021-01-29,86646-65810-TD,L-D-0.2,4,Kenton Wetherick,,United States,Lib,D,0.2,3.885,15.54,2.0202,13%
+CRK-07584-240,2021-01-31,18741-72071-PP,A-M-1,3,Ermin Beeble,ebeeble8j@soundcloud.com,United States,Ara,M,1,11.25,33.75,3.0375,9%
+SEC-91807-425,2021-01-31,94091-86957-HX,A-M-1,2,Jimmy Dymoke,jdymokeje@prnewswire.com,Ireland,Ara,M,1,11.25,22.5,2.025,9%
+JGZ-16947-591,2021-02-02,14264-41252-SL,L-L-0.2,6,Willy Pummery,wpummeryq3@topsy.com,United States,Lib,L,0.2,4.755,28.53,3.7089,13%
+ADX-50674-975,2021-02-03,58916-61837-QH,A-M-2.5,4,Freda Hollows,fhollowsc8@blogtalkradio.com,United States,Ara,M,2.5,25.875,103.5,9.315,9%
+ZFS-30776-804,2021-02-05,58638-01029-CB,A-L-0.5,5,Blancha McAmish,bmcamish2e@tripadvisor.com,United States,Ara,L,0.5,7.77,38.85,3.4965,9%
+OYU-25085-528,2021-02-05,10142-55267-YO,E-L-0.2,4,Wilek Lightollers,wlightollersf9@baidu.com,United States,Exc,L,0.2,4.455,17.82,1.9602,11%
+QUQ-90580-772,2021-02-06,77634-13918-GJ,L-M-0.2,2,Zorina Ponting,zponting1@altervista.org,United States,Lib,M,0.2,4.365,8.73,1.1349,13%
+EHJ-05910-257,2021-02-07,06812-11924-IK,R-D-1,6,Mina Elstone,,United States,Rob,D,1,8.95,53.7,3.222,6%
+JEG-93140-224,2021-02-07,53751-57560-CN,E-M-0.5,5,Christopher Grieveson,,United States,Exc,M,0.5,8.25,41.25,4.5375,11%
+HBH-64794-080,2021-02-08,40560-18556-YE,R-D-0.2,3,Chaddie Bennie,,United States,Rob,D,0.2,2.685,8.055,0.4833,6%
+PPP-78935-365,2021-02-11,91074-60023-IP,E-D-1,4,Abraham Coleman,,United States,Exc,D,1,12.15,48.6,5.346,11%
+COV-52659-202,2021-02-12,99899-54612-NX,L-M-2.5,2,Reggie Thickpenny,rthickpennyfz@cafepress.com,United States,Lib,M,2.5,33.465,66.93,8.7009,13%
+UMB-11223-710,2021-02-13,49012-12987-QT,R-D-0.2,6,Man Fright,mfrightm8@harvard.edu,Ireland,Rob,D,0.2,2.685,16.11,0.9666,6%
+YOG-94666-679,2021-02-14,86991-53901-AT,L-D-0.2,2,Kathleen Diable,,United Kingdom,Lib,D,0.2,3.885,7.77,1.0101,13%
+XBV-40336-071,2021-02-17,38536-98293-JZ,A-D-0.2,3,Catharine Scoines,,Ireland,Ara,D,0.2,2.985,8.955,0.80595,9%
+TPA-93614-840,2021-02-18,28932-49296-TM,E-D-0.5,2,Sloan Diviny,sdivinyau@ask.com,United States,Exc,D,0.5,7.29,14.58,1.6038,11%
+DWY-56352-412,2021-02-19,55427-08059-DF,R-D-0.2,1,Zeke Walisiak,zwalisiakqv@ucsd.edu,Ireland,Rob,D,0.2,2.685,2.685,0.1611,6%
+VID-40587-569,2021-02-20,09818-59895-EH,E-D-2.5,5,Stanly Keets,skeetsde@answers.com,United States,Exc,D,2.5,27.945,139.725,15.36975,11%
+SGA-30059-217,2021-02-20,84405-83364-DG,A-D-0.5,5,Lorianne Kyneton,lkynetonrf@macromedia.com,United Kingdom,Ara,D,0.5,5.97,29.85,2.6865,9%
+WUG-76466-650,2021-02-22,43439-94003-DW,L-D-0.5,3,Flynn Antony,,United States,Lib,D,0.5,7.77,23.31,3.0303,13%
+FZQ-29439-457,2021-02-23,50449-80974-BZ,E-L-0.2,5,Theo Bowne,tbownecb@unicef.org,Ireland,Exc,L,0.2,4.455,22.275,2.45025,11%
+WYM-17686-694,2021-02-25,58689-55264-VK,A-D-2.5,5,Correy Cottingham,ccottingham1o@wikipedia.org,United States,Ara,D,2.5,22.885,114.425,10.29825,9%
+MVO-39328-830,2021-02-26,84057-45461-AH,L-M-0.5,5,Orazio Comber,ocomberob@goo.gl,Ireland,Lib,M,0.5,8.73,43.65,5.6745,13%
+MVO-39328-830,2021-02-26,84057-45461-AH,A-L-0.5,6,Orazio Comber,ocomberob@goo.gl,Ireland,Ara,L,0.5,7.77,46.62,4.1958,9%
+DNZ-11665-950,2021-02-28,10637-45522-ID,L-L-2.5,2,Erny Stenyng,,United States,Lib,L,2.5,36.455,72.91,9.4783,13%
+DWW-28642-549,2021-03-01,91181-19412-RQ,E-D-0.2,2,Emmaline Rasmus,erasmus9f@techcrunch.com,United States,Exc,D,0.2,3.645,7.29,0.8019,11%
+NOK-50349-551,2021-03-03,09595-95726-OV,R-D-0.5,3,Eddi Sedgebeer,esedgebeer89@oaic.gov.au,United States,Rob,D,0.5,5.37,16.11,0.9666,6%
+TCR-01064-030,2021-03-03,13181-04387-LI,E-M-1,6,Sigfrid Busch,sbuschff@so-net.ne.jp,Ireland,Exc,M,1,13.75,82.5,9.075,11%
+BLD-12227-251,2021-03-04,64395-74865-WF,A-M-0.5,2,Ilysa Whapple,iwhapple2p@com.com,United States,Ara,M,0.5,6.75,13.5,1.215,9%
+AVK-76526-953,2021-03-04,47268-50127-XY,A-D-1,2,Lynnea Danton,ldantonnp@miitbeian.gov.cn,United States,Ara,D,1,9.95,19.9,1.791,9%
+UOJ-28238-299,2021-03-07,30844-91890-ZA,R-L-0.2,6,Rickey Readie,rreadieg8@guardian.co.uk,United States,Rob,L,0.2,3.585,21.51,1.2906,6%
+BKK-47233-845,2021-03-08,76239-90137-UQ,A-D-1,4,Ferrell Ferber,fferbera@businesswire.com,United States,Ara,D,1,9.95,39.8,3.582,9%
+WMA-34232-850,2021-03-08,53386-94266-LJ,L-D-2.5,4,Terri Lyford,,United States,Lib,D,2.5,29.785,119.14,15.4882,13%
+VCE-56531-986,2021-03-09,57192-13428-PL,R-M-0.5,5,Rikki Tomkowicz,rtomkowiczk7@bravesites.com,Ireland,Rob,M,0.5,5.97,29.85,1.791,6%
+MSB-08397-648,2021-03-10,49530-25460-RW,R-L-0.2,4,Carmina Hubbuck,,United States,Rob,L,0.2,3.585,14.34,0.8604,6%
+WXG-25759-236,2021-03-10,39919-06540-ZI,E-L-2.5,2,Winn Keyse,wkeyse4@apple.com,United States,Exc,L,2.5,34.155,68.31,7.5141,11%
+DSL-69915-544,2021-03-10,10142-55267-YO,R-L-0.2,3,Wilek Lightollers,wlightollersf9@baidu.com,United States,Rob,L,0.2,3.585,10.755,0.6453,6%
+NQS-01613-687,2021-03-12,10204-31464-SA,L-D-0.5,1,Bar O' Mahony,bogb@elpais.com,United States,Lib,D,0.5,7.77,7.77,1.0101,13%
+UEA-72681-629,2021-03-12,24972-55878-KX,A-L-2.5,3,Foster Constance,fconstancekz@ifeng.com,United States,Ara,L,2.5,29.785,89.355,8.04195,9%
+GOW-03198-575,2021-03-13,61513-27752-FA,A-D-0.5,4,Mahala Ludwell,mludwell3e@blogger.com,United States,Ara,D,0.5,5.97,23.88,2.1492,9%
+EIL-44855-309,2021-03-15,59741-90220-OW,R-D-0.5,5,Sherman Mewrcik,,United States,Rob,D,0.5,5.37,26.85,1.611,6%
+SRG-76791-614,2021-03-15,11729-74102-XB,E-L-0.5,1,Konstantine Thoumasson,kthoumassonn7@bloglovin.com,United States,Exc,L,0.5,8.91,8.91,0.9801,11%
+KRB-88066-642,2021-03-16,22107-86640-SB,L-M-1,5,Archambault Gillard,agillard1i@issuu.com,United States,Lib,M,1,14.55,72.75,9.4575,13%
+NGG-24006-937,2021-03-16,29102-40100-TZ,E-M-2.5,4,Linus Flippelli,lflippellih4@github.io,United Kingdom,Exc,M,2.5,31.625,126.5,13.915,11%
+FEK-14025-351,2021-03-19,03990-21586-MQ,E-L-0.2,6,Gardy Dimitriou,gdimitrioud8@chronoengine.com,United States,Exc,L,0.2,4.455,26.73,2.9403,11%
+IKQ-39946-768,2021-03-19,72778-50968-UQ,R-M-1,6,Isac Jesper,ijespern4@theglobeandmail.com,United States,Rob,M,1,9.95,59.7,3.582,6%
+WAV-38301-984,2021-03-20,62863-81239-DT,A-D-0.5,5,Cassie Pinkerton,cpinkerton85@upenn.edu,United States,Ara,D,0.5,5.97,29.85,2.6865,9%
+KPO-24942-184,2021-03-21,70567-65133-CN,L-L-2.5,3,Desdemona Eye,,Ireland,Lib,L,2.5,36.455,109.365,14.21745,13%
+ZFR-79447-696,2021-03-22,77828-66867-KH,R-M-0.5,1,Hazel Iacopini,,United States,Rob,M,0.5,5.97,5.97,0.3582,6%
+JVW-22582-137,2021-03-23,89208-74646-UK,E-M-0.2,5,Beryle Kenwell,bkenwell6h@over-blog.com,United States,Exc,M,0.2,4.125,20.625,2.26875,11%
+LYP-52345-883,2021-03-24,17649-28133-PY,E-M-0.5,1,Mathew Goulter,,Ireland,Exc,M,0.5,8.25,8.25,0.9075,11%
+CPW-34587-459,2021-03-26,84641-67384-TD,A-L-2.5,6,Milty Middis,mmiddisiu@dmoz.org,United States,Ara,L,2.5,29.785,178.71,16.0839,9%
+CCZ-19589-212,2021-03-27,05754-41702-FG,L-M-0.2,2,Kristos Streight,kstreight6d@about.com,United States,Lib,M,0.2,4.365,8.73,1.1349,13%
+RZN-65182-395,2021-03-27,59572-41990-XY,L-M-1,6,Kaja Loxton,kloxtona3@opensource.org,United States,Lib,M,1,14.55,87.3,11.349,13%
+PRP-53390-819,2021-03-28,84260-39432-ML,E-L-0.5,6,Minette Whellans,mwhellans5v@mapquest.com,United States,Exc,L,0.5,8.91,53.46,5.8806,11%
+AXR-10962-010,2021-03-28,53683-35977-KI,E-D-1,2,Myles Seawright,mseawright7e@nbcnews.com,United Kingdom,Exc,D,1,12.15,24.3,2.673,11%
+MPQ-23421-608,2021-03-28,08023-52962-ET,E-M-0.5,5,Kandy Heddan,kheddanmy@icq.com,United States,Exc,M,0.5,8.25,41.25,4.5375,11%
+IHN-19982-362,2021-03-29,68894-91205-MP,R-L-1,3,Elna Grise,egrise2g@cargocollective.com,United States,Rob,L,1,11.95,35.85,2.151,6%
+UCT-03935-589,2021-03-29,85851-78384-DM,R-D-0.5,6,Anny Mundford,amundford52@nbcnews.com,United States,Rob,D,0.5,5.37,32.22,1.9332,6%
+OCK-89033-348,2021-03-31,82300-88786-UE,A-L-0.2,6,Bobbe Castagneto,,United States,Ara,L,0.2,3.885,23.31,2.0979,9%
+ZDK-82166-357,2021-04-03,81431-12577-VD,A-M-1,3,Beitris Keaveney,bkeaveney2f@netlog.com,United States,Ara,M,1,11.25,33.75,3.0375,9%
+CLJ-23403-689,2021-04-03,19413-02045-CG,R-L-1,2,Jammie Cloke,,United Kingdom,Rob,L,1,11.95,23.9,1.434,6%
+YUO-76652-814,2021-04-04,26248-84194-FI,A-D-0.2,6,Phyllys Ormerod,pormerodg@redcross.org,United States,Ara,D,0.2,2.985,17.91,1.6119,9%
+FJQ-60035-234,2021-04-05,08847-29858-HN,A-L-0.2,2,Rudiger Di Bartolomeo,,United States,Ara,L,0.2,3.885,7.77,0.6993,9%
+SZR-35951-530,2021-04-05,14121-20527-OJ,E-D-2.5,3,Witty Ranson,wransonbz@ted.com,Ireland,Exc,D,2.5,27.945,83.835,9.22185,11%
+DCE-22886-861,2021-04-05,56060-17602-RG,E-D-0.2,1,Harland Trematick,,Ireland,Exc,D,0.2,3.645,3.645,0.40095,11%
+SZY-63017-318,2021-04-06,91809-58808-TV,A-L-0.2,2,Blake Kelloway,bkellowayoo@omniture.com,United States,Ara,L,0.2,3.885,7.77,0.6993,9%
+FTV-77095-168,2021-04-08,66708-26678-QK,L-L-0.5,6,Adriana Lazarus,,United States,Lib,L,0.5,9.51,57.06,7.4178,13%
+WJJ-37489-898,2021-04-08,31599-82152-AD,A-M-1,1,Rickie Faltin,rfaltinqb@topsy.com,Ireland,Ara,M,1,11.25,11.25,1.0125,9%
+DWB-61381-370,2021-04-09,11812-00461-KH,L-L-0.2,2,Benedetto Gozzett,bgozzettb7@github.com,United States,Lib,L,0.2,4.755,9.51,1.2363,13%
+ZWK-03995-815,2021-04-10,28279-78469-YW,E-M-2.5,2,Ethelda Hobbing,ehobbing4v@nsw.gov.au,United States,Exc,M,2.5,31.625,63.25,6.9575,11%
+PTY-86420-119,2021-04-12,25504-41681-WA,A-D-0.5,4,Orland Tadman,otadmanjf@ft.com,United States,Ara,D,0.5,5.97,23.88,2.1492,9%
+EYH-88288-452,2021-04-14,03010-30348-UA,L-L-2.5,5,Davida Caro,dcarojb@twitter.com,United States,Lib,L,2.5,36.455,182.275,23.69575,13%
+KMB-95211-174,2021-04-16,23941-30203-MO,R-D-2.5,4,Lenette Dwerryhouse,ldwerryhousen5@gravatar.com,United States,Rob,D,2.5,20.585,82.34,4.9404,6%
+LUO-37559-016,2021-04-19,21240-83132-SP,L-M-1,3,Jessica McNess,,United States,Lib,M,1,14.55,43.65,5.6745,13%
+TBU-64277-625,2021-04-19,98918-34330-GY,E-M-1,6,Beryl Osborn,,United States,Exc,M,1,13.75,82.5,9.075,11%
+USA-42811-560,2021-04-26,49671-11547-WG,E-L-0.2,2,Jacquelyn Maha,jmahakc@cyberchimps.com,United States,Exc,L,0.2,4.455,8.91,0.9801,11%
+RJI-71409-490,2021-04-26,31613-41626-KX,L-M-0.5,5,Chris Croster,ccrosterlr@gov.uk,United States,Lib,M,0.5,8.73,43.65,5.6745,13%
+TME-59627-221,2021-04-30,72282-40594-RX,L-L-2.5,6,Alexa Sizey,,United States,Lib,L,2.5,36.455,218.73,28.4349,13%
+LBC-45686-819,2021-05-01,98573-41811-EQ,A-M-1,5,Rem Furman,rfurman62@t.co,Ireland,Ara,M,1,11.25,56.25,5.0625,9%
+RNH-54912-747,2021-05-01,37445-17791-NQ,R-M-0.5,1,Natka Leethem,nleethem8o@mac.com,United States,Rob,M,0.5,5.97,5.97,0.3582,6%
+XRR-28376-277,2021-05-02,64481-42546-II,R-L-2.5,6,Elvina Angel,,Ireland,Rob,L,2.5,27.485,164.91,9.8946,6%
+LGL-16843-667,2021-05-05,82458-87830-JE,A-D-0.2,4,Alisha Hulburt,ahulburtgn@fda.gov,United States,Ara,D,0.2,2.985,11.94,1.0746,9%
+LCY-24377-948,2021-05-07,21617-79890-DD,R-L-2.5,1,Izaak Primak,,United States,Rob,L,2.5,27.485,27.485,1.6491,6%
+IHS-71573-008,2021-05-08,07972-83134-NM,E-D-0.2,6,Silvana Northeast,snortheast7f@mashable.com,United States,Exc,D,0.2,3.645,21.87,2.4057,11%
+XMC-20620-809,2021-05-14,83543-79246-ON,E-M-0.5,2,Nannie Naseby,nnasebyes@umich.edu,United States,Exc,M,0.5,8.25,16.5,1.815,11%
+TXH-78646-919,2021-05-14,98430-37820-UV,R-D-0.2,3,Deonne Shortall,dshortallj2@wikipedia.org,United States,Rob,D,0.2,2.685,8.055,0.4833,6%
+IGW-04801-466,2021-05-15,29051-27555-GD,L-D-0.2,1,Jeno Capey,jcapeyhr@bravesites.com,United States,Lib,D,0.2,3.885,3.885,0.50505,13%
+UDH-24280-432,2021-05-16,44865-58249-RY,L-L-1,4,Neely Broadberrie,nbroadberrieb4@gnu.org,United States,Lib,L,1,15.85,63.4,8.242,13%
+LXS-63326-144,2021-05-16,35367-50483-AR,R-L-0.5,2,Geoffrey Siuda,gsiudaq4@nytimes.com,United States,Rob,L,0.5,7.17,14.34,0.8604,6%
+WBK-62297-910,2021-05-17,25514-23938-IQ,A-D-0.2,2,Monica Fearon,mfearon7h@reverbnation.com,United States,Ara,D,0.2,2.985,5.97,0.5373,9%
+MDG-14481-513,2021-05-19,64897-79178-MH,A-M-2.5,4,Zack Pellett,zpellettf2@dailymotion.com,United States,Ara,M,2.5,25.875,103.5,9.315,9%
+NID-20149-329,2021-05-20,49888-39458-PF,R-D-0.2,2,Antone Harrold,aharroldch@miibeian.gov.cn,United States,Rob,D,0.2,2.685,5.37,0.3222,6%
+PSS-22466-862,2021-05-21,11550-78378-GE,R-L-0.2,4,Elsbeth Westerman,ewesterman69@si.edu,Ireland,Rob,L,0.2,3.585,14.34,0.8604,6%
+NOP-21394-646,2021-05-23,16982-35708-BZ,E-L-0.5,6,Nealson Cuttler,ncuttler5g@parallels.com,United States,Exc,L,0.5,8.91,53.46,5.8806,11%
+NOP-21394-646,2021-05-23,16982-35708-BZ,L-D-2.5,2,Nealson Cuttler,ncuttler5g@parallels.com,United States,Lib,D,2.5,29.785,59.57,7.7441,13%
+NOP-21394-646,2021-05-23,16982-35708-BZ,L-L-0.5,4,Nealson Cuttler,ncuttler5g@parallels.com,United States,Lib,L,0.5,9.51,38.04,4.9452,13%
+NOP-21394-646,2021-05-23,16982-35708-BZ,E-M-1,3,Nealson Cuttler,ncuttler5g@parallels.com,United States,Exc,M,1,13.75,41.25,4.5375,11%
+GHR-72274-715,2021-05-24,86881-41559-OR,L-D-1,1,Othello Syseland,osyseland3p@independent.co.uk,United States,Lib,D,1,12.95,12.95,1.6835,13%
+IOB-32673-745,2021-05-28,07095-81281-NJ,A-L-0.5,3,Rebeka Worg,rworg9m@arstechnica.com,United States,Ara,L,0.5,7.77,23.31,2.0979,9%
+QVL-32245-818,2021-05-30,46478-42970-EM,A-M-0.5,5,Dionne Skyner,dskynerj5@hubpages.com,United States,Ara,M,0.5,6.75,33.75,3.0375,9%
+IIZ-24416-212,2021-05-31,76060-30540-LB,R-D-0.5,6,Baxy Cargen,bcargenow@geocities.jp,United States,Rob,D,0.5,5.37,32.22,1.9332,6%
+AMM-79521-378,2021-06-01,24825-51803-CQ,A-D-0.5,6,Faber Eilhart,feilhartz@who.int,United States,Ara,D,0.5,5.97,35.82,3.2238,9%
+SPA-79365-334,2021-06-01,79857-78167-KO,L-D-1,3,Darice Heaford,dheafordjy@twitpic.com,United States,Lib,D,1,12.95,38.85,5.0505,13%
+GYA-80327-368,2021-06-04,06899-54551-EH,A-D-1,4,Chantal Mersh,cmershdt@drupal.org,Ireland,Ara,D,1,9.95,39.8,3.582,9%
+EGK-03027-418,2021-06-06,19820-29285-FD,E-M-0.2,3,Barrie Fallowes,bfallowesjm@purevolume.com,United States,Exc,M,0.2,4.125,12.375,1.36125,11%
+DKB-78053-329,2021-06-08,12444-05174-OO,R-M-0.2,2,Irv Hay,ihay77@lulu.com,United Kingdom,Rob,M,0.2,2.985,5.97,0.3582,6%
+JXP-28398-485,2021-06-11,23039-93032-FN,A-D-2.5,5,Marianna Vedmore,mvedmore9v@a8.net,United States,Ara,D,2.5,22.885,114.425,10.29825,9%
+ITZ-21793-986,2021-06-11,67388-17544-XX,E-D-0.2,4,Alon Pllu,aplluju@dagondesign.com,Ireland,Exc,D,0.2,3.645,14.58,1.6038,11%
+BQI-61647-496,2021-06-13,84340-73931-VV,E-M-1,5,Connor Heaviside,cheaviside6z@rediff.com,United States,Exc,M,1,13.75,68.75,7.5625,11%
+LEF-83057-763,2021-06-15,15395-90855-VB,L-M-0.2,5,Alikee Carryer,,United States,Lib,M,0.2,4.365,21.825,2.83725,13%
+AOX-44467-109,2021-06-15,72524-06410-KD,A-D-2.5,1,Haslett Jodrelle,hjodrellelt@samsung.com,United States,Ara,D,2.5,22.885,22.885,2.05965,9%
+FAA-43335-268,2021-06-17,21125-22134-PX,A-L-1,1,Jami Redholes,jredholes2@tmall.com,United States,Ara,L,1,12.95,12.95,1.1655,9%
+WJR-51493-682,2021-06-17,87858-83734-RK,L-D-2.5,5,Shermy Moseby,smosebyie@stanford.edu,United States,Lib,D,2.5,29.785,148.925,19.36025,13%
+YET-17732-678,2021-06-20,57235-92842-DK,R-D-0.2,1,Hetti Penson,,United States,Rob,D,0.2,2.685,2.685,0.1611,6%
+JLJ-81802-619,2021-06-20,16880-78077-FB,A-L-1,6,Terri Farra,tfarraac@behance.net,United States,Ara,L,1,12.95,77.7,6.993,9%
+CNY-06284-066,2021-06-26,63985-64148-MG,E-D-0.2,5,Donica Bonhome,dbonhome8z@shinystat.com,United States,Exc,D,0.2,3.645,18.225,2.00475,11%
+MEK-39769-035,2021-06-27,15380-76513-PS,R-D-2.5,3,Paulo Yea,pyea4d@aol.com,Ireland,Rob,D,2.5,20.585,61.755,3.7053,6%
+EHE-94714-312,2021-06-28,27132-68907-RC,E-L-0.2,5,Ailey Brash,abrashda@plala.or.jp,United States,Exc,L,0.2,4.455,22.275,2.45025,11%
+HTH-52867-812,2021-06-28,29851-36402-UX,A-M-2.5,4,Almeria Burgett,aburgetti5@moonfruit.com,United States,Ara,M,2.5,25.875,103.5,9.315,9%
+EYE-70374-835,2021-06-29,89115-11966-VF,R-L-0.2,5,Beltran Mathon,bmathon6c@barnesandnoble.com,United States,Rob,L,0.2,3.585,17.925,1.0755,6%
+JEH-37276-048,2021-06-30,80896-38819-DW,A-L-0.5,3,Jany Rudeforth,jrudeforthai@wunderground.com,Ireland,Ara,L,0.5,7.77,23.31,2.0979,9%
+OFN-49424-848,2021-07-03,73346-85564-JB,R-L-2.5,2,Ilaire Sprakes,isprakesf3@spiegel.de,United States,Rob,L,2.5,27.485,54.97,3.2982,6%
+SGS-87525-238,2021-07-05,91465-84526-IJ,E-D-1,5,Russell Donet,rdonetg6@oakley.com,United States,Exc,D,1,12.15,60.75,6.6825,11%
+PKJ-99134-523,2021-07-07,77284-34297-YY,R-L-0.5,5,Koralle Heads,kheadsca@jalbum.net,United States,Rob,L,0.5,7.17,35.85,2.151,6%
+NBT-35757-542,2021-07-07,73647-66148-VM,E-L-0.2,3,Bette-ann Munden,bmundenf8@elpais.com,United States,Exc,L,0.2,4.455,13.365,1.47015,11%
+XIR-88982-743,2021-07-10,00852-54571-WP,E-M-0.2,2,De Drewitt,ddrewittnf@mapquest.com,United States,Exc,M,0.2,4.125,8.25,0.9075,11%
+KAC-83089-793,2021-07-15,23806-46781-OU,E-M-1,2,Christoffer O' Shea,,Ireland,Exc,M,1,13.75,27.5,3.025,11%
+KAC-83089-793,2021-07-15,23806-46781-OU,R-L-2.5,2,Christoffer O' Shea,,Ireland,Rob,L,2.5,27.485,54.97,3.2982,6%
+DGL-29648-995,2021-07-16,59367-30821-ZQ,L-M-0.2,2,Silvio Iorizzi,,United States,Lib,M,0.2,4.365,8.73,1.1349,13%
+SCT-60553-454,2021-07-17,39123-12846-YJ,L-L-0.2,5,Gallard Gatheral,ggatheralx@123-reg.co.uk,United States,Lib,L,0.2,4.755,23.775,3.09075,13%
+OPY-30711-853,2021-07-17,81861-66046-SU,A-D-0.2,1,Ruy Cancellieri,,Ireland,Ara,D,0.2,2.985,2.985,0.26865,9%
+RPW-36123-215,2021-07-19,80640-45811-LB,E-L-0.5,2,Jennifer Rangall,jrangall22@newsvine.com,United States,Exc,L,0.5,8.91,17.82,1.9602,11%
+FND-99527-640,2021-07-19,89574-96203-EP,E-L-0.5,2,Rhetta Elnaugh,relnaughlj@comsenz.com,United States,Exc,L,0.5,8.91,17.82,1.9602,11%
+QRA-73277-814,2021-07-20,80310-92912-JA,A-L-0.5,4,Isa Blazewicz,iblazewicz54@thetimes.co.uk,United States,Ara,L,0.5,7.77,31.08,2.7972,9%
+KHZ-26264-253,2021-07-20,24972-55878-KX,L-L-0.2,6,Foster Constance,fconstancekz@ifeng.com,United States,Lib,L,0.2,4.755,28.53,3.7089,13%
+KUX-19632-830,2021-07-20,55409-07759-YG,E-D-0.2,6,Chloette Bernardot,cbernardotr9@wix.com,United States,Exc,D,0.2,3.645,21.87,2.4057,11%
+VRM-93594-914,2021-07-21,66806-41795-MX,E-D-0.5,5,Emlynne Laird,elaird5e@bing.com,United States,Exc,D,0.5,7.29,36.45,4.0095,11%
+JBW-95055-851,2021-07-22,47355-97488-XS,A-M-1,5,Anjanette Goldie,agoldieiw@goo.gl,United States,Ara,M,1,11.25,56.25,5.0625,9%
+WLL-59044-117,2021-07-23,28476-04082-GR,R-D-1,6,Kipper Boorn,kboorn23@ezinearticles.com,Ireland,Rob,D,1,8.95,53.7,3.222,6%
+ADP-04506-084,2021-07-24,61809-87758-LJ,E-M-2.5,6,Hatty Dovydenas,,United States,Exc,M,2.5,31.625,189.75,20.8725,11%
+QUU-91729-492,2021-07-29,90312-11148-LA,A-D-0.2,4,Lowell Keenleyside,lkeenleyside3s@topsy.com,United States,Ara,D,0.2,2.985,11.94,1.0746,9%
+DXY-76225-633,2021-07-29,88574-37083-WX,A-M-0.5,1,Merrile Cobbledick,mcobbledickpd@ucsd.edu,United States,Ara,M,0.5,6.75,6.75,0.6075,9%
+BYP-16005-016,2021-08-01,01474-63436-TP,R-M-2.5,5,Read Cutts,rcuttspy@techcrunch.com,United States,Rob,M,2.5,22.885,114.425,6.8655,6%
+JZV-43874-185,2021-08-02,18551-80943-YQ,A-M-1,5,Freeland Missenden,,United States,Ara,M,1,11.25,56.25,5.0625,9%
+PBT-36926-102,2021-08-02,19485-98072-PS,L-M-1,4,Don Flintiff,dflintiffg1@e-recht24.de,United Kingdom,Lib,M,1,14.55,58.2,7.566,13%
+NTJ-88319-746,2021-08-03,90882-88130-KQ,L-L-0.5,3,Zachary Tramel,ztramelod@netlog.com,United States,Lib,L,0.5,9.51,28.53,3.7089,13%
+FDO-25756-141,2021-08-03,57360-46846-NS,A-L-2.5,3,Dinah Crutcher,,Ireland,Ara,L,2.5,29.785,89.355,8.04195,9%
+GJC-66474-557,2021-08-03,64965-78386-MY,A-D-1,1,Nicolina Jenny,njennyrq@bigcartel.com,United States,Ara,D,1,9.95,9.95,0.8955,9%
+CVP-18956-553,2021-08-04,86561-91660-RB,L-D-1,3,Beryle Cottier,,United States,Lib,D,1,12.95,38.85,5.0505,13%
+GOI-41472-677,2021-08-04,16545-76328-JY,E-D-2.5,4,Darrin Tingly,dtingly8f@goo.ne.jp,United States,Exc,D,2.5,27.945,111.78,12.2958,11%
+MIF-17920-768,2021-08-05,68946-40750-LK,R-L-0.2,6,Morna Hansed,mhanseddh@instagram.com,Ireland,Rob,L,0.2,3.585,21.51,1.2906,6%
+XZD-44484-632,2021-08-06,80541-38332-BP,E-M-1,2,Helaina Rainforth,hrainforthn2@blog.com,United States,Exc,M,1,13.75,27.5,3.025,11%
+XZD-44484-632,2021-08-06,80541-38332-BP,A-D-0.2,2,Helaina Rainforth,hrainforthn2@blog.com,United States,Ara,D,0.2,2.985,5.97,0.5373,9%
+EFC-39577-424,2021-08-08,16046-34805-ZF,E-M-1,5,Auguste Rizon,arizonba@xing.com,United States,Exc,M,1,13.75,68.75,7.5625,11%
+USN-68115-161,2021-08-10,08120-16183-AW,E-M-0.2,6,Rasia Jacquemard,rjacquemardcc@acquirethisname.com,Ireland,Exc,M,0.2,4.125,24.75,2.7225,11%
+ULA-24644-321,2021-08-13,67010-92988-CT,R-D-2.5,4,Reube Cawley,rcawleycm@yellowbook.com,Ireland,Rob,D,2.5,20.585,82.34,4.9404,6%
+NVN-66443-451,2021-08-20,98921-82417-GN,R-D-1,2,Alric Darth,adarthbt@t.co,United States,Rob,D,1,8.95,17.9,1.074,6%
+SVD-75407-177,2021-08-23,16106-36039-QS,E-L-0.5,3,Yulma Dombrell,ydombrellbs@dedecms.com,United States,Exc,L,0.5,8.91,26.73,2.9403,11%
+TCX-76953-071,2021-08-25,94091-86957-HX,E-D-0.2,5,Jimmy Dymoke,jdymokeje@prnewswire.com,Ireland,Exc,D,0.2,3.645,18.225,2.00475,11%
+HGJ-82768-173,2021-08-26,62741-01322-HU,A-M-1,4,Terencio O'Moylan,tomoylan9c@liveinternet.ru,United Kingdom,Ara,M,1,11.25,45,4.05,9%
+CPX-46916-770,2021-08-27,12729-50170-JE,R-L-1,6,Zachariah Carlson,zcarlson7k@bigcartel.com,Ireland,Rob,L,1,11.95,71.7,4.302,6%
+SYX-48878-182,2021-08-29,47725-34771-FJ,R-D-1,5,Stacy Pickworth,,United States,Rob,D,1,8.95,44.75,2.685,6%
+BPZ-51283-916,2021-08-29,87688-42420-TO,A-M-2.5,2,Kylie Mowat,,United States,Ara,M,2.5,25.875,51.75,4.6575,9%
+EUO-69145-988,2021-08-30,60370-41934-IF,E-D-0.2,3,Hamlen Pallister,hpallisterds@ning.com,United States,Exc,D,0.2,3.645,10.935,1.20285,11%
+OIL-26493-755,2021-08-31,19017-95853-EK,A-M-0.5,1,Timofei Woofinden,twoofinden3k@businesswire.com,United States,Ara,M,0.5,6.75,6.75,0.6075,9%
+IGM-84664-265,2021-08-31,80179-44620-WN,R-L-0.5,3,Cleve Blowfelde,cblowfelde73@ustream.tv,United States,Rob,L,0.5,7.17,21.51,1.2906,6%
+OIB-13664-879,2021-08-31,04713-57765-KR,A-M-1,2,Jilly Dreng,jdrengqg@uiuc.edu,Ireland,Ara,M,1,11.25,22.5,2.025,9%
+QTC-71005-730,2021-09-02,14298-02150-KH,A-L-0.2,4,Giordano Lorenzin,,United States,Ara,L,0.2,3.885,15.54,1.3986,9%
+EIP-19142-462,2021-09-06,60973-72562-DQ,E-L-1,6,Anson Iddison,aiddisonaw@usa.gov,United States,Exc,L,1,14.85,89.1,9.801,11%
+EIP-19142-462,2021-09-06,60973-72562-DQ,A-L-0.2,1,Anson Iddison,aiddisonaw@usa.gov,United States,Ara,L,0.2,3.885,3.885,0.34965,9%
+ORX-57454-917,2021-09-06,76209-39601-ZR,E-D-2.5,3,Gnni Cheeke,gcheekeqc@sitemeter.com,United Kingdom,Exc,D,2.5,27.945,83.835,9.22185,11%
+JSU-23781-256,2021-09-07,76499-89100-JQ,L-D-0.2,1,Mag Armistead,marmisteadeg@blogtalkradio.com,United States,Lib,D,0.2,3.885,3.885,0.50505,13%
+JSU-23781-256,2021-09-07,76499-89100-JQ,R-M-1,4,Mag Armistead,marmisteadeg@blogtalkradio.com,United States,Rob,M,1,9.95,39.8,2.388,6%
+KLD-88731-484,2021-09-08,17775-77072-PP,A-M-1,5,Carlie Linskill,clinskillkh@sphinn.com,United States,Ara,M,1,11.25,56.25,5.0625,9%
+NFI-37188-246,2021-09-08,89490-75361-AF,A-D-2.5,4,Wilton Jallin,wjallinpa@pcworld.com,United States,Ara,D,2.5,22.885,91.54,8.2386,9%
+FLR-82914-153,2021-09-09,86100-33488-WP,A-M-2.5,6,Enriqueta Ixor,,United States,Ara,M,2.5,25.875,155.25,13.9725,9%
+BWZ-46364-547,2021-09-09,64918-67725-MN,R-L-1,3,Yardley Basill,ybasillht@theguardian.com,United States,Rob,L,1,11.95,35.85,2.151,6%
+UPX-54529-618,2021-09-10,40535-56770-UM,L-D-1,3,Tawnya Menary,tmenaryp7@phoca.cz,United States,Lib,D,1,12.95,38.85,5.0505,13%
+GRB-68838-629,2021-09-10,15064-65241-HB,R-L-2.5,4,Gwenni Ratt,grattqd@phpbb.com,Ireland,Rob,L,2.5,27.485,109.94,6.5964,6%
+DAH-46595-917,2021-09-12,27878-42224-QF,A-D-1,6,Nissie Rudland,nrudlandij@blogs.com,Ireland,Ara,D,1,9.95,59.7,5.373,9%
+PJV-20427-019,2021-09-12,13404-39127-WQ,A-L-2.5,3,Celie MacCourt,cmaccourtpo@amazon.com,United States,Ara,L,2.5,29.785,89.355,8.04195,9%
+TKY-71558-096,2021-09-15,24010-66714-HW,A-M-1,1,Chrisy Blofeld,cblofeldo@amazon.co.uk,United States,Ara,M,1,11.25,11.25,1.0125,9%
+DHT-93810-053,2021-09-16,17005-82030-EA,E-L-1,5,Shirleen Welds,sweldsar@wired.com,United States,Exc,L,1,14.85,74.25,8.1675,11%
+KJJ-12573-591,2021-09-18,12997-41076-FQ,A-L-2.5,1,Paula Denis,,United States,Ara,L,2.5,29.785,29.785,2.68065,9%
+NSQ-72210-345,2021-09-20,90940-63327-DJ,A-M-0.2,6,Audra Kelston,akelstonfq@sakura.ne.jp,United States,Ara,M,0.2,3.375,20.25,1.8225,9%
+ZKI-78561-066,2021-09-21,60121-12432-VU,A-D-0.2,3,Mordy Van Der Vlies,mvannj@wikipedia.org,United States,Ara,D,0.2,2.985,8.955,0.80595,9%
+WQK-10857-119,2021-09-21,96849-52854-CR,E-D-0.5,1,Filip Antcliffe,fantcliffeo6@amazon.co.jp,Ireland,Exc,D,0.5,7.29,7.29,0.8019,11%
+EAI-25194-209,2021-09-24,44601-51441-BH,A-L-2.5,5,Dorey Sopper,dsopperp4@eventbrite.com,United States,Ara,L,2.5,29.785,148.925,13.40325,9%
+WOQ-36015-429,2021-09-25,51427-89175-QJ,L-M-0.2,5,Adrian Swaine,,United States,Lib,M,0.2,4.365,21.825,2.83725,13%
+WOQ-36015-429,2021-09-25,51427-89175-QJ,A-D-0.5,6,Adrian Swaine,,United States,Ara,D,0.5,5.97,35.82,3.2238,9%
+WOQ-36015-429,2021-09-25,51427-89175-QJ,L-M-0.5,6,Adrian Swaine,,United States,Lib,M,0.5,8.73,52.38,6.8094,13%
+YXO-79631-417,2021-09-25,31587-92570-HL,L-D-0.5,1,Casi Gwinnett,cgwinnetta5@behance.net,United States,Lib,D,0.5,7.77,7.77,1.0101,13%
+WFV-88138-247,2021-09-25,63411-51758-QC,R-L-1,3,Vernor Pawsey,vpawseyq6@tiny.cc,United States,Rob,L,1,11.95,35.85,2.151,6%
+GMF-18638-786,2021-09-26,60004-62976-NI,L-D-0.5,6,Gregorius Kislingbury,gkislingburyaz@samsung.com,United States,Lib,D,0.5,7.77,46.62,6.0606,13%
+RSR-96390-187,2021-09-29,67052-76184-CB,E-M-1,6,Mellisa Mebes,,United States,Exc,M,1,13.75,82.5,9.075,11%
+ZMU-63715-204,2021-09-30,29060-75856-UI,E-D-1,6,Innis Renhard,irenhardh6@i2i.jp,United States,Exc,D,1,12.15,72.9,8.019,11%
+PJH-42618-877,2021-09-30,93676-95250-XJ,A-D-2.5,5,Celestia Dolohunty,cdolohuntyor@dailymail.co.uk,United States,Ara,D,2.5,22.885,114.425,10.29825,9%
+PUX-47906-110,2021-10-01,02002-98725-CH,L-M-1,4,Alfy Snowding,asnowding6@comsenz.com,United States,Lib,M,1,14.55,58.2,7.566,13%
+TEH-08414-216,2021-10-01,35099-13971-JI,E-M-2.5,2,Gay Eilhersen,geilhersenk3@networksolutions.com,United States,Exc,M,2.5,31.625,63.25,6.9575,11%
+TKL-20738-660,2021-10-02,47939-53158-LS,E-M-0.2,1,Cordi Switsur,cswitsur3b@chronoengine.com,United States,Exc,M,0.2,4.125,4.125,0.45375,11%
+TKL-20738-660,2021-10-02,47939-53158-LS,A-L-0.2,1,Cordi Switsur,cswitsur3b@chronoengine.com,United States,Ara,L,0.2,3.885,3.885,0.34965,9%
+TKL-20738-660,2021-10-02,47939-53158-LS,E-M-1,5,Cordi Switsur,cswitsur3b@chronoengine.com,United States,Exc,M,1,13.75,68.75,7.5625,11%
+YPT-95383-088,2021-10-03,43439-94003-DW,E-D-2.5,2,Flynn Antony,,United States,Exc,D,2.5,27.945,55.89,6.1479,11%
+ULR-52653-960,2021-10-04,04152-34436-IE,L-L-2.5,2,Maurie Bartol,,United States,Lib,L,2.5,36.455,72.91,9.4783,13%
+NKW-24945-846,2021-10-04,75977-30364-AY,A-D-2.5,5,Jocko Pray,jpray4a@youtube.com,United States,Ara,D,2.5,22.885,114.425,10.29825,9%
+RCK-04069-371,2021-10-07,94573-61802-PH,E-L-2.5,2,Serena Earley,searley4q@youku.com,United Kingdom,Exc,L,2.5,34.155,68.31,7.5141,11%
+VUC-72395-865,2021-10-07,13321-57602-GK,A-D-0.5,6,Adelheid Gladhill,agladhillng@stanford.edu,United States,Ara,D,0.5,5.97,35.82,3.2238,9%
+ISJ-48676-420,2021-10-10,93046-67561-AY,L-L-0.5,6,Keefer Cake,kcakedg@huffingtonpost.com,United States,Lib,L,0.5,9.51,57.06,7.4178,13%
+SFB-93752-440,2021-10-10,48203-23480-UB,R-M-0.2,3,Niels Leake,nleakek1@cmu.edu,United States,Rob,M,0.2,2.985,8.955,0.5373,6%
+XIY-43041-882,2021-10-12,07250-63194-JO,A-M-1,1,Shawnee Critchlow,scritchlow34@un.org,United States,Ara,M,1,11.25,11.25,1.0125,9%
+LTO-95975-728,2021-10-13,46560-73885-PJ,R-L-0.5,4,Rosaline McLae,rmclae72@dailymotion.com,United Kingdom,Rob,L,0.5,7.17,28.68,1.7208,6%
+DEC-11160-362,2021-10-13,48582-05061-RY,R-D-0.2,4,Amii Gallyon,agallyoney@engadget.com,United States,Rob,D,0.2,2.685,10.74,0.6444,6%
+NAR-00747-074,2021-10-16,23243-92649-RY,L-D-1,4,Sylas Jennaroy,sjennaroyi8@purevolume.com,United States,Lib,D,1,12.95,51.8,6.734,13%
+GFI-83300-059,2021-10-16,40414-26467-VE,A-M-0.2,6,Annie Campsall,acampsallid@zimbio.com,United States,Ara,M,0.2,3.375,20.25,1.8225,9%
+BOR-02906-411,2021-10-17,08743-09057-OO,L-D-2.5,6,Tallie felip,tfelip5m@typepad.com,United States,Lib,D,2.5,29.785,178.71,23.2323,13%
+VSN-94485-621,2021-10-17,88116-12604-TE,A-D-0.2,4,Frans Habbergham,fhabberghamn8@discovery.com,United States,Ara,D,0.2,2.985,11.94,1.0746,9%
+LQG-41416-375,2021-10-19,45190-08727-NV,L-D-1,3,Dyanna Aizikovitz,daizikovitz2u@answers.com,Ireland,Lib,D,1,12.95,38.85,5.0505,13%
+WCT-07869-499,2021-10-19,32031-49093-KE,R-D-0.5,5,Birgit Domange,bdomangeez@yahoo.co.jp,United States,Rob,D,0.5,5.37,26.85,1.611,6%
+BZE-96093-118,2021-10-19,43452-18035-DH,L-M-0.2,2,Alva Filipczak,afilipczaklh@ning.com,Ireland,Lib,M,0.2,4.365,8.73,1.1349,13%
+TCC-89722-031,2021-10-23,41611-34336-WT,L-D-0.5,1,Peyter Lauritzen,plauritzengo@photobucket.com,United States,Lib,D,0.5,7.77,7.77,1.0101,13%
+OLH-95722-362,2021-10-24,48553-69225-VX,L-D-0.5,3,Devland Gritton,dgrittonq@nydailynews.com,United States,Lib,D,0.5,7.77,23.31,3.0303,13%
+OLH-95722-362,2021-10-24,48553-69225-VX,R-M-2.5,4,Devland Gritton,dgrittonq@nydailynews.com,United States,Rob,M,2.5,22.885,91.54,5.4924,6%
+HKN-31467-517,2021-10-24,84045-66771-SL,L-M-1,6,Charlean Keave,ckeaver1@ucoz.com,United States,Lib,M,1,14.55,87.3,11.349,13%
+JKA-27899-806,2021-10-26,97005-25609-CQ,R-L-1,5,Gale Heindrick,gheindrickin@usda.gov,United States,Rob,L,1,11.95,59.75,3.585,6%
+BPT-83989-157,2021-10-27,84269-49816-ML,A-M-2.5,2,Portie Cutchie,pcutchie6e@globo.com,United States,Ara,M,2.5,25.875,51.75,4.6575,9%
+XAH-93337-609,2021-10-28,66976-43829-YG,A-D-1,5,Domeniga Duke,dduke82@vkontakte.ru,United States,Ara,D,1,9.95,49.75,4.4775,9%
+JDS-33440-914,2021-10-28,58511-10548-ZU,R-M-1,3,Ailene Nesfield,anesfield8p@people.com.cn,United Kingdom,Rob,M,1,9.95,29.85,1.791,6%
+CKS-47815-571,2021-11-02,45666-86771-EH,L-L-0.5,3,Ardith Chill,achillhz@epa.gov,United Kingdom,Lib,L,0.5,9.51,28.53,3.7089,13%
+DZI-35365-596,2021-11-02,54798-14109-HC,E-M-0.2,2,Odelia Skerme,oskermen3@hatena.ne.jp,United States,Exc,M,0.2,4.125,8.25,0.9075,11%
+TNX-09857-717,2021-11-04,48675-07824-HJ,L-M-1,6,Harwilll Bishell,,United States,Lib,M,1,14.55,87.3,11.349,13%
+HFT-77191-168,2021-11-04,48419-02347-XP,R-D-0.2,2,Melosa Kippen,mkippenby@dion.ne.jp,United States,Rob,D,0.2,2.685,5.37,0.3222,6%
+YOK-93322-608,2021-11-04,69411-48470-ID,E-L-1,6,Gilberto Cornier,gcornierjv@techcrunch.com,United States,Exc,L,1,14.85,89.1,9.801,11%
+ETD-58130-674,2021-11-05,05325-97750-WP,E-M-0.5,2,Cody Verissimo,cverissimogh@theglobeandmail.com,United Kingdom,Exc,M,0.5,8.25,16.5,1.815,11%
+HHF-36647-854,2021-11-05,39011-18412-GR,A-D-2.5,6,Adora Roubert,aroubertn@tmall.com,United States,Ara,D,2.5,22.885,137.31,12.3579,9%
+XQJ-86887-506,2021-11-06,66458-91190-YC,E-L-1,4,Marja Urion,murione5@alexa.com,Ireland,Exc,L,1,14.85,59.4,6.534,11%
+RUK-78200-416,2021-11-09,36192-07175-XC,L-D-0.2,2,Mitch Attwool,mattwoolpl@nba.com,United States,Lib,D,0.2,3.885,7.77,1.0101,13%
+JOM-80930-071,2021-11-10,54904-18397-UD,L-D-1,6,Raleigh Lepere,rlepere3j@shop-pro.jp,Ireland,Lib,D,1,12.95,77.7,10.101,13%
+JQK-64922-985,2021-11-10,23779-10274-KN,R-M-2.5,3,Bettina Leffek,bleffek48@ning.com,United States,Rob,M,2.5,22.885,68.655,4.1193,6%
+UZL-46108-213,2021-11-11,75961-20170-RD,L-L-1,2,Graeme Whitehead,gwhiteheadls@hp.com,United States,Lib,L,1,15.85,31.7,4.121,13%
+BXH-62195-013,2021-11-11,94526-79230-GZ,A-M-1,4,Mindy Bogey,mbogeypb@thetimes.co.uk,United States,Ara,M,1,11.25,45,4.05,9%
+SBI-60013-494,2021-11-12,55232-81621-BX,E-M-0.2,2,Tory Walas,twalas53@google.ca,United States,Exc,M,0.2,4.125,8.25,0.9075,11%
+VFZ-91673-181,2021-11-13,10225-91535-AI,A-L-1,6,Lenka Rushmer,lrushmer65@europa.eu,United States,Ara,L,1,12.95,77.7,6.993,9%
+MSJ-11909-468,2021-11-13,07878-45872-CC,E-D-2.5,5,Cobby Cromwell,ccromwell76@desdev.cn,United States,Exc,D,2.5,27.945,139.725,15.36975,11%
+CBT-55781-720,2021-11-15,97855-54761-IS,E-D-0.5,3,Dottie Tift,dtift4i@netvibes.com,United States,Exc,D,0.5,7.29,21.87,2.4057,11%
+RIU-02231-623,2021-11-16,25544-84179-QC,R-L-0.5,5,Skipton Morrall,smorrallnq@answers.com,United States,Rob,L,0.5,7.17,35.85,2.151,6%
+ENN-79947-323,2021-11-18,67847-82662-TE,L-M-0.5,2,Marty Scholl,mschollom@taobao.com,United States,Lib,M,0.5,8.73,17.46,2.2698,13%
+ANM-16388-634,2021-11-19,77343-52608-FF,L-L-0.2,2,Nat Saleway,nsaleway1v@dedecms.com,United States,Lib,L,0.2,4.755,9.51,1.2363,13%
+AVH-56062-335,2021-11-21,18082-74419-QH,E-M-0.5,5,Miran Doidge,mdoidgenb@etsy.com,United States,Exc,M,0.5,8.25,41.25,4.5375,11%
+QDO-57268-842,2021-11-21,57808-90533-UE,E-M-2.5,5,Derick Snow,,United States,Exc,M,2.5,31.625,158.125,17.39375,11%
+GGD-38107-641,2021-11-23,99562-88650-YF,L-M-1,4,Leia Kernan,lkernan71@wsj.com,United States,Lib,M,1,14.55,58.2,7.566,13%
+YUL-42750-776,2021-11-23,24845-36117-TI,L-M-0.2,2,Cissiee Raisbeck,craisbeckfg@webnode.com,United States,Lib,M,0.2,4.365,8.73,1.1349,13%
+UOG-94188-104,2021-11-23,92753-50029-SD,A-M-0.5,5,Kienan Scholard,kscholardgk@sbwire.com,United States,Ara,M,0.5,6.75,33.75,3.0375,9%
+VKQ-39009-292,2021-11-23,57808-90533-UE,L-M-1,5,Derick Snow,,United States,Lib,M,1,14.55,72.75,9.4575,13%
+OFX-99147-470,2021-11-24,49860-68865-AB,R-M-1,6,Hy Zanetto,,United States,Rob,M,1,9.95,59.7,3.582,6%
+GUU-40666-525,2021-11-24,68555-89840-GZ,A-L-0.2,3,Morgen Seson,msesonck@census.gov,United States,Ara,L,0.2,3.885,11.655,1.04895,9%
+WHQ-25197-475,2021-11-26,27536-28463-NJ,L-L-0.2,4,Claiborne Mottram,cmottramfs@harvard.edu,United States,Lib,L,0.2,4.755,19.02,2.4726,13%
+MVI-04946-827,2021-11-27,62483-50867-OM,E-L-1,1,Darby Dummer,,United Kingdom,Exc,L,1,14.85,14.85,1.6335,11%
+RUX-37995-892,2021-11-27,37762-09530-MP,L-D-2.5,4,Bear Gaish,bgaishno@altervista.org,United States,Lib,D,2.5,29.785,119.14,15.4882,13%
+QDU-45390-361,2021-11-28,03677-09134-BC,E-M-0.5,1,Chance Rowthorn,crowthornc3@msn.com,United States,Exc,M,0.5,8.25,8.25,0.9075,11%
+ZDK-84567-102,2021-11-29,58690-31815-VY,A-D-0.5,3,Isidore Hussey,ihussey84@mapy.cz,United States,Ara,D,0.5,5.97,17.91,1.6119,9%
+QEY-71761-460,2021-11-29,35442-75769-PL,R-M-1,2,Catarina Donn,,Ireland,Rob,M,1,9.95,19.9,1.194,6%
+DSN-15872-519,2021-12-02,53809-98498-SN,L-L-2.5,4,Bo Kindley,bkindleygl@wikimedia.org,United States,Lib,L,2.5,36.455,145.82,18.9566,13%
+MVB-22135-665,2021-12-02,55621-06130-SA,A-D-1,1,Dottie Rallin,drallinhy@howstuffworks.com,United States,Ara,D,1,9.95,9.95,0.8955,9%
+UJV-32333-364,2021-12-03,86110-83695-YS,L-L-0.5,1,Merell Zanazzi,,United States,Lib,L,0.5,9.51,9.51,1.2363,13%
+KGZ-56395-231,2021-12-06,22221-71106-JD,A-D-0.5,1,Rhona Lequeux,rlequeuxcz@newyorker.com,United States,Ara,D,0.5,5.97,5.97,0.5373,9%
+HUB-47311-849,2021-12-07,04521-04300-OK,L-M-0.5,3,Stanislaus Gilroy,sgilroy1n@eepurl.com,United States,Lib,M,0.5,8.73,26.19,3.4047,13%
+IRX-59256-644,2021-12-08,96446-62142-EN,A-D-0.2,3,Clayton Kingwell,ckingwellr3@squarespace.com,Ireland,Ara,D,0.2,2.985,8.955,0.80595,9%
+ASG-27179-958,2021-12-10,12607-75113-UV,A-M-0.5,3,Jule Deehan,jdeehanlk@about.me,United States,Ara,M,0.5,6.75,20.25,1.8225,9%
+NLI-63891-565,2021-12-10,41899-00283-VK,E-M-0.2,5,Ibby Charters,ichartersmz@abc.net.au,United States,Exc,M,0.2,4.125,20.625,2.26875,11%
+MUY-15309-209,2021-12-12,97152-03355-IW,L-D-1,3,Georgena Bentjens,gbentjens6u@netlog.com,United Kingdom,Lib,D,1,12.95,38.85,5.0505,13%
+NZN-71683-705,2021-12-13,04921-85445-SL,A-L-2.5,6,Hermann Larvor,hlarvoriq@last.fm,United States,Ara,L,2.5,29.785,178.71,16.0839,9%
+KHG-33953-115,2021-12-13,78226-97287-JI,L-D-0.5,3,Koren Ferretti,kferrettimf@huffingtonpost.com,Ireland,Lib,D,0.5,7.77,23.31,3.0303,13%
+VMT-10030-889,2021-12-15,87602-55754-VN,A-L-1,6,Torie Gottelier,tgottelier2h@vistaprint.com,United States,Ara,L,1,12.95,77.7,6.993,9%
+VEA-31961-977,2021-12-15,51432-27169-KN,E-D-0.5,3,Bartholemy Flaherty,bflaherty4s@moonfruit.com,Ireland,Exc,D,0.5,7.29,21.87,2.4057,11%
+LJN-34281-921,2021-12-17,52143-35672-JF,R-L-2.5,5,Tuckie Mathonnet,tmathonneti@google.co.jp,United States,Rob,L,2.5,27.485,137.425,8.2455,6%
+WKB-21680-566,2021-12-17,96612-41722-VJ,A-M-0.5,3,Myrle Dearden,,Ireland,Ara,M,0.5,6.75,20.25,1.8225,9%
+HYR-03455-684,2021-12-19,29808-89098-XD,E-D-1,6,Ira Sjostrom,isjostromig@pbs.org,United States,Exc,D,1,12.15,72.9,8.019,11%
+HYR-03455-684,2021-12-19,29808-89098-XD,L-D-0.2,2,Ira Sjostrom,isjostromig@pbs.org,United States,Lib,D,0.2,3.885,7.77,1.0101,13%
+SRJ-79353-838,2021-12-19,77869-81373-AY,A-L-1,6,Margarette Sterland,,United States,Ara,L,1,12.95,77.7,6.993,9%
+DFS-49954-707,2021-12-21,39019-13649-CL,E-D-0.2,5,Giacobo Skingle,gskingle44@clickbank.net,United States,Exc,D,0.2,3.645,18.225,2.00475,11%
+OWH-11126-533,2021-12-21,25331-13794-SB,L-M-2.5,2,Ferdie Tourry,ftourryil@google.de,United States,Lib,M,2.5,33.465,66.93,8.7009,13%
+GEJ-39834-935,2021-12-25,49412-86877-VY,L-M-0.2,6,Pippo Witherington,pwitheringtonea@networkadvertising.org,United States,Lib,M,0.2,4.365,26.19,3.4047,13%
+PKJ-30083-501,2021-12-27,76948-43532-JS,E-D-0.5,2,Jordana Halden,jhaldenkp@comcast.net,Ireland,Exc,D,0.5,7.29,14.58,1.6038,11%
+XKK-06692-189,2021-12-27,86579-92122-OC,R-D-1,3,Brenn Dundredge,,United States,Rob,D,1,8.95,26.85,1.611,6%
+QAW-05889-019,2021-12-29,68810-07329-EU,L-M-0.5,5,Virgil Baumadier,vbaumadierap@google.cn,United States,Lib,M,0.5,8.73,43.65,5.6745,13%
+LHX-81117-166,2021-12-31,01282-28364-RZ,R-L-1,4,Koressa O'Geneay,kogeneayrd@utexas.edu,United States,Rob,L,1,11.95,47.8,2.868,6%
+CVE-15042-481,2022-01-01,24972-55878-KX,R-L-1,2,Foster Constance,fconstancekz@ifeng.com,United States,Rob,L,1,11.95,23.9,1.434,6%
+JJX-83339-346,2022-01-02,32928-18158-OW,R-L-0.2,1,Craggy Bril,,United States,Rob,L,0.2,3.585,3.585,0.2151,6%
+ELB-07929-407,2022-01-02,54004-04664-AA,A-M-2.5,2,Tess Bennison,tbennison8u@google.cn,United States,Ara,M,2.5,25.875,51.75,4.6575,9%
+XEY-48929-474,2022-01-02,21889-94615-WT,L-M-2.5,6,Lemuel Rignold,lrignoldc1@miibeian.gov.cn,United States,Lib,M,2.5,33.465,200.79,26.1027,13%
+LWJ-06793-303,2022-01-02,95424-67020-AP,R-M-2.5,2,Kris O'Cullen,koculleneu@ca.gov,Ireland,Rob,M,2.5,22.885,45.77,2.7462,6%
+SNL-83703-516,2022-01-04,57976-33535-WK,L-M-2.5,3,Glory Clemon,gclemonkd@networksolutions.com,United States,Lib,M,2.5,33.465,100.395,13.05135,13%
+SWP-88281-918,2022-01-10,77657-61366-FY,L-L-2.5,4,Derrek Allpress,,United States,Lib,L,2.5,36.455,145.82,18.9566,13%
+QTG-93823-843,2022-01-12,46859-14212-FI,A-M-0.5,1,Chloris Sorrell,csorrellph@amazon.com,United Kingdom,Ara,M,0.5,6.75,6.75,0.6075,9%
+QTG-93823-843,2022-01-12,46859-14212-FI,E-D-0.5,3,Chloris Sorrell,csorrellph@amazon.com,United Kingdom,Exc,D,0.5,7.29,21.87,2.4057,11%
+HGE-19842-613,2022-01-13,49401-45041-ZU,R-L-0.5,4,Janeva Edinboro,jedinboronc@reverbnation.com,United States,Rob,L,0.5,7.17,28.68,1.7208,6%
+YAU-98893-150,2022-01-15,77043-48851-HG,L-M-1,3,Lewes Danes,ldanes9n@umn.edu,United States,Lib,M,1,14.55,43.65,5.6745,13%
+ANK-59436-446,2022-01-17,17488-65879-XL,E-L-0.5,4,Eal D'Ambrogio,edambrogiohn@techcrunch.com,United States,Exc,L,0.5,8.91,35.64,3.9204,11%
+SCN-51395-066,2022-01-18,72164-90254-EJ,L-L-0.5,4,Nalani Pirrone,npirronecl@weibo.com,United States,Lib,L,0.5,9.51,38.04,4.9452,13%
+IPP-31994-879,2022-01-21,65223-29612-CB,E-D-0.5,3,Shaylynn Lobe,slobe6@nifty.com,United States,Exc,D,0.5,7.29,21.87,2.4057,11%
+PJS-30996-485,2022-01-21,86579-92122-OC,A-L-0.2,1,Brenn Dundredge,,United States,Ara,L,0.2,3.885,3.885,0.34965,9%
+PDB-98743-282,2022-01-23,51940-02669-OR,L-L-1,3,Skelly Dolohunty,,Ireland,Lib,L,1,15.85,47.55,6.1815,13%
+FLM-82229-989,2022-01-24,73017-69644-MS,L-L-0.2,2,Timoteo Glisane,,Ireland,Lib,L,0.2,4.755,9.51,1.2363,13%
+ZGM-83108-823,2022-01-25,84132-22322-QT,E-L-1,1,Paola Brydell,pbrydell8m@bloglovin.com,Ireland,Exc,L,1,14.85,14.85,1.6335,11%
+LTP-31133-134,2022-01-26,66527-94478-PB,A-L-0.5,3,Sarajane Potter,,United States,Ara,L,0.5,7.77,23.31,2.0979,9%
+OAM-76916-748,2022-01-27,63025-62939-AN,E-D-1,3,Gonzales Cicculi,,United States,Exc,D,1,12.15,36.45,4.0095,11%
+ZMC-00336-619,2022-01-27,19849-12926-QF,A-M-0.5,4,Lauritz Ledgley,lledgleyp6@de.vu,United States,Ara,M,0.5,6.75,27,2.43,9%
+BGB-67996-089,2022-01-30,06279-72603-JE,R-D-1,5,Rana Sharer,rsharerer@flavors.me,United States,Rob,D,1,8.95,44.75,2.685,6%
+KJB-98240-098,2022-01-30,77746-08153-PM,L-L-1,5,Chad Miguel,cmiguelqo@exblog.jp,United States,Lib,L,1,15.85,79.25,10.3025,13%
+XHI-30227-581,2022-01-31,54619-08558-ZU,L-D-2.5,6,Petey Kingsbury,pkingsbury19@comcast.net,United States,Lib,D,2.5,29.785,178.71,23.2323,13%
+YES-51109-625,2022-01-31,91895-55605-LS,E-L-0.5,4,Elizabet Aizikowitz,eaizikowitzfv@virginia.edu,United Kingdom,Exc,L,0.5,8.91,35.64,3.9204,11%
+LAW-80062-016,2022-02-03,34546-70516-LR,E-M-0.5,6,Lorin Guerrazzi,,Ireland,Exc,M,0.5,8.25,49.5,5.445,11%
+GUG-45603-775,2022-02-06,40959-32642-DN,L-L-0.2,5,Rhodie Strathern,rstrathernqn@devhub.com,United States,Lib,L,0.2,4.755,23.775,3.09075,13%
+XUE-87260-201,2022-02-08,89646-21249-OH,R-M-0.2,6,Selia Ragles,sraglesjr@blogtalkradio.com,United States,Rob,M,0.2,2.985,17.91,1.0746,6%
+LAA-41879-001,2022-02-10,11408-81032-UR,L-L-2.5,1,Tomas Sutty,tsutty6i@google.es,United States,Lib,L,2.5,36.455,36.455,4.73915,13%
+FEO-11834-332,2022-02-11,95399-57205-HI,A-D-0.2,4,Iorgo Kleinert,ikleinertn@timesonline.co.uk,United States,Ara,D,0.2,2.985,11.94,1.0746,9%
+HTR-21838-286,2022-02-11,24669-76297-SF,A-L-1,2,Heloise Zeal,hzeald5@google.de,United States,Ara,L,1,12.95,25.9,2.331,9%
+JNA-21450-177,2022-02-11,54798-14109-HC,A-D-1,3,Odelia Skerme,oskermen3@hatena.ne.jp,United States,Ara,D,1,9.95,29.85,2.6865,9%
+NHI-23264-055,2022-02-15,44799-09711-XW,A-D-0.5,4,Mallory Shrimpling,,United States,Ara,D,0.5,5.97,23.88,2.1492,9%
+WMP-68847-770,2022-02-16,37490-01572-JW,L-L-0.2,1,Vanna Le - Count,vle5n@disqus.com,United States,Lib,L,0.2,4.755,4.755,0.61815,13%
+UHW-74617-126,2022-02-16,90816-65619-LM,E-D-2.5,2,Billy Neiland,,United States,Exc,D,2.5,27.945,55.89,6.1479,11%
+SLD-63003-334,2022-02-17,55515-37571-RS,L-M-0.2,6,Wain Stearley,wstearleye1@census.gov,United States,Lib,M,0.2,4.365,26.19,3.4047,13%
+LXK-00634-611,2022-02-20,94091-86957-HX,R-L-1,3,Jimmy Dymoke,jdymokeje@prnewswire.com,Ireland,Rob,L,1,11.95,35.85,2.151,6%
+WAI-89905-069,2022-02-21,47011-57815-HJ,A-L-0.5,3,Silvan McShea,smcshealy@photobucket.com,United States,Ara,L,0.5,7.77,23.31,2.0979,9%
+EMA-63190-618,2022-02-28,90993-98984-JK,E-M-0.2,1,Uriah Lethbrig,ulethbrigdo@hc36.com,United States,Exc,M,0.2,4.125,4.125,0.45375,11%
+TBU-65158-068,2022-02-28,60357-65386-RD,E-D-1,2,Hetti Measures,,United States,Exc,D,1,12.15,24.3,2.673,11%
+UCZ-59708-525,2022-03-04,05501-86351-NX,L-D-2.5,3,Willa Rolling,,United States,Lib,D,2.5,29.785,89.355,11.61615,13%
+WRP-39846-614,2022-03-04,47493-68564-YM,A-L-2.5,5,Bidget Tremellier,,Ireland,Ara,L,2.5,29.785,148.925,13.40325,9%
+TIR-71396-998,2022-03-06,14204-14186-LA,R-D-2.5,4,Angelia Cockrem,acockrem1t@engadget.com,United States,Rob,D,2.5,20.585,82.34,4.9404,6%
+MZL-81126-390,2022-03-08,48464-99723-HK,A-L-0.2,6,Jemimah Ethelston,jethelstonnl@creativecommons.org,United States,Ara,L,0.2,3.885,23.31,2.0979,9%
+MZL-81126-390,2022-03-08,48464-99723-HK,A-M-0.2,2,Jemimah Ethelston,jethelstonnl@creativecommons.org,United States,Ara,M,0.2,3.375,6.75,0.6075,9%
+XKO-54097-932,2022-03-10,32743-78448-KT,E-M-0.5,3,Janella Millett,jmillettik@addtoany.com,United States,Exc,M,0.5,8.25,24.75,2.7225,11%
+WWH-92259-198,2022-03-11,35256-12529-FT,L-D-1,4,Willey Romao,wromao9w@chronoengine.com,United States,Lib,D,1,12.95,51.8,6.734,13%
+RUJ-30649-712,2022-03-11,93224-71517-WV,L-L-0.2,2,Orly Ryland,orylandc4@deviantart.com,United States,Lib,L,0.2,4.755,9.51,1.2363,13%
+WRT-40778-247,2022-03-13,54810-81899-HL,R-L-1,4,Cletis Giacomazzo,cgiacomazzo27@jigsy.com,United States,Rob,L,1,11.95,47.8,2.868,6%
+WDV-73864-037,2022-03-13,66044-25298-TA,L-M-0.5,5,Lawrence Pratt,lpratt57@netvibes.com,United States,Lib,M,0.5,8.73,43.65,5.6745,13%
+CFZ-53492-600,2022-03-14,64896-18468-BT,L-M-0.2,1,Selle Scurrer,sscurrerk9@flavors.me,United Kingdom,Lib,M,0.2,4.365,4.365,0.56745,13%
+MEK-85120-243,2022-03-15,06623-54610-HC,R-L-0.2,3,Bobbe Renner,,United States,Rob,L,0.2,3.585,10.755,0.6453,6%
+VEM-79839-466,2022-03-16,32743-78448-KT,R-L-2.5,5,Janella Millett,jmillettik@addtoany.com,United States,Rob,L,2.5,27.485,137.425,8.2455,6%
+PVI-72795-960,2022-03-17,68239-74809-TF,E-L-2.5,3,Elonore Joliffe,,Ireland,Exc,L,2.5,34.155,102.465,11.27115,11%
+OVO-01283-090,2022-03-17,15958-25089-OS,L-L-2.5,2,Jeno Druitt,jdruittj1@feedburner.com,United States,Lib,L,2.5,36.455,72.91,9.4783,13%
+MJZ-93232-402,2022-03-20,17816-67941-ZS,E-D-0.2,1,Laurence Ellingham,lellinghamgv@sciencedaily.com,United States,Exc,D,0.2,3.645,3.645,0.40095,11%
+UHP-24614-199,2022-03-20,67953-79896-AC,A-M-1,4,Antonius Lewry,alewrype@whitehouse.gov,United States,Ara,M,1,11.25,45,4.05,9%
+PUH-55647-976,2022-03-22,06624-54037-BQ,R-M-0.2,2,Wiley Leopold,wleopoldqw@blogspot.com,United States,Rob,M,0.2,2.985,5.97,0.3582,6%
+TKN-58485-031,2022-03-23,38890-22576-UI,R-D-1,2,Felita Dauney,fdauney4p@sphinn.com,Ireland,Rob,D,1,8.95,17.9,1.074,6%
+LIN-88046-551,2022-03-23,10725-45724-CO,R-L-0.5,4,Kandace Cragell,kcragellkk@google.com,Ireland,Rob,L,0.5,7.17,28.68,1.7208,6%
+KRZ-13868-122,2022-03-24,86779-84838-EJ,E-L-1,3,Kimberli Mustchin,,United States,Exc,L,1,14.85,44.55,4.9005,11%
+GTS-22482-014,2022-03-24,36769-16558-SX,L-M-2.5,4,Lamond Gheeraert,,United States,Lib,M,2.5,33.465,133.86,17.4018,13%
+NQZ-82067-394,2022-03-25,72320-29738-EB,R-L-2.5,1,Adrianne Vairow,avairowiv@studiopress.com,United Kingdom,Rob,L,2.5,27.485,27.485,1.6491,6%
+YQU-65147-580,2022-03-26,80247-70000-HT,R-D-2.5,1,Emiline Galgey,egalgey5x@wufoo.com,United States,Rob,D,2.5,20.585,20.585,1.2351,6%
+IZU-90429-382,2022-03-26,33011-52383-BA,A-L-1,3,Arel De Lasci,ade8c@1und1.de,United States,Ara,L,1,12.95,38.85,3.4965,9%
+RJV-08261-583,2022-03-26,48497-29281-FE,A-D-0.2,5,Pren Bess,pbessal@qq.com,United States,Ara,D,0.2,2.985,14.925,1.34325,9%
+UOM-71431-481,2022-03-26,65732-22589-OW,R-D-2.5,1,Kippie Marrison,kmarrisonoq@dropbox.com,United States,Rob,D,2.5,20.585,20.585,1.2351,6%
+IKK-62234-199,2022-03-31,91190-84826-IQ,L-L-0.5,6,Raphaela Schankelborg,rschankelborgot@ameblo.jp,United States,Lib,L,0.5,9.51,57.06,7.4178,13%
+SOK-43535-680,2022-04-04,58443-95866-YO,E-M-0.5,3,Stearne Count,scountjq@nba.com,United States,Exc,M,0.5,8.25,24.75,2.7225,11%
+GNZ-46006-527,2022-04-05,95875-73336-RG,L-D-0.2,3,Patrice Trobe,ptrobee@wunderground.com,United States,Lib,D,0.2,3.885,11.655,1.51515,13%
+MGQ-98961-173,2022-04-05,83895-90735-XH,L-L-0.5,4,Brook Drage,bdrage39@youku.com,United States,Lib,L,0.5,9.51,38.04,4.9452,13%
+RTL-16205-161,2022-04-05,90440-62727-HI,A-M-0.5,1,Alberto Hutchinson,ahutchinsond2@imgur.com,United States,Ara,M,0.5,6.75,6.75,0.6075,9%
+SFB-97929-779,2022-04-08,85425-33494-HQ,E-D-0.5,4,Constance Halfhide,chalfhide5s@google.ru,Ireland,Exc,D,0.5,7.29,29.16,3.2076,11%
+KZR-33023-209,2022-04-08,21177-40725-CF,E-L-1,3,Micki Fero,,United States,Exc,L,1,14.85,44.55,4.9005,11%
+WKL-27981-758,2022-04-08,73699-93557-FZ,A-M-2.5,2,Felice Miell,fmiellbc@spiegel.de,United States,Ara,M,2.5,25.875,51.75,4.6575,9%
+KHK-13105-388,2022-04-08,46242-54946-ZW,A-M-1,6,Charin Maplethorp,,United States,Ara,M,1,11.25,67.5,6.075,9%
+FQK-28730-361,2022-04-12,22725-79522-GP,R-M-1,6,Donny Fries,dfrieseq@cargocollective.com,United States,Rob,M,1,9.95,59.7,3.582,6%
+YIT-15877-117,2022-04-13,24155-79322-EQ,R-D-1,1,Morly Rocks,mrocksqq@exblog.jp,Ireland,Rob,D,1,8.95,8.95,0.537,6%
+RXF-37618-213,2022-04-15,32948-34398-HC,R-L-0.5,1,Belvia Umpleby,bumpleby1u@soundcloud.com,United States,Rob,L,0.5,7.17,7.17,0.4302,6%
+ICC-73030-502,2022-04-16,59480-02795-IU,A-L-1,3,Reamonn Aynold,raynoldfj@ustream.tv,United States,Ara,L,1,12.95,38.85,3.4965,9%
+KRW-91640-596,2022-04-22,70879-00984-FJ,R-L-0.5,3,Tildie Tilzey,ttilzeyeb@hostgator.com,United States,Rob,L,0.5,7.17,21.51,1.2906,6%
+CZG-86544-655,2022-04-23,69443-77665-QW,A-L-0.5,2,Henderson Crowne,hcrowneq5@wufoo.com,Ireland,Ara,L,0.5,7.77,15.54,1.3986,9%
+UHK-63283-868,2022-04-24,16809-16936-WF,A-M-0.5,1,Modesty MacConnechie,mmacconnechieo9@reuters.com,United States,Ara,M,0.5,6.75,6.75,0.6075,9%
+FOJ-02234-063,2022-04-25,59081-87231-VP,E-D-2.5,1,Denyse O'Calleran,docalleran75@ucla.edu,United States,Exc,D,2.5,27.945,27.945,3.07395,11%
+JBQ-93412-846,2022-04-27,69037-66822-DW,E-L-2.5,4,Julio Armytage,,Ireland,Exc,L,2.5,34.155,136.62,15.0282,11%
+DGC-21813-731,2022-04-27,43606-83072-OA,L-D-0.2,2,Channa Belamy,,United States,Lib,D,0.2,3.885,7.77,1.0101,13%
+PKN-19556-918,2022-04-29,00445-42781-KX,E-L-0.2,6,Faunie Brigham,fbrighamhg@blog.com,Ireland,Exc,L,0.2,4.455,26.73,2.9403,11%
+PKN-19556-918,2022-04-29,00445-42781-KX,L-D-0.5,4,Faunie Brigham,fbrighamhg@blog.com,Ireland,Lib,D,0.5,7.77,31.08,4.0404,13%
+PKN-19556-918,2022-04-29,00445-42781-KX,A-D-0.2,1,Faunie Brigham,fbrighamhg@blog.com,Ireland,Ara,D,0.2,2.985,2.985,0.26865,9%
+PKN-19556-918,2022-04-29,00445-42781-KX,R-D-2.5,5,Faunie Brigham,fbrighamhg@blog.com,Ireland,Rob,D,2.5,20.585,102.925,6.1755,6%
+MDC-03318-645,2022-04-30,43974-44760-QI,A-L-0.2,2,Warner Maddox,wmaddox7l@timesonline.co.uk,United States,Ara,L,0.2,3.885,7.77,0.6993,9%
+GND-08192-056,2022-05-01,17088-16989-PL,L-D-0.5,2,Winne Roche,wrocheh7@xinhuanet.com,United States,Lib,D,0.5,7.77,15.54,2.0202,13%
+VGM-24161-361,2022-05-01,71034-49694-CS,E-M-2.5,2,Byron Acarson,bacarsonhf@cnn.com,United States,Exc,M,2.5,31.625,63.25,6.9575,11%
+VZH-86274-142,2022-05-02,53120-45532-KL,R-L-1,5,Arabella Fransewich,,Ireland,Rob,L,1,11.95,59.75,3.585,6%
+AEZ-13242-456,2022-05-04,62494-09113-RP,R-M-0.5,5,Marguerite Graves,,United States,Rob,M,0.5,5.97,29.85,1.791,6%
+SDB-77492-188,2022-05-05,64815-54078-HH,E-L-1,5,Feliks Babber,fbabbera2@stanford.edu,United States,Exc,L,1,14.85,74.25,8.1675,11%
+MBT-23379-866,2022-05-10,82990-92703-IX,L-L-1,5,Nataniel Helkin,nhelkine9@example.com,United States,Lib,L,1,15.85,79.25,10.3025,13%
+GPU-65651-504,2022-05-11,83947-45528-ET,E-M-2.5,2,Leesa Flaonier,lflaoniera8@wordpress.org,United States,Exc,M,2.5,31.625,63.25,6.9575,11%
+HXA-72415-025,2022-05-12,93417-12322-YB,A-D-2.5,2,Dollie Gadsden,dgadsdenib@google.com.hk,Ireland,Ara,D,2.5,22.885,45.77,4.1193,9%
+ZJE-89333-489,2022-05-13,08694-57330-XR,L-D-2.5,1,Vallie Kundt,vkundt3w@bigcartel.com,Ireland,Lib,D,2.5,29.785,29.785,3.87205,13%
+YZA-25234-630,2022-05-13,89757-51438-HX,E-D-0.2,2,Malynda Glawsop,mglawsopfb@reverbnation.com,United States,Exc,D,0.2,3.645,7.29,0.8019,11%
+TZU-64255-831,2022-05-13,34666-76738-SQ,R-D-2.5,2,Marne Mingey,,United States,Rob,D,2.5,20.585,41.17,2.4702,6%
+GMM-72397-378,2022-05-16,45899-92796-EI,R-L-0.2,4,Kerr Patise,kpatise7z@jigsy.com,United States,Rob,L,0.2,3.585,14.34,0.8604,6%
+FBD-56220-430,2022-05-16,59205-20324-NB,R-L-0.2,6,Maggy Harby,mharbyfy@163.com,United States,Rob,L,0.2,3.585,21.51,1.2906,6%
+PKR-88575-066,2022-05-17,28728-47861-TZ,E-L-0.2,1,Astrix Kitchingham,akitchingham58@com.com,United States,Exc,L,0.2,4.455,4.455,0.49005,11%
+SNZ-65340-705,2022-05-20,21134-81676-FR,L-L-0.2,1,Melvin Wharfe,,Ireland,Lib,L,0.2,4.755,4.755,0.61815,13%
+VSS-56247-688,2022-05-21,08360-19442-GB,L-M-2.5,4,Effie Yurkov,eyurkov6s@hud.gov,United States,Lib,M,2.5,33.465,133.86,17.4018,13%
+SHT-04865-419,2022-05-22,69215-90789-DL,R-L-0.2,4,Johnath Fairebrother,,United States,Rob,L,0.2,3.585,14.34,0.8604,6%
+YLY-35287-172,2022-05-23,69410-04668-MA,A-D-0.5,5,Simone Capon,scaponkx@craigslist.org,United States,Ara,D,0.5,5.97,29.85,2.6865,9%
+ESR-54041-053,2022-05-24,59771-90302-OF,A-L-0.5,6,Cortney Gibbonson,cgibbonsonab@accuweather.com,United States,Ara,L,0.5,7.77,46.62,4.1958,9%
+ZCR-15721-658,2022-05-26,28327-84469-ND,A-M-1,4,Rodolfo Willoway,rwillowaycq@admin.ch,United States,Ara,M,1,11.25,45,4.05,9%
+UJG-34731-295,2022-05-26,15764-22559-ZT,A-M-2.5,1,Cece Inker,,United States,Ara,M,2.5,25.875,25.875,2.32875,9%
+ERC-54560-934,2022-05-30,11932-85629-CU,R-D-2.5,6,Hadley Reuven,hreuvenpk@whitehouse.gov,United States,Rob,D,2.5,20.585,123.51,7.4106,6%
+DLV-65840-759,2022-05-31,77192-72145-RG,L-M-1,2,Meade Birkin,mbirkinnz@java.com,United States,Lib,M,1,14.55,29.1,3.783,13%
+XNU-83276-288,2022-06-01,98185-92775-KT,R-M-0.5,1,Chester Clowton,,United States,Rob,M,0.5,5.97,5.97,0.3582,6%
+AAQ-13644-699,2022-06-03,46296-42617-OQ,R-D-1,4,Fernando Sulman,fsulmanl@washington.edu,United States,Rob,D,1,8.95,35.8,2.148,6%
+CWT-27056-328,2022-06-04,18570-80998-ZS,E-D-0.2,6,Josefina Ferens,,United States,Exc,D,0.2,3.645,21.87,2.4057,11%
+YDS-02797-307,2022-06-05,06058-48844-PI,E-M-2.5,4,Webb Speechly,wspeechlyem@amazon.com,United States,Exc,M,2.5,31.625,126.5,13.915,11%
+XDU-05471-219,2022-06-06,60308-06944-GS,R-L-0.5,1,Pru Durban,pdurbancg@symantec.com,Ireland,Rob,L,0.5,7.17,7.17,0.4302,6%
+DUV-12075-132,2022-06-06,62494-09113-RP,E-D-0.2,5,Marguerite Graves,,United States,Exc,D,0.2,3.645,18.225,2.00475,11%
+DUV-12075-132,2022-06-06,62494-09113-RP,L-D-0.5,2,Marguerite Graves,,United States,Lib,D,0.5,7.77,15.54,2.0202,13%
+FYQ-78248-319,2022-06-07,25473-43727-BY,R-M-2.5,5,Llywellyn Oscroft,loscroftf@ebay.co.uk,United States,Rob,M,2.5,22.885,114.425,6.8655,6%
+RFG-28227-288,2022-06-07,68605-21835-UF,A-L-0.5,6,Augustin Waterhouse,awaterhouseq7@istockphoto.com,United States,Ara,L,0.5,7.77,46.62,4.1958,9%
+BAF-42286-205,2022-06-08,43074-00987-PB,R-M-2.5,4,Oran Colbeck,ocolbeck4t@sina.com.cn,United States,Rob,M,2.5,22.885,91.54,5.4924,6%
+BLV-60087-454,2022-06-08,84493-71314-WX,E-L-0.2,3,Tymon Zanetti,tzanettig2@gravatar.com,Ireland,Exc,L,0.2,4.455,13.365,1.47015,11%
+BLV-60087-454,2022-06-08,84493-71314-WX,A-M-0.5,5,Tymon Zanetti,tzanettig2@gravatar.com,Ireland,Ara,M,0.5,6.75,33.75,3.0375,9%
+HEL-86709-449,2022-06-10,86579-92122-OC,E-D-2.5,1,Brenn Dundredge,,United States,Exc,D,2.5,27.945,27.945,3.07395,11%
+AOT-70449-651,2022-06-11,53414-73391-CR,R-D-2.5,5,Cindra Burling,,United States,Rob,D,2.5,20.585,102.925,6.1755,6%
+QJB-90477-635,2022-06-12,89714-19856-WX,L-L-2.5,4,Doll Beauchamp,dbeauchamp3f@usda.gov,United States,Lib,L,2.5,36.455,145.82,18.9566,13%
+ZSO-58292-191,2022-06-12,66794-66795-VW,R-D-0.5,4,Rea Offell,,United States,Rob,D,0.5,5.37,21.48,1.2888,6%
+SCL-94540-788,2022-06-13,16123-07017-TY,E-L-2.5,6,Teddi Crowthe,tcrowthe7n@europa.eu,United States,Exc,L,2.5,34.155,204.93,22.5423,11%
+DCI-96254-548,2022-06-14,94091-86957-HX,A-D-0.2,6,Jimmy Dymoke,jdymokeje@prnewswire.com,Ireland,Ara,D,0.2,2.985,17.91,1.6119,9%
+BRB-40903-533,2022-06-15,09020-56774-GU,E-L-0.2,3,Marie-jeanne Redgrave,mredgrave32@cargocollective.com,United States,Exc,L,0.2,4.455,13.365,1.47015,11%
+MIS-54381-047,2022-06-15,39276-95489-XV,A-D-0.5,5,Nathan Sictornes,nsictornesjh@buzzfeed.com,Ireland,Ara,D,0.5,5.97,29.85,2.6865,9%
+MKE-75518-399,2022-06-17,62588-82624-II,A-M-1,3,Cos Fluin,cfluin8k@flickr.com,United Kingdom,Ara,M,1,11.25,33.75,3.0375,9%
+JSN-73975-443,2022-06-27,93047-98331-DD,L-M-0.5,1,Annabella Danzey,adanzeybn@github.com,United States,Lib,M,0.5,8.73,8.73,1.1349,13%
+FVH-29271-315,2022-06-30,74415-50873-FC,A-D-0.5,3,Corney Curme,,Ireland,Ara,D,0.5,5.97,17.91,1.6119,9%
+JPB-45297-000,2022-07-01,83105-86631-IU,R-L-0.2,4,Dell Daveridge,ddaveridge9p@arstechnica.com,United States,Rob,L,0.2,3.585,14.34,0.8604,6%
+SZW-48378-399,2022-07-02,34136-36674-OM,R-M-1,5,Rosaleen Scholar,rscholarc@nyu.edu,United States,Rob,M,1,9.95,49.75,2.985,6%
+JKC-64636-831,2022-07-05,52098-80103-FD,A-M-2.5,2,Edin Mathe,,United States,Ara,M,2.5,25.875,51.75,4.6575,9%
+XWC-20610-167,2022-07-07,08350-81623-TF,E-D-0.2,2,Lorenzo Yeoland,lyeoland15@pbs.org,United States,Exc,D,0.2,3.645,7.29,0.8019,11%
+VZO-97265-841,2022-07-08,87049-37901-FU,R-M-0.2,4,Bram Revel,brevel2v@fastcompany.com,United States,Rob,M,0.2,2.985,11.94,0.7164,6%
+FLI-11493-954,2022-07-09,80454-42225-FT,A-L-0.5,4,Jed Kennicott,jkennicottm5@yahoo.co.jp,United States,Ara,L,0.5,7.77,31.08,2.7972,9%
+LTD-96842-834,2022-07-12,00246-15080-LE,L-D-2.5,6,Francesco Dressel,,United States,Lib,D,2.5,29.785,178.71,23.2323,13%
+FBZ-64200-586,2022-07-12,51738-61457-RS,E-M-2.5,2,Mathilda Matiasek,mmatiasekps@ucoz.ru,United States,Exc,M,2.5,31.625,63.25,6.9575,11%
+UKS-93055-397,2022-07-13,13082-41034-PD,A-D-2.5,5,Romain Avrashin,ravrashinna@tamu.edu,United States,Ara,D,2.5,22.885,114.425,10.29825,9%
+WBA-85905-175,2022-07-13,41252-45992-VS,L-M-0.2,1,Trumaine Tewelson,ttewelsonnd@cdbaby.com,United States,Lib,M,0.2,4.365,4.365,0.56745,13%
+IBW-87442-480,2022-07-14,79814-23626-JR,A-L-2.5,1,Trina Le Sarr,tle91@epa.gov,United States,Ara,L,2.5,29.785,29.785,2.68065,9%
+LOU-41819-242,2022-07-14,88060-50676-MV,R-M-1,2,Dorette Hinemoor,,United States,Rob,M,1,9.95,19.9,1.194,6%
+RGM-01187-513,2022-07-15,28121-11641-UA,E-D-0.2,6,Babb Pollins,bpollinskf@shinystat.com,United States,Exc,D,0.2,3.645,21.87,2.4057,11%
+ZGK-97262-313,2022-07-16,02536-18494-AQ,E-M-2.5,3,Ewell Hanby,,United States,Exc,M,2.5,31.625,94.875,10.43625,11%
+EEG-74197-843,2022-07-17,25729-68859-UA,E-L-1,4,Rozele Relton,rrelton1l@stanford.edu,United States,Exc,L,1,14.85,59.4,6.534,11%
+FWE-98471-488,2022-07-19,27930-59250-JT,L-L-1,5,Allis Wilmore,,United States,Lib,L,1,15.85,79.25,10.3025,13%
+NNB-20459-430,2022-07-25,79825-17822-UH,L-M-0.2,2,Daryn Dibley,ddibleyd7@feedburner.com,United States,Lib,M,0.2,4.365,8.73,1.1349,13%
+UGK-07613-982,2022-07-28,57808-90533-UE,A-M-0.5,3,Derick Snow,,United States,Ara,M,0.5,6.75,20.25,1.8225,9%
+TYP-85767-944,2022-07-29,51497-50894-WU,R-M-2.5,2,Kaela Nottram,knottramlw@odnoklassniki.ru,Ireland,Rob,M,2.5,22.885,45.77,2.7462,6%
+CHE-78995-767,2022-08-02,00888-74814-UZ,A-D-0.5,3,Theresita Newbury,tnewburys@usda.gov,Ireland,Ara,D,0.5,5.97,17.91,1.6119,9%
+HCA-87224-420,2022-08-04,62682-27930-PD,E-M-0.5,5,Tamarah Fero,tfero4n@comsenz.com,United States,Exc,M,0.5,8.25,41.25,4.5375,11%
+BLQ-03709-265,2022-08-04,72463-75685-MV,R-L-0.2,3,Charis Crosier,ccrosier63@xrea.com,United States,Rob,L,0.2,3.585,10.755,0.6453,6%
+BLQ-03709-265,2022-08-04,72463-75685-MV,R-M-0.2,5,Charis Crosier,ccrosier63@xrea.com,United States,Rob,M,0.2,2.985,14.925,0.8955,6%
+IOM-51636-823,2022-08-06,04609-95151-XH,A-D-1,3,Devy Bulbrook,,United States,Ara,D,1,9.95,29.85,2.6865,9%
+XUR-14132-391,2022-08-08,96836-09258-RI,R-D-0.5,4,Lisa Goodger,lgoodger95@guardian.co.uk,United States,Rob,D,0.5,5.37,21.48,1.2888,6%
+SNZ-44595-152,2022-08-12,06136-65250-PG,R-L-1,2,Kim Kemery,kkemeryra@t.co,United States,Rob,L,1,11.95,23.9,1.434,6%
+PQA-54820-810,2022-08-17,91460-04823-BX,A-L-1,3,Isis Pikett,ipikett1d@xinhuanet.com,United States,Ara,L,1,12.95,38.85,3.4965,9%
+XKB-41924-202,2022-08-19,45089-52817-WN,L-D-0.5,2,Inger Bouldon,ibouldon1e@gizmodo.com,United States,Lib,D,0.5,7.77,15.54,2.0202,13%
+HHO-79903-185,2022-08-19,53893-01719-CL,A-L-2.5,1,Bee Fattorini,bfattorinio3@quantcast.com,Ireland,Ara,L,2.5,29.785,29.785,2.68065,9%
+,,,,,,,,,,,,,,

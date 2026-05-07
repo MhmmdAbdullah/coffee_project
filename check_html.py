@@ -1,0 +1,5 @@
+html = open('dashboard/dashboard_coffee.html', encoding='utf-8').read()
+idx  = html.find('const RAW = ')
+end  = html.find('];', idx)
+print('Setelah RAW array:')
+print(repr(html[end:end+100]))

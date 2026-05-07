@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    container_name: coffee_db
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: coffee123
+      POSTGRES_DB: coffee_sales
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./sql/dw_coffee_sales.sql:/docker-entrypoint-initdb.d/01_schema.sql
+      - pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  pgdata:

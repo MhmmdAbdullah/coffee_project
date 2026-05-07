@@ -1,0 +1,215 @@
+{
+  "clustering": {
+    "silhouette_score": 0.556,
+    "n_clusters": 3,
+    "elbow": {
+      "2": 2421.09,
+      "3": 1649.77,
+      "4": 992.67,
+      "5": 829.56,
+      "6": 672.04
+    },
+    "segments": [
+      {
+        "cluster": 0,
+        "customer_count": 402,
+        "avg_spent": 34.9,
+        "avg_orders": 1.05,
+        "label": "Casual"
+      },
+      {
+        "cluster": 1,
+        "customer_count": 385,
+        "avg_spent": 32.06,
+        "avg_orders": 1.03,
+        "label": "Casual"
+      },
+      {
+        "cluster": 2,
+        "customer_count": 126,
+        "avg_spent": 152.43,
+        "avg_orders": 1.44,
+        "label": "High-Value"
+      }
+    ]
+  },
+  "association": {
+    "total_orders": 957,
+    "multi_item_orders": 27,
+    "rules_found": 4,
+    "top_rules": [
+      {
+        "antecedent": "Lib",
+        "consequent": "Rob",
+        "support": 0.185,
+        "confidence": 0.357,
+        "lift": 0.964
+      },
+      {
+        "antecedent": "Rob",
+        "consequent": "Lib",
+        "support": 0.185,
+        "confidence": 0.5,
+        "lift": 0.964
+      },
+      {
+        "antecedent": "Exc",
+        "consequent": "Ara",
+        "support": 0.37,
+        "confidence": 0.526,
+        "lift": 0.947
+      },
+      {
+        "antecedent": "Ara",
+        "consequent": "Exc",
+        "support": 0.37,
+        "confidence": 0.667,
+        "lift": 0.947
+      }
+    ],
+    "top_cooccurrence": [
+      {
+        "pair": "Ara + Exc",
+        "count": 10
+      },
+      {
+        "pair": "Exc + Lib",
+        "count": 7
+      },
+      {
+        "pair": "Exc + Rob",
+        "count": 6
+      },
+      {
+        "pair": "Lib + Rob",
+        "count": 5
+      },
+      {
+        "pair": "Ara + Lib",
+        "count": 5
+      },
+      {
+        "pair": "Ara + Rob",
+        "count": 3
+      }
+    ]
+  },
+  "classification": {
+    "model": "Decision Tree (max_depth=4)",
+    "accuracy": 0.61,
+    "accuracy_pct": 61.0,
+    "cv_mean": 0.6336,
+    "cv_std": 0.026,
+    "baseline": 0.25,
+    "vs_baseline": 2.44,
+    "train_samples": 799,
+    "test_samples": 200,
+    "feature_importances": [
+      {
+        "feature": "Price per 100g",
+        "importance": 0.5508
+      },
+      {
+        "feature": "Unit Price",
+        "importance": 0.3415
+      },
+      {
+        "feature": "roast_enc",
+        "importance": 0.1077
+      },
+      {
+        "feature": "Size",
+        "importance": 0.0
+      },
+      {
+        "feature": "Quantity",
+        "importance": 0.0
+      },
+      {
+        "feature": "country_enc",
+        "importance": 0.0
+      },
+      {
+        "feature": "loyalty_enc",
+        "importance": 0.0
+      }
+    ],
+    "class_report": [
+      {
+        "class": "Rob",
+        "precision": 0.736,
+        "recall": 0.812,
+        "f1": 0.772,
+        "support": 48
+      },
+      {
+        "class": "Exc",
+        "precision": 1.0,
+        "recall": 0.14,
+        "f1": 0.246,
+        "support": 50
+      },
+      {
+        "class": "Lib",
+        "precision": 0.458,
+        "recall": 0.898,
+        "f1": 0.607,
+        "support": 49
+      },
+      {
+        "class": "Ara",
+        "precision": 0.727,
+        "recall": 0.604,
+        "f1": 0.66,
+        "support": 53
+      }
+    ]
+  },
+  "regression": {
+    "model": "Multiple Linear Regression",
+    "r2_score": 0.8321,
+    "r2_pct": 83.2,
+    "rmse": 16.5879,
+    "mae": 12.516,
+    "intercept": -71.2509,
+    "train_samples": 799,
+    "test_samples": 200,
+    "coefficients": [
+      {
+        "feature": "Size",
+        "coefficient": 40.189,
+        "direction": "positive"
+      },
+      {
+        "feature": "Price per 100g",
+        "coefficient": 15.7288,
+        "direction": "positive"
+      },
+      {
+        "feature": "Quantity",
+        "coefficient": 13.3791,
+        "direction": "positive"
+      },
+      {
+        "feature": "roast_enc",
+        "coefficient": 1.6409,
+        "direction": "positive"
+      },
+      {
+        "feature": "coffee_enc",
+        "coefficient": 0.7506,
+        "direction": "positive"
+      },
+      {
+        "feature": "loyalty_enc",
+        "coefficient": 0.4155,
+        "direction": "positive"
+      },
+      {
+        "feature": "Month",
+        "coefficient": 0.3172,
+        "direction": "positive"
+      }
+    ]
+  }
+}
