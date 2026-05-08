@@ -53,17 +53,17 @@
         "lift": 0.964
       },
       {
-        "antecedent": "Exc",
-        "consequent": "Ara",
-        "support": 0.37,
-        "confidence": 0.526,
-        "lift": 0.947
-      },
-      {
         "antecedent": "Ara",
         "consequent": "Exc",
         "support": 0.37,
         "confidence": 0.667,
+        "lift": 0.947
+      },
+      {
+        "antecedent": "Exc",
+        "consequent": "Ara",
+        "support": 0.37,
+        "confidence": 0.526,
         "lift": 0.947
       }
     ],
@@ -95,7 +95,7 @@
     ]
   },
   "classification": {
-    "model": "Decision Tree (max_depth=4)",
+    "model": "Decision Tree",
     "accuracy": 0.61,
     "accuracy_pct": 61.0,
     "cv_mean": 0.6336,
@@ -169,45 +169,45 @@
     "model": "Multiple Linear Regression",
     "r2_score": 0.8321,
     "r2_pct": 83.2,
-    "rmse": 16.5879,
-    "mae": 12.516,
-    "intercept": -71.2509,
+    "rmse": 16.5884,
+    "mae": 12.508,
+    "intercept": -71.2912,
     "train_samples": 799,
     "test_samples": 200,
     "coefficients": [
       {
         "feature": "Size",
-        "coefficient": 40.189,
+        "coefficient": 40.179,
         "direction": "positive"
       },
       {
         "feature": "Price per 100g",
-        "coefficient": 15.7288,
+        "coefficient": 15.7798,
         "direction": "positive"
       },
       {
         "feature": "Quantity",
-        "coefficient": 13.3791,
+        "coefficient": 13.3786,
         "direction": "positive"
       },
       {
         "feature": "roast_enc",
-        "coefficient": 1.6409,
+        "coefficient": 1.6196,
         "direction": "positive"
       },
       {
         "feature": "coffee_enc",
-        "coefficient": 0.7506,
+        "coefficient": 0.7454,
         "direction": "positive"
       },
       {
         "feature": "loyalty_enc",
-        "coefficient": 0.4155,
+        "coefficient": 0.4138,
         "direction": "positive"
       },
       {
         "feature": "Month",
-        "coefficient": 0.3172,
+        "coefficient": 0.3166,
         "direction": "positive"
       }
     ]
