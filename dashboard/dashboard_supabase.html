@@ -1,321 +1,859 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Coffee Sales Analytics Dashboard</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
-  :root{--bg:#0e0f14;--surface:#16181f;--card:#1c1e28;--border:#2a2d3a;
-    --accent1:#c8873a;--accent2:#5b8dee;--accent3:#3de3a3;--accent4:#e35b7d;
-    --text:#e8eaf0;--muted:#6b7080}
-  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;min-height:100vh}
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Sales Analytics Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap");
+      :root {
+        --bg: #0e0f14;
+        --surface: #16181f;
+        --card: #1c1e28;
+        --border: #2a2d3a;
+        --accent1: #c8873a;
+        --accent2: #5b8dee;
+        --accent3: #3de3a3;
+        --accent4: #e35b7d;
+        --text: #e8eaf0;
+        --muted: #6b7080;
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: "DM Sans", sans-serif;
+        min-height: 100vh;
+      }
 
-  .header{background:var(--surface);border-bottom:1px solid var(--border);padding:14px 28px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
-  .brand{display:flex;align-items:center;gap:10px}
-  .brand-icon{width:34px;height:34px;background:linear-gradient(135deg,var(--accent1),#a0612a);border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:17px}
-  .brand h1{font-size:15px;font-weight:700}
-  .brand p{font-size:10px;color:var(--muted);font-family:"Space Mono",monospace;margin-top:2px}
-  .hright{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-  .fg{display:flex;align-items:center;gap:5px}
-  .fl{font-size:10px;color:var(--muted);font-family:"Space Mono",monospace;text-transform:uppercase;letter-spacing:.07em}
-  select{background:var(--card);border:1px solid var(--border);color:var(--text);padding:5px 10px;border-radius:7px;font-family:"DM Sans",sans-serif;font-size:12px;cursor:pointer;outline:none;transition:border-color .2s}
-  select:hover{border-color:var(--accent1)}
-  .badge{background:rgba(61,227,163,.12);border:1px solid rgba(61,227,163,.3);color:var(--accent3);font-size:10px;font-family:"Space Mono",monospace;padding:3px 9px;border-radius:20px;display:flex;align-items:center;gap:5px}
-  .dot{width:5px;height:5px;border-radius:50%;background:var(--accent3);animation:pulse 2s ease-in-out infinite}
-  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.7)}}
+      .header {
+        background: var(--surface);
+        border-bottom: 1px solid var(--border);
+        padding: 14px 28px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .brand-icon {
+        width: 34px;
+        height: 34px;
+        background: linear-gradient(135deg, var(--accent1), #a0612a);
+        border-radius: 9px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+      }
+      .brand h1 {
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .brand p {
+        font-size: 10px;
+        color: var(--muted);
+        font-family: "Space Mono", monospace;
+        margin-top: 2px;
+      }
+      .hright {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .fg {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      .fl {
+        font-size: 10px;
+        color: var(--muted);
+        font-family: "Space Mono", monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+      }
+      select {
+        background: var(--card);
+        border: 1px solid var(--border);
+        color: var(--text);
+        padding: 5px 10px;
+        border-radius: 7px;
+        font-family: "DM Sans", sans-serif;
+        font-size: 12px;
+        cursor: pointer;
+        outline: none;
+        transition: border-color 0.2s;
+      }
+      select:hover {
+        border-color: var(--accent1);
+      }
+      .badge {
+        background: rgba(61, 227, 163, 0.12);
+        border: 1px solid rgba(61, 227, 163, 0.3);
+        color: var(--accent3);
+        font-size: 10px;
+        font-family: "Space Mono", monospace;
+        padding: 3px 9px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      .dot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: var(--accent3);
+        animation: pulse 2s ease-in-out infinite;
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 0.4;
+          transform: scale(0.7);
+        }
+      }
 
-  .main{padding:20px 28px;max-width:1600px;margin:0 auto}
-  .stitle{font-size:10px;font-family:"Space Mono",monospace;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-bottom:12px;display:flex;align-items:center;gap:8px}
-  .stitle::after{content:"";flex:1;height:1px;background:var(--border)}
+      .main {
+        padding: 20px 28px;
+        max-width: 1600px;
+        margin: 0 auto;
+      }
+      .stitle {
+        font-size: 10px;
+        font-family: "Space Mono", monospace;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .stitle::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: var(--border);
+      }
 
-  .kpi-row{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:20px}
-  .kcard{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 18px;position:relative;overflow:hidden;transition:transform .2s,border-color .2s}
-  .kcard::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:var(--kc,var(--accent1))}
-  .kcard:hover{transform:translateY(-2px);border-color:var(--kc,var(--accent1))}
-  .klabel{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;font-family:"Space Mono",monospace;margin-bottom:7px}
-  .kvalue{font-size:22px;font-weight:700;font-family:"Space Mono",monospace;line-height:1;margin-bottom:4px}
-  .kdelta{font-size:10px;color:var(--muted);font-family:"Space Mono",monospace}
-  .kicon{position:absolute;right:14px;top:50%;transform:translateY(-50%);font-size:26px;opacity:.1}
+      .kpi-row {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 12px;
+        margin-bottom: 20px;
+      }
+      .kcard {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 16px 18px;
+        position: relative;
+        overflow: hidden;
+        transition:
+          transform 0.2s,
+          border-color 0.2s;
+      }
+      .kcard::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: var(--kc, var(--accent1));
+      }
+      .kcard:hover {
+        transform: translateY(-2px);
+        border-color: var(--kc, var(--accent1));
+      }
+      .klabel {
+        font-size: 10px;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        font-family: "Space Mono", monospace;
+        margin-bottom: 7px;
+      }
+      .kvalue {
+        font-size: 22px;
+        font-weight: 700;
+        font-family: "Space Mono", monospace;
+        line-height: 1;
+        margin-bottom: 4px;
+      }
+      .kdelta {
+        font-size: 10px;
+        color: var(--muted);
+        font-family: "Space Mono", monospace;
+      }
+      .kicon {
+        position: absolute;
+        right: 14px;
+        top: 16px;
+        font-size: 11px;
+        font-family: "Space Mono", monospace;
+        font-weight: 700;
+        opacity: 0.95;
+      }
 
-  .g2{display:grid;grid-template-columns:2fr 1fr;gap:16px;margin-bottom:18px}
-  .g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:18px}
-  .g2b{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:18px}
-  .g4{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:16px;margin-bottom:18px}
-  .ccard{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px}
-  .cheader{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px}
-  .ctitle{font-size:13px;font-weight:600}
-  .csub{font-size:10px;color:var(--muted);margin-top:2px;font-family:"Space Mono",monospace}
-  .cbadge{font-size:9px;font-family:"Space Mono",monospace;padding:2px 6px;border-radius:5px;background:rgba(200,135,58,.12);border:1px solid rgba(200,135,58,.25);color:var(--accent1);white-space:nowrap}
+      .up {
+        color: var(--accent3);
+      }
 
-  .tcard{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:18px}
-  .thead2{padding:14px 18px;border-bottom:1px solid var(--border)}
-  table{width:100%;border-collapse:collapse}
-  thead th{padding:8px 14px;text-align:left;font-size:10px;color:var(--muted);font-family:"Space Mono",monospace;text-transform:uppercase;letter-spacing:.05em;background:rgba(255,255,255,.02);border-bottom:1px solid var(--border)}
-  tbody tr{border-bottom:1px solid rgba(255,255,255,.04);transition:background .15s}
-  tbody tr:hover{background:rgba(255,255,255,.03)}
-  tbody td{padding:10px 14px;font-size:12px}
-  .pill{display:inline-block;padding:2px 8px;border-radius:20px;font-size:10px;font-family:"Space Mono",monospace;font-weight:600}
-  .p-ara{background:rgba(227,91,125,.15);color:var(--accent4)}
-  .p-exc{background:rgba(200,135,58,.15);color:var(--accent1)}
-  .p-lib{background:rgba(61,227,163,.15);color:var(--accent3)}
-  .p-rob{background:rgba(91,141,238,.15);color:var(--accent2)}
-  .p-us{background:rgba(200,135,58,.12);color:var(--accent1)}
-  .p-ie{background:rgba(61,227,163,.12);color:var(--accent3)}
-  .p-uk{background:rgba(91,141,238,.12);color:var(--accent2)}
-  .p-yes{background:rgba(61,227,163,.12);color:var(--accent3)}
-  .p-no{background:rgba(255,255,255,.06);color:var(--muted)}
-  .pos{color:var(--accent3)}
-  .mono{font-family:"Space Mono",monospace}
+      .down {
+        color: var(--accent4);
+      }
 
-  .ig{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:18px}
-  .icard{background:var(--card);border:1px solid var(--border);border-left:3px solid var(--ic,var(--accent1));border-radius:12px;padding:14px 16px}
-  .iclabel{font-size:9px;color:var(--muted);font-family:"Space Mono",monospace;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px}
-  .ictext{font-size:12px;line-height:1.5}
-  .icstat{margin-top:6px;font-family:"Space Mono",monospace;font-size:15px;font-weight:700;color:var(--ic,var(--accent1))}
+      .neutral {
+        color: var(--muted);
+      }
 
-  .mrow{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid var(--border);font-size:12px}
-  .mrow:last-child{border-bottom:none}
-  .mbar{height:5px;border-radius:3px;background:var(--border);overflow:hidden;margin-top:3px}
-  .mfill{height:100%;border-radius:3px;transition:width .8s ease}
-  .footer{text-align:center;padding:18px;color:var(--muted);font-size:10px;font-family:"Space Mono",monospace;border-top:1px solid var(--border);margin-top:6px}
-</style>
-</head>
-<body>
+      .g2 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 16px;
+        margin-bottom: 18px;
+      }
+      .g3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 16px;
+        margin-bottom: 18px;
+      }
+      .g2b {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin-bottom: 18px;
+      }
+      .g4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 16px;
+        margin-bottom: 18px;
+      }
+      .ccard {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 18px;
+      }
+      .cheader {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 14px;
+      }
+      .ctitle {
+        font-size: 13px;
+        font-weight: 600;
+      }
+      .csub {
+        font-size: 10px;
+        color: var(--muted);
+        margin-top: 2px;
+        font-family: "Space Mono", monospace;
+      }
+      .cbadge {
+        font-size: 9px;
+        font-family: "Space Mono", monospace;
+        padding: 2px 6px;
+        border-radius: 5px;
+        background: rgba(200, 135, 58, 0.12);
+        border: 1px solid rgba(200, 135, 58, 0.25);
+        color: var(--accent1);
+        white-space: nowrap;
+      }
 
-<div class="header">
-  <div class="brand">
-    <div class="brand-icon">☕</div>
-    <div>
-      <h1>Coffee Sales Analytics</h1>
-      <p>DATA WAREHOUSE &amp; MINING DASHBOARD — 3 Sheets Integrated</p>
-    </div>
-  </div>
-  <div class="hright">
-    <div class="fg"><span class="fl">Year</span>
-      <select id="fYear" onchange="render()">
-        <option value="all">All Years</option>
-        <option value="2019">2019</option><option value="2020">2020</option>
-        <option value="2021">2021</option><option value="2022">2022</option>
-      </select>
-    </div>
-    <div class="fg"><span class="fl">Coffee</span>
-      <select id="fCoffee" onchange="render()">
-        <option value="all">All Types</option>
-        <option value="Arabica">Arabica</option><option value="Excelsa">Excelsa</option>
-        <option value="Liberica">Liberica</option><option value="Robusta">Robusta</option>
-      </select>
-    </div>
-    <div class="fg"><span class="fl">Country</span>
-      <select id="fCountry" onchange="render()">
-        <option value="all">All Countries</option>
-        <option value="United States">United States</option>
-        <option value="Ireland">Ireland</option>
-        <option value="United Kingdom">United Kingdom</option>
-      </select>
-    </div>
-    <div class="fg"><span class="fl">Roast</span>
-      <select id="fRoast" onchange="render()">
-        <option value="all">All Roasts</option>
-        <option value="Medium">Medium</option>
-        <option value="Light">Light</option>
-        <option value="Dark">Dark</option>
-      </select>
-    </div>
-    <div class="fg"><span class="fl">Loyalty</span>
-      <select id="fLoyalty" onchange="render()">
-        <option value="all">All</option>
-        <option value="Yes">Card Holder</option>
-        <option value="No">Non-Member</option>
-      </select>
-    </div>
-  </div>
-</div>
+      .tcard {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        overflow: hidden;
+        margin-bottom: 18px;
+      }
+      .thead2 {
+        padding: 14px 18px;
+        border-bottom: 1px solid var(--border);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      thead th {
+        padding: 8px 14px;
+        text-align: left;
+        font-size: 10px;
+        color: var(--muted);
+        font-family: "Space Mono", monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        background: rgba(255, 255, 255, 0.02);
+        border-bottom: 1px solid var(--border);
+      }
+      tbody tr {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        transition: background 0.15s;
+      }
+      tbody tr:hover {
+        background: rgba(255, 255, 255, 0.03);
+      }
+      tbody td {
+        padding: 10px 14px;
+        font-size: 12px;
+      }
+      .pill {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 20px;
+        font-size: 10px;
+        font-family: "Space Mono", monospace;
+        font-weight: 600;
+      }
+      .p-ara {
+        background: rgba(227, 91, 125, 0.15);
+        color: var(--accent4);
+      }
+      .p-exc {
+        background: rgba(200, 135, 58, 0.15);
+        color: var(--accent1);
+      }
+      .p-lib {
+        background: rgba(61, 227, 163, 0.15);
+        color: var(--accent3);
+      }
+      .p-rob {
+        background: rgba(91, 141, 238, 0.15);
+        color: var(--accent2);
+      }
+      .p-us {
+        background: rgba(200, 135, 58, 0.12);
+        color: var(--accent1);
+      }
+      .p-ie {
+        background: rgba(61, 227, 163, 0.12);
+        color: var(--accent3);
+      }
+      .p-uk {
+        background: rgba(91, 141, 238, 0.12);
+        color: var(--accent2);
+      }
+      .p-yes {
+        background: rgba(61, 227, 163, 0.12);
+        color: var(--accent3);
+      }
+      .p-no {
+        background: rgba(255, 255, 255, 0.06);
+        color: var(--muted);
+      }
+      .pos {
+        color: var(--accent3);
+      }
+      .mono {
+        font-family: "Space Mono", monospace;
+      }
 
-<div class="main">
+      .ig {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+      .icard {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-left: 3px solid var(--ic, var(--accent1));
+        border-radius: 12px;
+        padding: 14px 16px;
+      }
+      .iclabel {
+        font-size: 9px;
+        color: var(--muted);
+        font-family: "Space Mono", monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin-bottom: 6px;
+      }
+      .ictext {
+        font-size: 12px;
+        line-height: 1.5;
+      }
+      .icstat {
+        margin-top: 6px;
+        font-family: "Space Mono", monospace;
+        font-size: 15px;
+        font-weight: 700;
+        color: var(--ic, var(--accent1));
+      }
 
-  <!-- KPI: 5 cards now including loyalty -->
-  <div class="stitle">Key Performance Indicators</div>
-  <div class="kpi-row">
-    <div class="kcard" style="--kc:var(--accent1)">
-      <div class="klabel">Total Revenue</div>
-      <div class="kvalue" id="kRev">—</div>
-      <div class="kdelta" id="kRevSub">—</div>
-      <div class="kicon">💰</div>
-    </div>
-    <div class="kcard" style="--kc:var(--accent3)">
-      <div class="klabel">Total Profit</div>
-      <div class="kvalue" id="kProfit">—</div>
-      <div class="kdelta" id="kProfitSub">—</div>
-      <div class="kicon">📈</div>
-    </div>
-    <div class="kcard" style="--kc:var(--accent2)">
-      <div class="klabel">Total Orders</div>
-      <div class="kvalue" id="kOrders">—</div>
-      <div class="kdelta" id="kOrdersSub">—</div>
-      <div class="kicon">📦</div>
-    </div>
-    <div class="kcard" style="--kc:var(--accent4)">
-      <div class="klabel">Unique Customers</div>
-      <div class="kvalue" id="kCust">—</div>
-      <div class="kdelta" id="kCustSub">—</div>
-      <div class="kicon">👥</div>
-    </div>
-    <div class="kcard" style="--kc:#a78bfa">
-      <div class="klabel">Loyalty Card Holders</div>
-      <div class="kvalue" id="kLoyalty">—</div>
-      <div class="kdelta" id="kLoyaltySub">—</div>
-      <div class="kicon">🎫</div>
-    </div>
-  </div>
-
-  <!-- TREND + COFFEE TYPE -->
-  <div class="stitle">Sales Trends &amp; Distribution</div>
-  <div class="g2">
-    <div class="ccard">
-      <div class="cheader">
-        <div><div class="ctitle">Monthly Revenue Trend</div><div class="csub" id="trendSub">—</div></div>
-        <div class="cbadge">LINE CHART</div>
+      .mrow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 0;
+        border-bottom: 1px solid var(--border);
+        font-size: 12px;
+      }
+      .mrow:last-child {
+        border-bottom: none;
+      }
+      .mbar {
+        height: 5px;
+        border-radius: 3px;
+        background: var(--border);
+        overflow: hidden;
+        margin-top: 3px;
+      }
+      .mfill {
+        height: 100%;
+        border-radius: 3px;
+        transition: width 0.8s ease;
+      }
+      .footer {
+        text-align: center;
+        padding: 18px;
+        color: var(--muted);
+        font-size: 10px;
+        font-family: "Space Mono", monospace;
+        border-top: 1px solid var(--border);
+        margin-top: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="brand">
+        <div class="brand-icon">☕</div>
+        <div>
+          <h1>Coffee Sales Analytics</h1>
+          <p>DATA WAREHOUSE &amp; MINING DASHBOARD — 3 Sheets Integrated</p>
+        </div>
       </div>
-      <canvas id="cTrend" height="95"></canvas>
-    </div>
-    <div class="ccard">
-      <div class="cheader">
-        <div><div class="ctitle">Revenue by Coffee Type</div><div class="csub" id="coffeeSub">—</div></div>
-        <div class="cbadge">DOUGHNUT</div>
-      </div>
-      <canvas id="cCoffee" height="160"></canvas>
-    </div>
-  </div>
-
-  <!-- COUNTRY + ROAST + SIZE + LOYALTY -->
-  <div class="g4">
-    <div class="ccard">
-      <div class="cheader"><div><div class="ctitle">By Country</div><div class="csub" id="countrySub">—</div></div></div>
-      <canvas id="cCountry" height="160"></canvas>
-    </div>
-    <div class="ccard">
-      <div class="cheader"><div><div class="ctitle">By Roast Type</div><div class="csub" id="roastSub">—</div></div></div>
-      <canvas id="cRoast" height="160"></canvas>
-    </div>
-    <div class="ccard">
-      <div class="cheader"><div><div class="ctitle">By Bag Size</div><div class="csub" id="sizeSub">—</div></div></div>
-      <canvas id="cSize" height="160"></canvas>
-    </div>
-    <div class="ccard">
-      <div class="cheader"><div><div class="ctitle">Loyalty Card Revenue</div><div class="csub" id="loyaltySub">—</div></div></div>
-      <canvas id="cLoyalty" height="160"></canvas>
-    </div>
-  </div>
-
-  <!-- LOYALTY vs NON TREND -->
-  <div class="g2b">
-    <div class="ccard">
-      <div class="cheader">
-        <div><div class="ctitle">Loyalty vs Non-Loyalty — Monthly Spend</div><div class="csub" id="loyTrendSub">From customers sheet</div></div>
-        <div class="cbadge">NEW</div>
-      </div>
-      <canvas id="cLoyTrend" height="120"></canvas>
-    </div>
-    <div class="ccard">
-      <div class="cheader">
-        <div><div class="ctitle">Price per 100g by Coffee Type</div><div class="csub" id="per100gSub">From products sheet</div></div>
-        <div class="cbadge">NEW</div>
-      </div>
-      <canvas id="cPer100g" height="120"></canvas>
-    </div>
-  </div>
-
-  <!-- TOP CUSTOMERS TABLE — with new columns -->
-  <div class="stitle">Top Customers (Filtered) — Full Customer Data</div>
-  <div class="tcard">
-    <div class="thead2">
-      <div class="ctitle">Top 10 Customers by Revenue</div>
-      <div class="csub" id="tableSub">Includes City, Postcode &amp; Loyalty Card from customers sheet</div>
-    </div>
-    <table>
-      <thead><tr>
-        <th>#</th><th>Customer Name</th><th>Country</th><th>City</th>
-        <th>Loyalty</th><th>Coffee</th><th>Orders</th><th>Revenue</th><th>Profit</th><th>Margin</th>
-      </tr></thead>
-      <tbody id="custTable"></tbody>
-    </table>
-    <div id="no-data" style="text-align:center;padding:36px;color:var(--muted);font-family:'Space Mono',monospace;font-size:12px;display:none">No data matches the selected filters.</div>
-  </div>
-
-  <!-- DATA MINING -->
-  <div class="stitle">Data Mining Results</div>
-  <div class="g2b">
-    <div class="ccard">
-      <div class="cheader">
-        <div><div class="ctitle">K-Means Clustering — Customer Segments</div><div class="csub">Based on spend + loyalty status</div></div>
-        <div class="cbadge">CLUSTERING</div>
-      </div>
-      <canvas id="cCluster" height="130"></canvas>
-      <div id="clusterDetails" style="margin-top:12px"></div>
-    </div>
-    <div class="ccard">
-      <div class="cheader">
-        <div><div class="ctitle">Model Performance Summary</div><div class="csub">All 4 Data Mining Techniques</div></div>
-        <div class="cbadge">RESULTS</div>
-      </div>
-      <div style="margin-top:6px">
-        <div class="mrow"><div><div style="font-size:12px;font-weight:600">Regression (Linear)</div><div style="font-size:10px;color:var(--muted);font-family:'Space Mono',monospace">R² = 0.8256 · RMSE = 16.91</div><div class="mbar"><div class="mfill" style="width:82.56%;background:var(--accent3)"></div></div></div><span class="mono" style="color:var(--accent3);font-weight:700;font-size:13px">82.6%</span></div>
-        <div class="mrow" style="margin-top:9px"><div><div style="font-size:12px;font-weight:600">Clustering (K-Means)</div><div style="font-size:10px;color:var(--muted);font-family:'Space Mono',monospace">Silhouette = 0.6676 · K=3</div><div class="mbar"><div class="mfill" style="width:66.76%;background:var(--accent2)"></div></div></div><span class="mono" style="color:var(--accent2);font-weight:700;font-size:13px">0.668</span></div>
-        <div class="mrow" style="margin-top:9px"><div><div style="font-size:12px;font-weight:600">Classification (Decision Tree)</div><div style="font-size:10px;color:var(--muted);font-family:'Space Mono',monospace">Accuracy = 44% · 1.76× baseline</div><div class="mbar"><div class="mfill" style="width:44%;background:var(--accent1)"></div></div></div><span class="mono" style="color:var(--accent1);font-weight:700;font-size:13px">44%</span></div>
-        <div class="mrow" style="margin-top:9px"><div><div style="font-size:12px;font-weight:600">Association Rules (Apriori)</div><div style="font-size:10px;color:var(--muted);font-family:'Space Mono',monospace">Multi-item co-purchase analysis</div><div class="mbar"><div class="mfill" style="width:55%;background:var(--accent4)"></div></div></div><span class="mono" style="color:var(--accent4);font-weight:700;font-size:13px">✓</span></div>
+      <div class="hright">
+        <div class="fg">
+          <span class="fl">Year</span>
+          <select id="fYear" onchange="render()">
+            <option value="all">All Years</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+          </select>
+        </div>
+        <div class="fg">
+          <span class="fl">Coffee</span>
+          <select id="fCoffee" onchange="render()">
+            <option value="all">All Types</option>
+            <option value="Arabica">Arabica</option>
+            <option value="Excelsa">Excelsa</option>
+            <option value="Liberica">Liberica</option>
+            <option value="Robusta">Robusta</option>
+          </select>
+        </div>
+        <div class="fg">
+          <span class="fl">Country</span>
+          <select id="fCountry" onchange="render()">
+            <option value="all">All Countries</option>
+            <option value="United States">United States</option>
+            <option value="Ireland">Ireland</option>
+            <option value="United Kingdom">United Kingdom</option>
+          </select>
+        </div>
+        <div class="fg">
+          <span class="fl">Roast</span>
+          <select id="fRoast" onchange="render()">
+            <option value="all">All Roasts</option>
+            <option value="Medium">Medium</option>
+            <option value="Light">Light</option>
+            <option value="Dark">Dark</option>
+          </select>
+        </div>
+        <div class="fg">
+          <span class="fl">Loyalty</span>
+          <select id="fLoyalty" onchange="render()">
+            <option value="all">All</option>
+            <option value="Yes">Card Holder</option>
+            <option value="No">Non-Member</option>
+          </select>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- INSIGHTS -->
-  <div class="stitle">Business Insights (Filtered)</div>
-  <div class="ig">
-    <div class="icard" style="--ic:var(--accent1)">
-      <div class="iclabel">🏆 Top Coffee</div>
-      <div class="ictext" id="insightCoffee">—</div>
-      <div class="icstat" id="insightCoffeeStat">—</div>
-    </div>
-    <div class="icard" style="--ic:var(--accent2)">
-      <div class="iclabel">🌍 Top Country</div>
-      <div class="ictext" id="insightCountry">—</div>
-      <div class="icstat" id="insightCountryStat">—</div>
-    </div>
-    <div class="icard" style="--ic:var(--accent3)">
-      <div class="iclabel">🎫 Loyalty Impact</div>
-      <div class="ictext" id="insightLoyalty">—</div>
-      <div class="icstat" id="insightLoyaltyStat">—</div>
-    </div>
-    <div class="icard" style="--ic:var(--accent4)">
-      <div class="iclabel">📅 Best Month</div>
-      <div class="ictext" id="insightMonth">—</div>
-      <div class="icstat" id="insightMonthStat">—</div>
-    </div>
-    <div class="icard" style="--ic:var(--accent1)">
-      <div class="iclabel">💰 Avg Order Value</div>
-      <div class="ictext" id="insightAOV">—</div>
-      <div class="icstat" id="insightAOVStat">—</div>
-    </div>
-    <div class="icard" style="--ic:var(--accent2)">
-      <div class="iclabel">📊 Profit Margin</div>
-      <div class="ictext" id="insightMargin">—</div>
-      <div class="icstat" id="insightMarginStat">—</div>
-    </div>
-  </div>
+    <div class="main">
+      <!-- KPI: 5 cards now including loyalty -->
+      <div class="stitle">Key Performance Indicators</div>
+      <div class="kpi-row">
+        <div class="kcard" style="--kc: var(--accent1)">
+          <div class="klabel">Total Revenue</div>
+          <div class="kvalue" id="kRev">—</div>
+          <div class="kdelta" id="kRevSub">—</div>
+          <div class="kicon" id="kRevIcon">—</div>
+        </div>
 
-</div>
-<div class="footer">☕ Coffee Sales Analytics — orders + customers + products sheets integrated | 999 transactions · 2019–2022</div>
+        <div class="kcard" style="--kc: var(--accent3)">
+          <div class="klabel">Total Profit</div>
+          <div class="kvalue" id="kProfit">—</div>
+          <div class="kdelta" id="kProfitSub">—</div>
+          <div class="kicon" id="kProfitIcon">—</div>
+        </div>
 
-<script>
+        <div class="kcard" style="--kc: var(--accent2)">
+          <div class="klabel">Total Orders</div>
+          <div class="kvalue" id="kOrders">—</div>
+          <div class="kdelta" id="kOrdersSub">—</div>
+          <div class="kicon" id="kOrdersIcon">—</div>
+        </div>
 
-// ── SUPABASE LIVE CONFIG ──────────────────────────────────
-const SUPABASE_URL = 'https://tbhyluahbifsjyftriku.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRiaHlsdWFoYmlmc2p5ZnRyaWt1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgwODY3MDIsImV4cCI6MjA5MzY2MjcwMn0.Astj4jCkbjcXydP1-OFBVKe6xpi15q1U0IiSeyOeOOo';
+        <div class="kcard" style="--kc: var(--accent4)">
+          <div class="klabel">Unique Customers</div>
+          <div class="kvalue" id="kCust">—</div>
+          <div class="kdelta" id="kCustSub">—</div>
+          <div class="kicon" id="kCustIcon">—</div>
+        </div>
 
-// Loading overlay
-document.body.insertAdjacentHTML('afterbegin', `
+        <div class="kcard" style="--kc: #a78bfa">
+          <div class="klabel">Loyalty Card Holders</div>
+          <div class="kvalue" id="kLoyalty">—</div>
+          <div class="kdelta" id="kLoyaltySub">—</div>
+          <div class="kicon" id="kLoyaltyIcon">—</div>
+        </div>
+      </div>
+
+      <!-- TREND + COFFEE TYPE -->
+      <div class="stitle">Sales Trends &amp; Distribution</div>
+      <div class="g2">
+        <div class="ccard">
+          <div class="cheader">
+            <div>
+              <div class="ctitle">Monthly Revenue Trend</div>
+              <div class="csub" id="trendSub">—</div>
+            </div>
+            <div class="cbadge">LINE CHART</div>
+          </div>
+          <canvas id="cTrend" height="95"></canvas>
+        </div>
+        <div class="ccard">
+          <div class="cheader">
+            <div>
+              <div class="ctitle">Revenue by Coffee Type</div>
+              <div class="csub" id="coffeeSub">—</div>
+            </div>
+            <div class="cbadge">DOUGHNUT</div>
+          </div>
+          <canvas id="cCoffee" height="160"></canvas>
+        </div>
+      </div>
+
+      <!-- COUNTRY + ROAST + SIZE + LOYALTY -->
+      <div class="g4">
+        <div class="ccard">
+          <div class="cheader">
+            <div>
+              <div class="ctitle">By Country</div>
+              <div class="csub" id="countrySub">—</div>
+            </div>
+          </div>
+          <canvas id="cCountry" height="160"></canvas>
+        </div>
+        <div class="ccard">
+          <div class="cheader">
+            <div>
+              <div class="ctitle">By Roast Type</div>
+              <div class="csub" id="roastSub">—</div>
+            </div>
+          </div>
+          <canvas id="cRoast" height="160"></canvas>
+        </div>
+        <div class="ccard">
+          <div class="cheader">
+            <div>
+              <div class="ctitle">By Bag Size</div>
+              <div class="csub" id="sizeSub">—</div>
+            </div>
+          </div>
+          <canvas id="cSize" height="160"></canvas>
+        </div>
+        <div class="ccard">
+          <div class="cheader">
+            <div>
+              <div class="ctitle">Loyalty Card Revenue</div>
+              <div class="csub" id="loyaltySub">—</div>
+            </div>
+          </div>
+          <canvas id="cLoyalty" height="160"></canvas>
+        </div>
+      </div>
+
+      <!-- LOYALTY vs NON TREND -->
+      <div class="g2b">
+        <div class="ccard">
+          <div class="cheader">
+            <div>
+              <div class="ctitle">Loyalty vs Non-Loyalty — Monthly Spend</div>
+              <div class="csub" id="loyTrendSub">From customers sheet</div>
+            </div>
+            <div class="cbadge">NEW</div>
+          </div>
+          <canvas id="cLoyTrend" height="120"></canvas>
+        </div>
+        <div class="ccard">
+          <div class="cheader">
+            <div>
+              <div class="ctitle">Price per 100g by Coffee Type</div>
+              <div class="csub" id="per100gSub">From products sheet</div>
+            </div>
+            <div class="cbadge">NEW</div>
+          </div>
+          <canvas id="cPer100g" height="120"></canvas>
+        </div>
+      </div>
+
+      <!-- TOP CUSTOMERS TABLE — with new columns -->
+      <div class="stitle">Top Customers (Filtered) — Full Customer Data</div>
+      <div class="tcard">
+        <div class="thead2">
+          <div class="ctitle">Top 10 Customers by Revenue</div>
+          <div class="csub" id="tableSub">
+            Includes City, Postcode &amp; Loyalty Card from customers sheet
+          </div>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Customer Name</th>
+              <th>Country</th>
+              <th>City</th>
+              <th>Loyalty</th>
+              <th>Coffee</th>
+              <th>Orders</th>
+              <th>Revenue</th>
+              <th>Profit</th>
+              <th>Margin</th>
+            </tr>
+          </thead>
+          <tbody id="custTable"></tbody>
+        </table>
+        <div
+          id="no-data"
+          style="
+            text-align: center;
+            padding: 36px;
+            color: var(--muted);
+            font-family: &quot;Space Mono&quot;, monospace;
+            font-size: 12px;
+            display: none;
+          "
+        >
+          No data matches the selected filters.
+        </div>
+      </div>
+
+      <!-- DATA MINING -->
+      <div class="stitle">Data Mining Results</div>
+      <div class="g2b">
+        <div class="ccard">
+          <div class="cheader">
+            <div>
+              <div class="ctitle">K-Means Clustering — Customer Segments</div>
+              <div class="csub">Based on spend + loyalty status</div>
+            </div>
+            <div class="cbadge">CLUSTERING</div>
+          </div>
+          <canvas id="cCluster" height="130"></canvas>
+          <div id="clusterDetails" style="margin-top: 12px"></div>
+        </div>
+        <div class="ccard">
+          <div class="cheader">
+            <div>
+              <div class="ctitle">Model Performance Summary</div>
+              <div class="csub">All 4 Data Mining Techniques</div>
+            </div>
+            <div class="cbadge">RESULTS</div>
+          </div>
+          <div style="margin-top: 6px">
+            <div class="mrow">
+              <div>
+                <div style="font-size: 12px; font-weight: 600">
+                  Regression (Linear)
+                </div>
+                <div
+                  style="
+                    font-size: 10px;
+                    color: var(--muted);
+                    font-family: &quot;Space Mono&quot;, monospace;
+                  "
+                >
+                  R² = 0.8256 · RMSE = 16.91
+                </div>
+                <div class="mbar">
+                  <div
+                    class="mfill"
+                    style="width: 82.56%; background: var(--accent3)"
+                  ></div>
+                </div>
+              </div>
+              <span
+                class="mono"
+                style="color: var(--accent3); font-weight: 700; font-size: 13px"
+                >82.6%</span
+              >
+            </div>
+            <div class="mrow" style="margin-top: 9px">
+              <div>
+                <div style="font-size: 12px; font-weight: 600">
+                  Clustering (K-Means)
+                </div>
+                <div
+                  style="
+                    font-size: 10px;
+                    color: var(--muted);
+                    font-family: &quot;Space Mono&quot;, monospace;
+                  "
+                >
+                  Silhouette = 0.6676 · K=3
+                </div>
+                <div class="mbar">
+                  <div
+                    class="mfill"
+                    style="width: 66.76%; background: var(--accent2)"
+                  ></div>
+                </div>
+              </div>
+              <span
+                class="mono"
+                style="color: var(--accent2); font-weight: 700; font-size: 13px"
+                >0.668</span
+              >
+            </div>
+            <div class="mrow" style="margin-top: 9px">
+              <div>
+                <div style="font-size: 12px; font-weight: 600">
+                  Classification (Decision Tree)
+                </div>
+                <div
+                  style="
+                    font-size: 10px;
+                    color: var(--muted);
+                    font-family: &quot;Space Mono&quot;, monospace;
+                  "
+                >
+                  Accuracy = 44% · 1.76× baseline
+                </div>
+                <div class="mbar">
+                  <div
+                    class="mfill"
+                    style="width: 44%; background: var(--accent1)"
+                  ></div>
+                </div>
+              </div>
+              <span
+                class="mono"
+                style="color: var(--accent1); font-weight: 700; font-size: 13px"
+                >44%</span
+              >
+            </div>
+            <div class="mrow" style="margin-top: 9px">
+              <div>
+                <div style="font-size: 12px; font-weight: 600">
+                  Association Rules (Apriori)
+                </div>
+                <div
+                  style="
+                    font-size: 10px;
+                    color: var(--muted);
+                    font-family: &quot;Space Mono&quot;, monospace;
+                  "
+                >
+                  Multi-item co-purchase analysis
+                </div>
+                <div class="mbar">
+                  <div
+                    class="mfill"
+                    style="width: 55%; background: var(--accent4)"
+                  ></div>
+                </div>
+              </div>
+              <span
+                class="mono"
+                style="color: var(--accent4); font-weight: 700; font-size: 13px"
+                >✓</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- INSIGHTS -->
+      <div class="stitle">Business Insights (Filtered)</div>
+      <div class="ig">
+        <div class="icard" style="--ic: var(--accent1)">
+          <div class="iclabel">🏆 Top Coffee</div>
+          <div class="ictext" id="insightCoffee">—</div>
+          <div class="icstat" id="insightCoffeeStat">—</div>
+        </div>
+        <div class="icard" style="--ic: var(--accent2)">
+          <div class="iclabel">🌍 Top Country</div>
+          <div class="ictext" id="insightCountry">—</div>
+          <div class="icstat" id="insightCountryStat">—</div>
+        </div>
+        <div class="icard" style="--ic: var(--accent3)">
+          <div class="iclabel">🎫 Loyalty Impact</div>
+          <div class="ictext" id="insightLoyalty">—</div>
+          <div class="icstat" id="insightLoyaltyStat">—</div>
+        </div>
+        <div class="icard" style="--ic: var(--accent4)">
+          <div class="iclabel">📅 Best Month</div>
+          <div class="ictext" id="insightMonth">—</div>
+          <div class="icstat" id="insightMonthStat">—</div>
+        </div>
+        <div class="icard" style="--ic: var(--accent1)">
+          <div class="iclabel">💰 Avg Order Value</div>
+          <div class="ictext" id="insightAOV">—</div>
+          <div class="icstat" id="insightAOVStat">—</div>
+        </div>
+        <div class="icard" style="--ic: var(--accent2)">
+          <div class="iclabel">📊 Profit Margin</div>
+          <div class="ictext" id="insightMargin">—</div>
+          <div class="icstat" id="insightMarginStat">—</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      ☕ Coffee Sales Analytics — orders + customers + products sheets
+      integrated | 999 transactions · 2019–2022
+    </div>
+
+    <script>
+      // ── SUPABASE LIVE CONFIG ──────────────────────────────────
+      const SUPABASE_URL = "https://tbhyluahbifsjyftriku.supabase.co";
+      const SUPABASE_KEY =
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRiaHlsdWFoYmlmc2p5ZnRyaWt1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgwODY3MDIsImV4cCI6MjA5MzY2MjcwMn0.Astj4jCkbjcXydP1-OFBVKe6xpi15q1U0IiSeyOeOOo";
+
+      // Loading overlay
+      document.body.insertAdjacentHTML(
+        "afterbegin",
+        `
 <div id="loading-overlay" style="
   position:fixed;top:0;left:0;width:100%;height:100%;
   background:#0e0f14;display:flex;flex-direction:column;
@@ -330,467 +868,989 @@ document.body.insertAdjacentHTML('afterbegin', `
   <div id="load-status" style="font-family:'Space Mono',monospace;color:#6b7080;font-size:11px;margin-top:10px">
     Connecting...
   </div>
-</div>`);
+</div>`,
+      );
 
-async function fetchSupabase(table, select='*') {
-  const res = await fetch(
-    `${SUPABASE_URL}/rest/v1/${table}?select=${select}`,
-    { headers: {
-      'apikey': SUPABASE_KEY,
-      'Authorization': 'Bearer ' + SUPABASE_KEY
-    } }
-  );
-  if (!res.ok) throw new Error(`Failed to fetch ${table}: ${res.status}`);
-  return res.json();
-}
+      async function fetchSupabase(table, select = "*") {
+        const res = await fetch(
+          `${SUPABASE_URL}/rest/v1/${table}?select=${select}`,
+          {
+            headers: {
+              apikey: SUPABASE_KEY,
+              Authorization: "Bearer " + SUPABASE_KEY,
+            },
+          },
+        );
+        if (!res.ok) throw new Error(`Failed to fetch ${table}: ${res.status}`);
+        return res.json();
+      }
 
+      function updateMiningResults(m) {
+        // ── Clustering ──────────────────────────────────────────
+        const sil = m.clustering.silhouette_score;
+        const segs = m.clustering.segments;
 
-function updateMiningResults(m) {
-  // ── Clustering ──────────────────────────────────────────
-  const sil = m.clustering.silhouette_score;
-  const segs = m.clustering.segments;
+        // Update silhouette score display
+        document.querySelectorAll(".csub").forEach((el) => {
+          if (el.textContent.includes("Silhouette")) {
+            el.textContent = `K=3 · Silhouette Score: ${sil}`;
+          }
+        });
 
-  // Update silhouette score display
-  document.querySelectorAll('.csub').forEach(el => {
-    if (el.textContent.includes('Silhouette')) {
-      el.textContent = `K=3 · Silhouette Score: ${sil}`;
-    }
-  });
-
-  // Update cluster details
-  const clusterDiv = document.getElementById('clusterDetails');
-  if (clusterDiv && segs) {
-    const emoji = {'High-Value':'🔴','Frequent':'🟡','Casual':'🟢'};
-    const range = {'High-Value':'>$100','Frequent':'2+ orders','Casual':'<$50'};
-    clusterDiv.innerHTML = segs.map(s =>
-      `<div class="mrow">
-        <span>${emoji[s.label]||'⚪'} ${s.label} <small style="color:var(--muted)">(${range[s.label]||''})</small></span>
+        // Update cluster details
+        const clusterDiv = document.getElementById("clusterDetails");
+        if (clusterDiv && segs) {
+          const emoji = { "High-Value": "🔴", Frequent: "🟡", Casual: "🟢" };
+          const range = {
+            "High-Value": ">$100",
+            Frequent: "2+ orders",
+            Casual: "<$50",
+          };
+          clusterDiv.innerHTML = segs
+            .map(
+              (s) =>
+                `<div class="mrow">
+        <span>${emoji[s.label] || "⚪"} ${s.label} <small style="color:var(--muted)">(${range[s.label] || ""})</small></span>
         <span class="mono" style="font-size:11px;color:var(--muted)">${s.customer_count} customers · avg $${Math.round(s.avg_spent)}</span>
-      </div>`
-    ).join('');
-  }
+      </div>`,
+            )
+            .join("");
+        }
 
-  // ── Classification ──────────────────────────────────────
-  const acc    = m.classification.accuracy_pct;
-  const cvMean = (m.classification.cv_mean * 100).toFixed(1);
-  const vsBase = m.classification.vs_baseline;
+        // ── Classification ──────────────────────────────────────
+        const acc = m.classification.accuracy_pct;
+        const cvMean = (m.classification.cv_mean * 100).toFixed(1);
+        const vsBase = m.classification.vs_baseline;
 
-  // Update accuracy bar and label
-  document.querySelectorAll('.mfill').forEach((el, i) => {
-    const parent = el.closest('.mrow');
-    if (!parent) return;
-    const title = parent.querySelector('div > div');
-    if (title && title.textContent.includes('Classification')) {
-      el.style.width = acc + '%';
-      const span = parent.querySelector('span[style*="accent1"]');
-      if (span) span.textContent = acc + '%';
-      const sub = parent.querySelector('.mono[style*="muted"]') ||
-                  parent.querySelector('div > div:nth-child(2)');
-      if (sub) sub.textContent = `Accuracy = ${acc}% · ${vsBase}× baseline`;
-    }
-  });
+        // Update accuracy bar and label
+        document.querySelectorAll(".mfill").forEach((el, i) => {
+          const parent = el.closest(".mrow");
+          if (!parent) return;
+          const title = parent.querySelector("div > div");
+          if (title && title.textContent.includes("Classification")) {
+            el.style.width = acc + "%";
+            const span = parent.querySelector('span[style*="accent1"]');
+            if (span) span.textContent = acc + "%";
+            const sub =
+              parent.querySelector('.mono[style*="muted"]') ||
+              parent.querySelector("div > div:nth-child(2)");
+            if (sub)
+              sub.textContent = `Accuracy = ${acc}% · ${vsBase}× baseline`;
+          }
+        });
 
-  // ── Regression ──────────────────────────────────────────
-  const r2   = m.regression.r2_pct;
-  const rmse = m.regression.rmse;
+        // ── Regression ──────────────────────────────────────────
+        const r2 = m.regression.r2_pct;
+        const rmse = m.regression.rmse;
 
-  document.querySelectorAll('.mfill').forEach((el) => {
-    const parent = el.closest('.mrow');
-    if (!parent) return;
-    const title = parent.querySelector('div > div');
-    if (title && title.textContent.includes('Regression')) {
-      el.style.width = r2 + '%';
-      const span = parent.querySelector('span[style*="accent3"]');
-      if (span) span.textContent = r2 + '%';
-      const sub = parent.querySelector('div > div:nth-child(2)');
-      if (sub) sub.textContent = `R² = ${(r2/100).toFixed(4)} · RMSE = ${rmse}`;
-    }
-  });
+        document.querySelectorAll(".mfill").forEach((el) => {
+          const parent = el.closest(".mrow");
+          if (!parent) return;
+          const title = parent.querySelector("div > div");
+          if (title && title.textContent.includes("Regression")) {
+            el.style.width = r2 + "%";
+            const span = parent.querySelector('span[style*="accent3"]');
+            if (span) span.textContent = r2 + "%";
+            const sub = parent.querySelector("div > div:nth-child(2)");
+            if (sub)
+              sub.textContent = `R² = ${(r2 / 100).toFixed(4)} · RMSE = ${rmse}`;
+          }
+        });
 
-  // ── Clustering bar ───────────────────────────────────────
-  document.querySelectorAll('.mfill').forEach((el) => {
-    const parent = el.closest('.mrow');
-    if (!parent) return;
-    const title = parent.querySelector('div > div');
-    if (title && title.textContent.includes('Clustering')) {
-      el.style.width = (sil * 100).toFixed(1) + '%';
-      const span = parent.querySelector('span[style*="accent2"]');
-      if (span) span.textContent = sil.toFixed(3);
-      const sub = parent.querySelector('div > div:nth-child(2)');
-      if (sub) sub.textContent = `Silhouette = ${sil} · K=3`;
-    }
-  });
+        // ── Clustering bar ───────────────────────────────────────
+        document.querySelectorAll(".mfill").forEach((el) => {
+          const parent = el.closest(".mrow");
+          if (!parent) return;
+          const title = parent.querySelector("div > div");
+          if (title && title.textContent.includes("Clustering")) {
+            el.style.width = (sil * 100).toFixed(1) + "%";
+            const span = parent.querySelector('span[style*="accent2"]');
+            if (span) span.textContent = sil.toFixed(3);
+            const sub = parent.querySelector("div > div:nth-child(2)");
+            if (sub) sub.textContent = `Silhouette = ${sil} · K=3`;
+          }
+        });
 
-  // ── Association ──────────────────────────────────────────
-  const rulesFound = m.association.rules_found;
-  const multiOrders = m.association.multi_item_orders;
-  document.querySelectorAll('.mrow').forEach(el => {
-    const title = el.querySelector('div > div');
-    if (title && title.textContent.includes('Association')) {
-      const sub = el.querySelector('div > div:nth-child(2)');
-      if (sub) sub.textContent = `${rulesFound} rules · ${multiOrders} multi-item orders`;
-    }
-  });
+        // ── Association ──────────────────────────────────────────
+        const rulesFound = m.association.rules_found;
+        const multiOrders = m.association.multi_item_orders;
+        document.querySelectorAll(".mrow").forEach((el) => {
+          const title = el.querySelector("div > div");
+          if (title && title.textContent.includes("Association")) {
+            const sub = el.querySelector("div > div:nth-child(2)");
+            if (sub)
+              sub.textContent = `${rulesFound} rules · ${multiOrders} multi-item orders`;
+          }
+        });
 
-  console.log('✓ Mining results updated from Supabase');
-}
+        console.log("✓ Mining results updated from Supabase");
+      }
 
-async function loadAllData() {
-  const bar    = document.getElementById('load-bar');
-  const status = document.getElementById('load-status');
+      async function loadAllData() {
+        const bar = document.getElementById("load-bar");
+        const status = document.getElementById("load-status");
 
-  try {
-    status.textContent = 'Fetching fact_sales...';
-    bar.style.width = '20%';
-    const factSales = await fetchSupabase('fact_sales');
+        try {
+          status.textContent = "Fetching fact_sales...";
+          bar.style.width = "20%";
+          const factSales = await fetchSupabase("fact_sales");
 
-    status.textContent = 'Fetching customers...';
-    bar.style.width = '40%';
-    const customers = await fetchSupabase('dim_customer');
+          status.textContent = "Fetching customers...";
+          bar.style.width = "40%";
+          const customers = await fetchSupabase("dim_customer");
 
-    status.textContent = 'Fetching products...';
-    bar.style.width = '60%';
-    const products  = await fetchSupabase('dim_product');
+          status.textContent = "Fetching products...";
+          bar.style.width = "60%";
+          const products = await fetchSupabase("dim_product");
 
-    status.textContent = 'Fetching dates...';
-    bar.style.width = '75%';
-    const dates     = await fetchSupabase('dim_date');
+          status.textContent = "Fetching dates...";
+          bar.style.width = "75%";
+          const dates = await fetchSupabase("dim_date");
 
-    status.textContent = 'Fetching locations...';
-    bar.style.width = '85%';
-    const locations = await fetchSupabase('dim_location');
+          status.textContent = "Fetching locations...";
+          bar.style.width = "85%";
+          const locations = await fetchSupabase("dim_location");
 
-    status.textContent = 'Fetching mining results...';
-    bar.style.width = '90%';
-    let miningData = null;
-    try {
-      const miningRows = await fetchSupabase('mining_results');
-      const summaryRow = miningRows.find(r => r.metric_key === 'full_results');
-      if (summaryRow) miningData = JSON.parse(summaryRow.detail);
-    } catch(e) { console.warn('Mining results not available:', e); }
+          status.textContent = "Fetching mining results...";
+          bar.style.width = "90%";
+          let miningData = null;
+          try {
+            const miningRows = await fetchSupabase("mining_results");
+            const summaryRow = miningRows.find(
+              (r) => r.metric_key === "full_results",
+            );
+            if (summaryRow) miningData = JSON.parse(summaryRow.detail);
+          } catch (e) {
+            console.warn("Mining results not available:", e);
+          }
 
-    status.textContent = 'Building dataset...';
-    bar.style.width = '95%';
+          status.textContent = "Building dataset...";
+          bar.style.width = "95%";
 
-    // Build lookup maps
-    const custMap = {};
-    customers.forEach(c => { custMap[c.customer_sk] = c; });
+          // Build lookup maps
+          const custMap = {};
+          customers.forEach((c) => {
+            custMap[c.customer_sk] = c;
+          });
 
-    const prodMap = {};
-    products.forEach(p => { prodMap[p.product_sk] = p; });
+          const prodMap = {};
+          products.forEach((p) => {
+            prodMap[p.product_sk] = p;
+          });
 
-    const dateMap = {};
-    dates.forEach(d => { dateMap[d.date_id] = d; });
+          const dateMap = {};
+          dates.forEach((d) => {
+            dateMap[d.date_id] = d;
+          });
 
-    const locMap = {};
-    locations.forEach(l => { locMap[l.location_id] = l; });
+          const locMap = {};
+          locations.forEach((l) => {
+            locMap[l.location_id] = l;
+          });
 
-    // Build month name map
-    const MONTH_NAMES = ['','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+          // Build month name map
+          const MONTH_NAMES = [
+            "",
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec",
+          ];
 
-    // Join all tables
-    const rows = factSales.map(f => {
-      const c = custMap[f.customer_sk] || {};
-      const p = prodMap[f.product_sk]  || {};
-      const d = dateMap[f.date_id]     || {};
-      const l = locMap[f.location_id]  || {};
-      return {
-        orderId:      f.order_id,
-        customerId:   c.customer_id    || '',
-        customerName: c.customer_name  || '',
-        country:      c.country        || l.country || '',
-        city:         c.city           || '',
-        postcode:     c.postcode       || '',
-        loyaltyCard:  c.loyalty_card   || 'No',
-        coffee:       p.coffee_name    || '',
-        roast:        p.roast_name     || '',
-        size:         parseFloat(p.size_kg)    || 0,
-        qty:          parseInt(f.quantity)     || 0,
-        unitPrice:    parseFloat(f.unit_price) || 0,
-        per100g:      parseFloat(p.price_per_100g) || 0,
-        sales:        parseFloat(f.sales_amount)   || 0,
-        profit:       parseFloat(f.profit)         || 0,
-        margin:       parseFloat(f.profit_margin)  || 0,
-        year:         d.year  || 0,
-        month:        d.month || 0,
-        monthName:    MONTH_NAMES[d.month] || ''
+          // Join all tables
+          const rows = factSales.map((f) => {
+            const c = custMap[f.customer_sk] || {};
+            const p = prodMap[f.product_sk] || {};
+            const d = dateMap[f.date_id] || {};
+            const l = locMap[f.location_id] || {};
+            return {
+              orderId: f.order_id,
+              customerId: c.customer_id || "",
+              customerName: c.customer_name || "",
+              country: c.country || l.country || "",
+              city: c.city || "",
+              postcode: c.postcode || "",
+              loyaltyCard: c.loyalty_card || "No",
+              coffee: p.coffee_name || "",
+              roast: p.roast_name || "",
+              size: parseFloat(p.size_kg) || 0,
+              qty: parseInt(f.quantity) || 0,
+              unitPrice: parseFloat(f.unit_price) || 0,
+              per100g: parseFloat(p.price_per_100g) || 0,
+              sales: parseFloat(f.sales_amount) || 0,
+              profit: parseFloat(f.profit) || 0,
+              margin: parseFloat(f.profit_margin) || 0,
+              year: d.year || 0,
+              month: d.month || 0,
+              monthName: MONTH_NAMES[d.month] || "",
+            };
+          });
+
+          bar.style.width = "100%";
+          status.textContent = `✓ ${rows.length} rows loaded!`;
+
+          setTimeout(() => {
+            document.getElementById("loading-overlay").style.display = "none";
+          }, 600);
+
+          // Set global RAW and render
+          window.RAW = rows;
+
+          // Update mining results section if data available
+          if (miningData) {
+            updateMiningResults(miningData);
+          }
+
+          render();
+
+          console.log(`✓ Supabase: ${rows.length} rows loaded`);
+          console.log(
+            `  Total Sales : ${rows.reduce((a, b) => a + b.sales, 0).toFixed(2)}`,
+          );
+          console.log(
+            `  Total Profit: ${rows.reduce((a, b) => a + b.profit, 0).toFixed(2)}`,
+          );
+        } catch (err) {
+          status.textContent = "Error: " + err.message;
+          bar.style.background = "#e35b7d";
+          console.error("Supabase error:", err);
+        }
+      }
+
+      // Replace RAW with dynamic getter
+      Object.defineProperty(window, "RAW", {
+        get: function () {
+          return window._RAW || [];
+        },
+        set: function (v) {
+          window._RAW = v;
+        },
+        configurable: true,
+      });
+
+      // Start loading
+      loadAllData();
+
+      let charts = {};
+      const GC = "rgba(255,255,255,0.05)";
+      const TT = {
+        backgroundColor: "#1c1e28",
+        borderColor: "#2a2d3a",
+        borderWidth: 1,
+        padding: 10,
+        cornerRadius: 8,
+        titleColor: "#e8eaf0",
+        bodyColor: "#9ba3b4",
+        displayColors: false,
       };
-    });
+      Chart.defaults.color = "#6b7080";
+      Chart.defaults.font.family = "'DM Sans',sans-serif";
 
-    bar.style.width = '100%';
-    status.textContent = `✓ ${rows.length} rows loaded!`;
+      function mkChart(id, type, data, opts) {
+        if (charts[id]) charts[id].destroy();
+        charts[id] = new Chart(document.getElementById(id), {
+          type,
+          data,
+          options: { responsive: true, ...opts },
+        });
+      }
 
-    setTimeout(() => {
-      document.getElementById('loading-overlay').style.display = 'none';
-    }, 600);
+      function filtered() {
+        const yr = document.getElementById("fYear").value;
+        const cf = document.getElementById("fCoffee").value;
+        const ct = document.getElementById("fCountry").value;
+        const ro = document.getElementById("fRoast").value;
+        const ly = document.getElementById("fLoyalty").value;
+        return RAW.filter(
+          (r) =>
+            (yr === "all" || r.year == yr) &&
+            (cf === "all" || r.coffee === cf) &&
+            (ct === "all" || r.country === ct) &&
+            (ro === "all" || r.roast === ro) &&
+            (ly === "all" || r.loyaltyCard === ly),
+        );
+      }
 
-    // Set global RAW and render
-    window.RAW = rows;
+      function fmt(n) {
+        return "$" + n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+      function fmtK(n) {
+        return n >= 1000 ? "$" + (n / 1000).toFixed(1) + "k" : fmt(n);
+      }
+      function sum(arr, key) {
+        return arr.reduce((a, b) => a + b[key], 0);
+      }
+      function growth(curr, prev) {
+        if (prev === 0) return null;
+        return ((curr - prev) / prev) * 100;
+      }
+      function groupBy(arr, key) {
+        return arr.reduce((acc, r) => {
+          (acc[r[key]] = acc[r[key]] || []).push(r);
+          return acc;
+        }, {});
+      }
 
-    // Update mining results section if data available
-    if (miningData) {
-      updateMiningResults(miningData);
-    }
+      const MONTHS = [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+      ];
+      const CCOL = {
+        Arabica: "rgba(227,91,125,.8)",
+        Excelsa: "rgba(200,135,58,.8)",
+        Liberica: "rgba(61,227,163,.8)",
+        Robusta: "rgba(91,141,238,.8)",
+      };
+      const PILLMAP = {
+        Arabica: "p-ara",
+        Excelsa: "p-exc",
+        Liberica: "p-lib",
+        Robusta: "p-rob",
+        "United States": "p-us",
+        Ireland: "p-ie",
+        "United Kingdom": "p-uk",
+        Yes: "p-yes",
+        No: "p-no",
+      };
+      const FLAGS = {
+        "United States": "🇺🇸",
+        Ireland: "🇮🇪",
+        "United Kingdom": "🇬🇧",
+      };
 
-    render();
+      function render() {
+        const data = filtered();
+        if (!data.length) {
+          ["kRev", "kProfit", "kOrders", "kCust", "kLoyalty"].forEach(
+            (id) => (document.getElementById(id).textContent = "No data"),
+          );
+          return;
+        }
 
-    console.log(`✓ Supabase: ${rows.length} rows loaded`);
-    console.log(`  Total Sales : ${rows.reduce((a,b)=>a+b.sales,0).toFixed(2)}`);
-    console.log(`  Total Profit: ${rows.reduce((a,b)=>a+b.profit,0).toFixed(2)}`);
+        const totalSales = sum(data, "sales");
+        const totalProfit = sum(data, "profit");
+        const uniqOrders = new Set(data.map((r) => r.orderId)).size;
+        const uniqCust = new Set(data.map((r) => r.customerId)).size;
+        const loyaltyRows = data.filter((r) => r.loyaltyCard === "Yes");
+        const loyaltyRevenue = sum(loyaltyRows, "sales");
+        const loyaltyCust = new Set(loyaltyRows.map((r) => r.customerId)).size;
+        const margin = (totalProfit / totalSales) * 100;
 
-  } catch(err) {
-    status.textContent = 'Error: ' + err.message;
-    bar.style.background = '#e35b7d';
-    console.error('Supabase error:', err);
-  }
-}
+        // ── PREVIOUS YEAR COMPARISON ─────────────────────────
+        const selectedYear = document.getElementById("fYear").value;
 
-// Replace RAW with dynamic getter
-Object.defineProperty(window, 'RAW', {
-  get: function() { return window._RAW || []; },
-  set: function(v) { window._RAW = v; },
-  configurable: true
-});
+        let prevData = [];
 
-// Start loading
-loadAllData();
+        if (selectedYear !== "all" && selectedYear !== "2019") {
+          const prevYear = parseInt(selectedYear) - 1;
 
+          prevData = RAW.filter(
+            (r) =>
+              r.year == prevYear &&
+              (document.getElementById("fCoffee").value === "all" ||
+                r.coffee === document.getElementById("fCoffee").value) &&
+              (document.getElementById("fCountry").value === "all" ||
+                r.country === document.getElementById("fCountry").value) &&
+              (document.getElementById("fRoast").value === "all" ||
+                r.roast === document.getElementById("fRoast").value) &&
+              (document.getElementById("fLoyalty").value === "all" ||
+                r.loyaltyCard === document.getElementById("fLoyalty").value),
+          );
+        }
 
-let charts = {};
-const GC = 'rgba(255,255,255,0.05)';
-const TT = {backgroundColor:'#1c1e28',borderColor:'#2a2d3a',borderWidth:1,
-            padding:10,cornerRadius:8,titleColor:'#e8eaf0',bodyColor:'#9ba3b4',displayColors:false};
-Chart.defaults.color='#6b7080';
-Chart.defaults.font.family="'DM Sans',sans-serif";
+        function setGrowth(elId, current, previous) {
+          const el = document.getElementById(elId);
 
-function mkChart(id,type,data,opts){
-  if(charts[id]) charts[id].destroy();
-  charts[id]=new Chart(document.getElementById(id),{type,data,options:{responsive:true,...opts}});
-}
+          if (selectedYear === "all" || selectedYear === "2019") {
+            el.textContent = "—";
+            el.className = "kicon neutral";
+            return;
+          }
 
-function filtered(){
-  const yr=document.getElementById('fYear').value;
-  const cf=document.getElementById('fCoffee').value;
-  const ct=document.getElementById('fCountry').value;
-  const ro=document.getElementById('fRoast').value;
-  const ly=document.getElementById('fLoyalty').value;
-  return RAW.filter(r=>
-    (yr==='all'||r.year==yr)&&
-    (cf==='all'||r.coffee===cf)&&
-    (ct==='all'||r.country===ct)&&
-    (ro==='all'||r.roast===ro)&&
-    (ly==='all'||r.loyaltyCard===ly)
-  );
-}
+          const g = growth(current, previous);
 
-function fmt(n){return'$'+n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g,',')}
-function fmtK(n){return n>=1000?'$'+(n/1000).toFixed(1)+'k':fmt(n)}
-function sum(arr,key){return arr.reduce((a,b)=>a+b[key],0)}
-function groupBy(arr,key){return arr.reduce((acc,r)=>{(acc[r[key]]=acc[r[key]]||[]).push(r);return acc},{})}
+          if (g === null || isNaN(g)) {
+            el.textContent = "—";
+            el.className = "kicon neutral";
+            return;
+          }
 
-const MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-const CCOL={Arabica:'rgba(227,91,125,.8)',Excelsa:'rgba(200,135,58,.8)',Liberica:'rgba(61,227,163,.8)',Robusta:'rgba(91,141,238,.8)'};
-const PILLMAP={Arabica:'p-ara',Excelsa:'p-exc',Liberica:'p-lib',Robusta:'p-rob','United States':'p-us',Ireland:'p-ie','United Kingdom':'p-uk',Yes:'p-yes',No:'p-no'};
-const FLAGS={'United States':'🇺🇸',Ireland:'🇮🇪','United Kingdom':'🇬🇧'};
+          if (g >= 0) {
+            el.textContent = `📈 +${g.toFixed(1)}%`;
+            el.className = "kicon up";
+          } else {
+            el.textContent = `📉 ${g.toFixed(1)}%`;
+            el.className = "kicon down";
+          }
+        }
 
-function render(){
-  const data=filtered();
-  if(!data.length){
-    ['kRev','kProfit','kOrders','kCust','kLoyalty'].forEach(id=>document.getElementById(id).textContent='No data');
-    return;
-  }
+        // KPI
+        document.getElementById("kRev").textContent = fmtK(totalSales);
+        document.getElementById("kProfit").textContent = fmtK(totalProfit);
+        document.getElementById("kOrders").textContent =
+          uniqOrders.toLocaleString();
+        document.getElementById("kCust").textContent =
+          uniqCust.toLocaleString();
+        document.getElementById("kLoyalty").textContent =
+          loyaltyCust.toLocaleString();
+        document.getElementById("kRevSub").textContent =
+          `${margin.toFixed(1)}% margin · ${data.length} lines`;
+        document.getElementById("kProfitSub").textContent =
+          `${fmt(totalProfit / uniqOrders)}/order avg`;
+        document.getElementById("kOrdersSub").textContent =
+          `${fmt(totalSales / uniqOrders)} AOV`;
+        document.getElementById("kCustSub").textContent =
+          `${(data.length / uniqCust).toFixed(1)} lines/cust`;
+        document.getElementById("kLoyaltySub").textContent =
+          `${((loyaltyRevenue / totalSales) * 100).toFixed(1)}% of revenue`;
 
-  const totalSales  = sum(data,'sales');
-  const totalProfit = sum(data,'profit');
-  const uniqOrders  = new Set(data.map(r=>r.orderId)).size;
-  const uniqCust    = new Set(data.map(r=>r.customerId)).size;
-  const loyaltyRows = data.filter(r=>r.loyaltyCard==='Yes');
-  const loyaltyRevenue = sum(loyaltyRows,'sales');
-  const loyaltyCust = new Set(loyaltyRows.map(r=>r.customerId)).size;
-  const margin = totalProfit/totalSales*100;
+        // ── KPI GROWTH ───────────────────────────────────────
+        const prevSales = sum(prevData, "sales");
+        const prevProfit = sum(prevData, "profit");
+        const prevOrders = new Set(prevData.map((r) => r.orderId)).size;
+        const prevCust = new Set(prevData.map((r) => r.customerId)).size;
+        const prevLoyalty = new Set(
+          prevData
+            .filter((r) => r.loyaltyCard === "Yes")
+            .map((r) => r.customerId),
+        ).size;
 
-  // KPI
-  document.getElementById('kRev').textContent    = fmtK(totalSales);
-  document.getElementById('kProfit').textContent = fmtK(totalProfit);
-  document.getElementById('kOrders').textContent = uniqOrders.toLocaleString();
-  document.getElementById('kCust').textContent   = uniqCust.toLocaleString();
-  document.getElementById('kLoyalty').textContent= loyaltyCust.toLocaleString();
-  document.getElementById('kRevSub').textContent    = `${margin.toFixed(1)}% margin · ${data.length} lines`;
-  document.getElementById('kProfitSub').textContent = `${fmt(totalProfit/uniqOrders)}/order avg`;
-  document.getElementById('kOrdersSub').textContent = `${fmt(totalSales/uniqOrders)} AOV`;
-  document.getElementById('kCustSub').textContent   = `${(data.length/uniqCust).toFixed(1)} lines/cust`;
-  document.getElementById('kLoyaltySub').textContent= `${(loyaltyRevenue/totalSales*100).toFixed(1)}% of revenue`;
+        setGrowth("kRevIcon", totalSales, prevSales);
+        setGrowth("kProfitIcon", totalProfit, prevProfit);
+        setGrowth("kOrdersIcon", uniqOrders, prevOrders);
+        setGrowth("kCustIcon", uniqCust, prevCust);
+        setGrowth("kLoyaltyIcon", loyaltyCust, prevLoyalty);
+        
+        // TREND
+        const byYM = {};
+        data.forEach((r) => {
+          const k = `${r.year}-${String(r.month).padStart(2, "0")}`;
+          byYM[k] = byYM[k] || { sales: 0, profit: 0, label: "" };
+          byYM[k].sales += r.sales;
+          byYM[k].profit += r.profit;
+          byYM[k].label = `${r.monthName} ${r.year}`;
+        });
+        const sk = Object.keys(byYM).sort();
+        document.getElementById("trendSub").textContent =
+          `${byYM[sk[0]].label} → ${byYM[sk[sk.length - 1]].label}`;
+        mkChart(
+          "cTrend",
+          "line",
+          {
+            labels: sk.map((k) => byYM[k].label),
+            datasets: [
+              {
+                label: "Revenue",
+                data: sk.map((k) => +byYM[k].sales.toFixed(2)),
+                borderColor: "rgba(200,135,58,1)",
+                backgroundColor: "rgba(200,135,58,0.07)",
+                borderWidth: 2.5,
+                tension: 0.4,
+                fill: true,
+                pointRadius: 2,
+                yAxisID: "y",
+              },
+              {
+                label: "Profit",
+                data: sk.map((k) => +byYM[k].profit.toFixed(2)),
+                borderColor: "rgba(61,227,163,1)",
+                backgroundColor: "rgba(61,227,163,0.04)",
+                borderWidth: 2,
+                tension: 0.4,
+                borderDash: [5, 4],
+                pointRadius: 2,
+                yAxisID: "y1",
+              },
+            ],
+          },
+          {
+            interaction: { mode: "index", intersect: false },
+            plugins: { legend: { position: "top", align: "end" }, tooltip: TT },
+            scales: {
+              x: {
+                grid: { color: GC },
+                ticks: { maxTicksLimit: 14, maxRotation: 45 },
+              },
+              y: {
+                grid: { color: GC },
+                position: "left",
+                ticks: { callback: (v) => "$" + (v / 1000).toFixed(1) + "k" },
+              },
+              y1: {
+                grid: { display: false },
+                position: "right",
+                ticks: { callback: (v) => "$" + v.toFixed(0) },
+              },
+            },
+          },
+        );
 
-  // TREND
-  const byYM={};
-  data.forEach(r=>{
-    const k=`${r.year}-${String(r.month).padStart(2,'0')}`;
-    byYM[k]=byYM[k]||{sales:0,profit:0,label:''};
-    byYM[k].sales+=r.sales; byYM[k].profit+=r.profit;
-    byYM[k].label=`${r.monthName} ${r.year}`;
-  });
-  const sk=Object.keys(byYM).sort();
-  document.getElementById('trendSub').textContent=`${byYM[sk[0]].label} → ${byYM[sk[sk.length-1]].label}`;
-  mkChart('cTrend','line',{
-    labels:sk.map(k=>byYM[k].label),
-    datasets:[
-      {label:'Revenue',data:sk.map(k=>+byYM[k].sales.toFixed(2)),borderColor:'rgba(200,135,58,1)',backgroundColor:'rgba(200,135,58,0.07)',borderWidth:2.5,tension:0.4,fill:true,pointRadius:2,yAxisID:'y'},
-      {label:'Profit', data:sk.map(k=>+byYM[k].profit.toFixed(2)),borderColor:'rgba(61,227,163,1)',backgroundColor:'rgba(61,227,163,0.04)',borderWidth:2,tension:0.4,borderDash:[5,4],pointRadius:2,yAxisID:'y1'}
-    ]
-  },{interaction:{mode:'index',intersect:false},plugins:{legend:{position:'top',align:'end'},tooltip:TT},
-    scales:{x:{grid:{color:GC},ticks:{maxTicksLimit:14,maxRotation:45}},
-    y:{grid:{color:GC},position:'left',ticks:{callback:v=>'$'+(v/1000).toFixed(1)+'k'}},
-    y1:{grid:{display:false},position:'right',ticks:{callback:v=>'$'+v.toFixed(0)}}}});
+        // COFFEE DOUGHNUT
+        const byCoffee = groupBy(data, "coffee");
+        const cTypes = Object.keys(CCOL).filter((k) => byCoffee[k]);
+        document.getElementById("coffeeSub").textContent = cTypes.join(" · ");
+        mkChart(
+          "cCoffee",
+          "doughnut",
+          {
+            labels: cTypes,
+            datasets: [
+              {
+                data: cTypes.map((k) => +sum(byCoffee[k], "sales").toFixed(2)),
+                backgroundColor: cTypes.map((k) => CCOL[k]),
+                borderWidth: 2,
+                borderColor: "#1c1e28",
+              },
+            ],
+          },
+          {
+            cutout: "65%",
+            plugins: {
+              legend: { position: "bottom" },
+              tooltip: {
+                ...TT,
+                callbacks: {
+                  label: (ctx) =>
+                    `${ctx.label}: ${fmtK(ctx.raw)} (${((ctx.raw / totalSales) * 100).toFixed(1)}%)`,
+                },
+              },
+            },
+          },
+        );
 
-  // COFFEE DOUGHNUT
-  const byCoffee=groupBy(data,'coffee');
-  const cTypes=Object.keys(CCOL).filter(k=>byCoffee[k]);
-  document.getElementById('coffeeSub').textContent=cTypes.join(' · ');
-  mkChart('cCoffee','doughnut',{
-    labels:cTypes,
-    datasets:[{data:cTypes.map(k=>+sum(byCoffee[k],'sales').toFixed(2)),backgroundColor:cTypes.map(k=>CCOL[k]),borderWidth:2,borderColor:'#1c1e28'}]
-  },{cutout:'65%',plugins:{legend:{position:'bottom'},tooltip:{...TT,callbacks:{label:ctx=>`${ctx.label}: ${fmtK(ctx.raw)} (${(ctx.raw/totalSales*100).toFixed(1)}%)`}}}});
+        // COUNTRY
+        const cOrder = ["United States", "Ireland", "United Kingdom"];
+        const byCtry = groupBy(data, "country");
+        const ctL = cOrder.filter((k) => byCtry[k]);
+        document.getElementById("countrySub").textContent = ctL
+          .map((k) => `${FLAGS[k]} ${k.replace("United ", "")}`)
+          .join(" · ");
+        mkChart(
+          "cCountry",
+          "bar",
+          {
+            labels: ctL.map((k) => k.replace("United ", "")),
+            datasets: [
+              {
+                data: ctL.map((k) => +sum(byCtry[k], "sales").toFixed(2)),
+                backgroundColor: [
+                  "rgba(200,135,58,.8)",
+                  "rgba(61,227,163,.8)",
+                  "rgba(91,141,238,.8)",
+                ].slice(0, ctL.length),
+                borderRadius: 6,
+                borderWidth: 0,
+              },
+            ],
+          },
+          {
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                ...TT,
+                callbacks: { label: (ctx) => `Revenue: ${fmtK(ctx.raw)}` },
+              },
+            },
+            scales: {
+              x: { grid: { color: GC } },
+              y: {
+                grid: { color: GC },
+                ticks: { callback: (v) => "$" + (v / 1000).toFixed(0) + "k" },
+              },
+            },
+          },
+        );
 
-  // COUNTRY
-  const cOrder=['United States','Ireland','United Kingdom'];
-  const byCtry=groupBy(data,'country');
-  const ctL=cOrder.filter(k=>byCtry[k]);
-  document.getElementById('countrySub').textContent=ctL.map(k=>`${FLAGS[k]} ${k.replace('United ','')}`).join(' · ');
-  mkChart('cCountry','bar',{
-    labels:ctL.map(k=>k.replace('United ','')),
-    datasets:[{data:ctL.map(k=>+sum(byCtry[k],'sales').toFixed(2)),backgroundColor:['rgba(200,135,58,.8)','rgba(61,227,163,.8)','rgba(91,141,238,.8)'].slice(0,ctL.length),borderRadius:6,borderWidth:0}]
-  },{plugins:{legend:{display:false},tooltip:{...TT,callbacks:{label:ctx=>`Revenue: ${fmtK(ctx.raw)}`}}},scales:{x:{grid:{color:GC}},y:{grid:{color:GC},ticks:{callback:v=>'$'+(v/1000).toFixed(0)+'k'}}}});
+        // ROAST
+        const rOrder = ["Medium", "Light", "Dark"];
+        const byRoast = groupBy(data, "roast");
+        const rL = rOrder.filter((k) => byRoast[k]);
+        document.getElementById("roastSub").textContent = rL.join(" · ");
+        mkChart(
+          "cRoast",
+          "pie",
+          {
+            labels: rL,
+            datasets: [
+              {
+                data: rL.map((k) => +sum(byRoast[k], "sales").toFixed(2)),
+                backgroundColor: [
+                  "rgba(200,135,58,.8)",
+                  "rgba(91,141,238,.8)",
+                  "rgba(61,227,163,.8)",
+                ].slice(0, rL.length),
+                borderWidth: 2,
+                borderColor: "#1c1e28",
+              },
+            ],
+          },
+          {
+            plugins: {
+              legend: { position: "bottom" },
+              tooltip: {
+                ...TT,
+                callbacks: {
+                  label: (ctx) =>
+                    `${ctx.label}: ${fmtK(ctx.raw)} (${((ctx.raw / totalSales) * 100).toFixed(1)}%)`,
+                },
+              },
+            },
+          },
+        );
 
-  // ROAST
-  const rOrder=['Medium','Light','Dark'];
-  const byRoast=groupBy(data,'roast');
-  const rL=rOrder.filter(k=>byRoast[k]);
-  document.getElementById('roastSub').textContent=rL.join(' · ');
-  mkChart('cRoast','pie',{
-    labels:rL,
-    datasets:[{data:rL.map(k=>+sum(byRoast[k],'sales').toFixed(2)),backgroundColor:['rgba(200,135,58,.8)','rgba(91,141,238,.8)','rgba(61,227,163,.8)'].slice(0,rL.length),borderWidth:2,borderColor:'#1c1e28'}]
-  },{plugins:{legend:{position:'bottom'},tooltip:{...TT,callbacks:{label:ctx=>`${ctx.label}: ${fmtK(ctx.raw)} (${(ctx.raw/totalSales*100).toFixed(1)}%)`}}}});
+        // SIZE
+        const sOrder = [0.2, 0.5, 1.0, 2.5];
+        const bySize = groupBy(data, "size");
+        const sL = sOrder.filter((k) => bySize[k]);
+        document.getElementById("sizeSub").textContent = "Filtered selection";
+        mkChart(
+          "cSize",
+          "bar",
+          {
+            labels: sL.map((k) => k + " kg"),
+            datasets: [
+              {
+                data: sL.map((k) => +sum(bySize[k], "sales").toFixed(2)),
+                backgroundColor: [
+                  "rgba(91,141,238,.8)",
+                  "rgba(200,135,58,.8)",
+                  "rgba(61,227,163,.8)",
+                  "rgba(227,91,125,.8)",
+                ],
+                borderRadius: 6,
+                borderWidth: 0,
+              },
+            ],
+          },
+          {
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                ...TT,
+                callbacks: { label: (ctx) => `Revenue: ${fmtK(ctx.raw)}` },
+              },
+            },
+            scales: {
+              x: { grid: { color: GC } },
+              y: {
+                grid: { color: GC },
+                ticks: { callback: (v) => "$" + (v / 1000).toFixed(0) + "k" },
+              },
+            },
+          },
+        );
 
-  // SIZE
-  const sOrder=[0.2,0.5,1.0,2.5];
-  const bySize=groupBy(data,'size');
-  const sL=sOrder.filter(k=>bySize[k]);
-  document.getElementById('sizeSub').textContent='Filtered selection';
-  mkChart('cSize','bar',{
-    labels:sL.map(k=>k+' kg'),
-    datasets:[{data:sL.map(k=>+sum(bySize[k],'sales').toFixed(2)),backgroundColor:['rgba(91,141,238,.8)','rgba(200,135,58,.8)','rgba(61,227,163,.8)','rgba(227,91,125,.8)'],borderRadius:6,borderWidth:0}]
-  },{plugins:{legend:{display:false},tooltip:{...TT,callbacks:{label:ctx=>`Revenue: ${fmtK(ctx.raw)}`}}},scales:{x:{grid:{color:GC}},y:{grid:{color:GC},ticks:{callback:v=>'$'+(v/1000).toFixed(0)+'k'}}}});
+        // LOYALTY DOUGHNUT
+        const loyData = [
+          sum(loyaltyRows, "sales"),
+          sum(
+            data.filter((r) => r.loyaltyCard === "No"),
+            "sales",
+          ),
+        ];
+        document.getElementById("loyaltySub").textContent =
+          `Card: ${fmtK(loyData[0])} vs Non: ${fmtK(loyData[1])}`;
+        mkChart(
+          "cLoyalty",
+          "doughnut",
+          {
+            labels: ["Loyalty Card", "Non-Member"],
+            datasets: [
+              {
+                data: loyData.map((v) => +v.toFixed(2)),
+                backgroundColor: [
+                  "rgba(61,227,163,.8)",
+                  "rgba(107,112,128,.4)",
+                ],
+                borderWidth: 2,
+                borderColor: "#1c1e28",
+              },
+            ],
+          },
+          {
+            cutout: "60%",
+            plugins: {
+              legend: { position: "bottom" },
+              tooltip: {
+                ...TT,
+                callbacks: {
+                  label: (ctx) =>
+                    `${ctx.label}: ${fmtK(ctx.raw)} (${((ctx.raw / totalSales) * 100).toFixed(1)}%)`,
+                },
+              },
+            },
+          },
+        );
 
-  // LOYALTY DOUGHNUT
-  const loyData=[sum(loyaltyRows,'sales'), sum(data.filter(r=>r.loyaltyCard==='No'),'sales')];
-  document.getElementById('loyaltySub').textContent=`Card: ${fmtK(loyData[0])} vs Non: ${fmtK(loyData[1])}`;
-  mkChart('cLoyalty','doughnut',{
-    labels:['Loyalty Card','Non-Member'],
-    datasets:[{data:loyData.map(v=>+v.toFixed(2)),backgroundColor:['rgba(61,227,163,.8)','rgba(107,112,128,.4)'],borderWidth:2,borderColor:'#1c1e28'}]
-  },{cutout:'60%',plugins:{legend:{position:'bottom'},tooltip:{...TT,callbacks:{label:ctx=>`${ctx.label}: ${fmtK(ctx.raw)} (${(ctx.raw/totalSales*100).toFixed(1)}%)`}}}});
+        // LOYALTY vs NON TREND (from customers data)
+        const byYMLoy = {};
+        const byYMNon = {};
+        data.forEach((r) => {
+          const k = `${r.year}-${String(r.month).padStart(2, "0")}`;
+          const tgt = r.loyaltyCard === "Yes" ? byYMLoy : byYMNon;
+          tgt[k] = (tgt[k] || 0) + r.sales;
+        });
+        const allK = [
+          ...new Set([...Object.keys(byYMLoy), ...Object.keys(byYMNon)]),
+        ].sort();
+        const loyLabels = allK.map((k) => {
+          const r = RAW.find(
+            (x) => `${x.year}-${String(x.month).padStart(2, "0")}` === k,
+          );
+          return r ? `${r.monthName} ${r.year}` : k;
+        });
+        document.getElementById("loyTrendSub").textContent =
+          `Loyalty Card Holders vs Non-Members over time`;
+        mkChart(
+          "cLoyTrend",
+          "line",
+          {
+            labels: loyLabels,
+            datasets: [
+              {
+                label: "Loyalty Card",
+                data: allK.map((k) => +(byYMLoy[k] || 0).toFixed(2)),
+                borderColor: "rgba(61,227,163,1)",
+                backgroundColor: "rgba(61,227,163,0.06)",
+                borderWidth: 2,
+                tension: 0.4,
+                fill: true,
+                pointRadius: 2,
+              },
+              {
+                label: "Non-Member",
+                data: allK.map((k) => +(byYMNon[k] || 0).toFixed(2)),
+                borderColor: "rgba(200,135,58,1)",
+                backgroundColor: "rgba(200,135,58,0.06)",
+                borderWidth: 2,
+                tension: 0.4,
+                fill: true,
+                pointRadius: 2,
+              },
+            ],
+          },
+          {
+            interaction: { mode: "index", intersect: false },
+            plugins: { legend: { position: "top", align: "end" }, tooltip: TT },
+            scales: {
+              x: {
+                grid: { color: GC },
+                ticks: { maxTicksLimit: 14, maxRotation: 45 },
+              },
+              y: {
+                grid: { color: GC },
+                ticks: { callback: (v) => "$" + (v / 1000).toFixed(1) + "k" },
+              },
+            },
+          },
+        );
 
-  // LOYALTY vs NON TREND (from customers data)
-  const byYMLoy={};const byYMNon={};
-  data.forEach(r=>{
-    const k=`${r.year}-${String(r.month).padStart(2,'0')}`;
-    const tgt=r.loyaltyCard==='Yes'?byYMLoy:byYMNon;
-    tgt[k]=(tgt[k]||0)+r.sales;
-  });
-  const allK=[...new Set([...Object.keys(byYMLoy),...Object.keys(byYMNon)])].sort();
-  const loyLabels=allK.map(k=>{ const r=RAW.find(x=>`${x.year}-${String(x.month).padStart(2,'0')}`===k); return r?`${r.monthName} ${r.year}`:k; });
-  document.getElementById('loyTrendSub').textContent=`Loyalty Card Holders vs Non-Members over time`;
-  mkChart('cLoyTrend','line',{
-    labels:loyLabels,
-    datasets:[
-      {label:'Loyalty Card',data:allK.map(k=>+(byYMLoy[k]||0).toFixed(2)),borderColor:'rgba(61,227,163,1)',backgroundColor:'rgba(61,227,163,0.06)',borderWidth:2,tension:0.4,fill:true,pointRadius:2},
-      {label:'Non-Member', data:allK.map(k=>+(byYMNon[k]||0).toFixed(2)),borderColor:'rgba(200,135,58,1)',backgroundColor:'rgba(200,135,58,0.06)',borderWidth:2,tension:0.4,fill:true,pointRadius:2}
-    ]
-  },{interaction:{mode:'index',intersect:false},plugins:{legend:{position:'top',align:'end'},tooltip:TT},scales:{x:{grid:{color:GC},ticks:{maxTicksLimit:14,maxRotation:45}},y:{grid:{color:GC},ticks:{callback:v=>'$'+(v/1000).toFixed(1)+'k'}}}});
+        // PRICE PER 100G BAR (from products — static but filtered by coffee type)
+        const per100g = groupBy(data, "coffee");
+        const p100Types = Object.keys(CCOL).filter((k) => per100g[k]);
+        const p100Vals = p100Types.map((k) => {
+          const rws = per100g[k];
+          const avg = rws.reduce((a, b) => a + b.per100g, 0) / rws.length;
+          return +avg.toFixed(4);
+        });
+        document.getElementById("per100gSub").textContent =
+          "Average price per 100g by coffee type (products sheet)";
+        mkChart(
+          "cPer100g",
+          "bar",
+          {
+            labels: p100Types,
+            datasets: [
+              {
+                data: p100Vals,
+                backgroundColor: p100Types.map((k) => CCOL[k]),
+                borderRadius: 6,
+                borderWidth: 0,
+              },
+            ],
+          },
+          {
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                ...TT,
+                callbacks: { label: (ctx) => `$${ctx.raw}/100g avg` },
+              },
+            },
+            scales: {
+              x: { grid: { color: GC } },
+              y: {
+                grid: { color: GC },
+                ticks: { callback: (v) => "$" + v.toFixed(2) },
+              },
+            },
+          },
+        );
 
-  // PRICE PER 100G BAR (from products — static but filtered by coffee type)
-  const per100g=groupBy(data,'coffee');
-  const p100Types=Object.keys(CCOL).filter(k=>per100g[k]);
-  const p100Vals=p100Types.map(k=>{
-    const rws=per100g[k]; const avg=rws.reduce((a,b)=>a+b.per100g,0)/rws.length;
-    return +avg.toFixed(4);
-  });
-  document.getElementById('per100gSub').textContent='Average price per 100g by coffee type (products sheet)';
-  mkChart('cPer100g','bar',{
-    labels:p100Types,
-    datasets:[{data:p100Vals,backgroundColor:p100Types.map(k=>CCOL[k]),borderRadius:6,borderWidth:0}]
-  },{plugins:{legend:{display:false},tooltip:{...TT,callbacks:{label:ctx=>`$${ctx.raw}/100g avg`}}},scales:{x:{grid:{color:GC}},y:{grid:{color:GC},ticks:{callback:v=>'$'+v.toFixed(2)}}}});
+        // TOP CUSTOMERS TABLE
+        const byCust = groupBy(data, "customerId");
+        const custArr = Object.entries(byCust)
+          .map(([cid, rows]) => ({
+            id: cid,
+            name: rows[0].customerName,
+            country: rows[0].country,
+            city: rows[0].city,
+            loyalty: rows[0].loyaltyCard,
+            coffee: Object.entries(groupBy(rows, "coffee")).sort(
+              (a, b) => b[1].length - a[1].length,
+            )[0][0],
+            orders: new Set(rows.map((r) => r.orderId)).size,
+            sales: sum(rows, "sales"),
+            profit: sum(rows, "profit"),
+          }))
+          .sort((a, b) => b.sales - a.sales)
+          .slice(0, 10);
 
-  // TOP CUSTOMERS TABLE
-  const byCust=groupBy(data,'customerId');
-  const custArr=Object.entries(byCust).map(([cid,rows])=>({
-    id:cid, name:rows[0].customerName, country:rows[0].country,
-    city:rows[0].city, loyalty:rows[0].loyaltyCard,
-    coffee:Object.entries(groupBy(rows,'coffee')).sort((a,b)=>b[1].length-a[1].length)[0][0],
-    orders:new Set(rows.map(r=>r.orderId)).size,
-    sales:sum(rows,'sales'), profit:sum(rows,'profit')
-  })).sort((a,b)=>b.sales-a.sales).slice(0,10);
-
-  document.getElementById('tableSub').textContent=`${custArr.length} shown · includes city, postcode & loyalty from customers sheet`;
-  document.getElementById('custTable').innerHTML=custArr.map((c,i)=>`
+        document.getElementById("tableSub").textContent =
+          `${custArr.length} shown · includes city, postcode & loyalty from customers sheet`;
+        document.getElementById("custTable").innerHTML = custArr
+          .map(
+            (c, i) => `
     <tr>
-      <td><span class="mono" style="color:var(--accent1);font-weight:700">${String(i+1).padStart(2,'0')}</span></td>
+      <td><span class="mono" style="color:var(--accent1);font-weight:700">${String(i + 1).padStart(2, "0")}</span></td>
       <td>${c.name}</td>
-      <td><span class="pill ${PILLMAP[c.country]||''}">${FLAGS[c.country]||''} ${c.country.replace('United ','')}</span></td>
-      <td style="color:var(--muted);font-size:11px">${c.city||'—'}</td>
-      <td><span class="pill ${PILLMAP[c.loyalty]||''}">${c.loyalty==='Yes'?'🎫 Yes':'No'}</span></td>
-      <td><span class="pill ${PILLMAP[c.coffee]||''}">${c.coffee}</span></td>
+      <td><span class="pill ${PILLMAP[c.country] || ""}">${FLAGS[c.country] || ""} ${c.country.replace("United ", "")}</span></td>
+      <td style="color:var(--muted);font-size:11px">${c.city || "—"}</td>
+      <td><span class="pill ${PILLMAP[c.loyalty] || ""}">${c.loyalty === "Yes" ? "🎫 Yes" : "No"}</span></td>
+      <td><span class="pill ${PILLMAP[c.coffee] || ""}">${c.coffee}</span></td>
       <td>${c.orders}</td>
       <td class="mono" style="font-weight:600">${fmt(c.sales)}</td>
       <td class="pos">${fmt(c.profit)}</td>
-      <td class="mono" style="color:var(--muted)">${(c.profit/c.sales*100).toFixed(1)}%</td>
-    </tr>`).join('');
-  document.getElementById('no-data').style.display=custArr.length?'none':'block';
+      <td class="mono" style="color:var(--muted)">${((c.profit / c.sales) * 100).toFixed(1)}%</td>
+    </tr>`,
+          )
+          .join("");
+        document.getElementById("no-data").style.display = custArr.length
+          ? "none"
+          : "block";
 
-  // CLUSTER (includes loyalty info)
-  const spending=Object.entries(groupBy(data,'customerId')).map(([,rows])=>({
-    s:sum(rows,'sales'), loy:rows[0].loyaltyCard
-  }));
-  const seg=spending.map(({s,loy})=>s>100?'High-Value':s>50?'Moderate':'Casual');
-  const sc={
-    'High-Value':seg.filter(s=>s==='High-Value').length,
-    'Moderate':  seg.filter(s=>s==='Moderate').length,
-    'Casual':    seg.filter(s=>s==='Casual').length
-  };
-  mkChart('cCluster','bar',{
-    labels:Object.keys(sc).map((l,i)=>l+' ('+Object.values(sc)[i]+')'),
-    datasets:[{data:Object.values(sc),backgroundColor:['rgba(227,91,125,.7)','rgba(200,135,58,.7)','rgba(61,227,163,.7)'],borderRadius:8,borderWidth:0}]
-  },{indexAxis:'y',plugins:{legend:{display:false},tooltip:{...TT,callbacks:{label:ctx=>`${ctx.raw} customers`}}},scales:{x:{grid:{color:GC}},y:{grid:{display:false}}}});
+        // CLUSTER (includes loyalty info)
+        const spending = Object.entries(groupBy(data, "customerId")).map(
+          ([, rows]) => ({
+            s: sum(rows, "sales"),
+            loy: rows[0].loyaltyCard,
+          }),
+        );
+        const seg = spending.map(({ s, loy }) =>
+          s > 100 ? "High-Value" : s > 50 ? "Moderate" : "Casual",
+        );
+        const sc = {
+          "High-Value": seg.filter((s) => s === "High-Value").length,
+          Moderate: seg.filter((s) => s === "Moderate").length,
+          Casual: seg.filter((s) => s === "Casual").length,
+        };
+        mkChart(
+          "cCluster",
+          "bar",
+          {
+            labels: Object.keys(sc).map(
+              (l, i) => l + " (" + Object.values(sc)[i] + ")",
+            ),
+            datasets: [
+              {
+                data: Object.values(sc),
+                backgroundColor: [
+                  "rgba(227,91,125,.7)",
+                  "rgba(200,135,58,.7)",
+                  "rgba(61,227,163,.7)",
+                ],
+                borderRadius: 8,
+                borderWidth: 0,
+              },
+            ],
+          },
+          {
+            indexAxis: "y",
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                ...TT,
+                callbacks: { label: (ctx) => `${ctx.raw} customers` },
+              },
+            },
+            scales: {
+              x: { grid: { color: GC } },
+              y: { grid: { display: false } },
+            },
+          },
+        );
 
-  document.getElementById('clusterDetails').innerHTML=[
-    ['🔴','High-Value','>$100','Premium targets'],
-    ['🟡','Moderate','$50–100','Upsell opportunity'],
-    ['🟢','Casual','<$50','Re-engagement']
-  ].map(([e,l,r,t])=>`<div class="mrow"><span>${e} ${l} <small style="color:var(--muted)">(${r})</small></span><span class="mono" style="font-size:11px;color:var(--muted)">${sc[l]||0} · ${t}</span></div>`).join('');
+        document.getElementById("clusterDetails").innerHTML = [
+          ["🔴", "High-Value", ">$100", "Premium targets"],
+          ["🟡", "Moderate", "$50–100", "Upsell opportunity"],
+          ["🟢", "Casual", "<$50", "Re-engagement"],
+        ]
+          .map(
+            ([e, l, r, t]) =>
+              `<div class="mrow"><span>${e} ${l} <small style="color:var(--muted)">(${r})</small></span><span class="mono" style="font-size:11px;color:var(--muted)">${sc[l] || 0} · ${t}</span></div>`,
+          )
+          .join("");
 
-  // INSIGHTS
-  const topCoffee=Object.entries(groupBy(data,'coffee')).sort((a,b)=>sum(b[1],'sales')-sum(a[1],'sales'))[0];
-  const topCtry  =Object.entries(groupBy(data,'country')).sort((a,b)=>sum(b[1],'sales')-sum(a[1],'sales'))[0];
-  const byMo={};
-  data.forEach(r=>{byMo[r.monthName]=(byMo[r.monthName]||0)+r.sales});
-  const topMo=Object.entries(byMo).sort((a,b)=>b[1]-a[1])[0];
-  const aov=totalSales/uniqOrders;
-  const loyPct=loyaltyRevenue/totalSales*100;
+        // INSIGHTS
+        const topCoffee = Object.entries(groupBy(data, "coffee")).sort(
+          (a, b) => sum(b[1], "sales") - sum(a[1], "sales"),
+        )[0];
+        const topCtry = Object.entries(groupBy(data, "country")).sort(
+          (a, b) => sum(b[1], "sales") - sum(a[1], "sales"),
+        )[0];
+        const byMo = {};
+        data.forEach((r) => {
+          byMo[r.monthName] = (byMo[r.monthName] || 0) + r.sales;
+        });
+        const topMo = Object.entries(byMo).sort((a, b) => b[1] - a[1])[0];
+        const aov = totalSales / uniqOrders;
+        const loyPct = (loyaltyRevenue / totalSales) * 100;
 
-  document.getElementById('insightCoffee').textContent=`${topCoffee[0]} leads at ${(sum(topCoffee[1],'sales')/totalSales*100).toFixed(1)}% of filtered revenue.`;
-  document.getElementById('insightCoffeeStat').textContent=fmtK(sum(topCoffee[1],'sales'));
-  document.getElementById('insightCountry').textContent=`${topCtry[0]} contributes ${(sum(topCtry[1],'sales')/totalSales*100).toFixed(1)}% of revenue.`;
-  document.getElementById('insightCountryStat').textContent=fmtK(sum(topCtry[1],'sales'));
-  document.getElementById('insightLoyalty').textContent=`Loyalty card holders generate ${loyPct.toFixed(1)}% of revenue — ${loyaltyCust} customers.`;
-  document.getElementById('insightLoyaltyStat').textContent=`${loyPct.toFixed(1)}% from loyalty`;
-  document.getElementById('insightMonth').textContent=`${topMo[0]} is the top month at ${fmtK(topMo[1])} total sales.`;
-  document.getElementById('insightMonthStat').textContent=topMo[0];
-  document.getElementById('insightAOV').textContent=`Avg order value is ${fmt(aov)} across ${uniqOrders} unique orders.`;
-  document.getElementById('insightAOVStat').textContent=fmt(aov);
-  document.getElementById('insightMargin').textContent=`Overall margin is ${margin.toFixed(2)}% across filtered transactions.`;
-  document.getElementById('insightMarginStat').textContent=margin.toFixed(2)+'%';
-}
+        document.getElementById("insightCoffee").textContent =
+          `${topCoffee[0]} leads at ${((sum(topCoffee[1], "sales") / totalSales) * 100).toFixed(1)}% of filtered revenue.`;
+        document.getElementById("insightCoffeeStat").textContent = fmtK(
+          sum(topCoffee[1], "sales"),
+        );
+        document.getElementById("insightCountry").textContent =
+          `${topCtry[0]} contributes ${((sum(topCtry[1], "sales") / totalSales) * 100).toFixed(1)}% of revenue.`;
+        document.getElementById("insightCountryStat").textContent = fmtK(
+          sum(topCtry[1], "sales"),
+        );
+        document.getElementById("insightLoyalty").textContent =
+          `Loyalty card holders generate ${loyPct.toFixed(1)}% of revenue — ${loyaltyCust} customers.`;
+        document.getElementById("insightLoyaltyStat").textContent =
+          `${loyPct.toFixed(1)}% from loyalty`;
+        document.getElementById("insightMonth").textContent =
+          `${topMo[0]} is the top month at ${fmtK(topMo[1])} total sales.`;
+        document.getElementById("insightMonthStat").textContent = topMo[0];
+        document.getElementById("insightAOV").textContent =
+          `Avg order value is ${fmt(aov)} across ${uniqOrders} unique orders.`;
+        document.getElementById("insightAOVStat").textContent = fmt(aov);
+        document.getElementById("insightMargin").textContent =
+          `Overall margin is ${margin.toFixed(2)}% across filtered transactions.`;
+        document.getElementById("insightMarginStat").textContent =
+          margin.toFixed(2) + "%";
+      }
 
-render();
-</script>
-</body>
+      render();
+    </script>
+  </body>
 </html>
